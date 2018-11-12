@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {8.1}Projected Research Stages}{10}
 \contentsline {subsection}{\numberline {8.2}Experimental Methodology}{12}
 \contentsline {subsection}{\numberline {8.3}Schlieren Imaging}{12}
-\contentsline {subsection}{\numberline {8.4}Flow Field}{13}
+\contentsline {subsection}{\numberline {8.4}Flow Field}{14}
 \contentsline {subsection}{\numberline {8.5}Results Analysis and Discussion}{14}
 \contentsline {section}{References}{16}
 \contentsline {section}{Appendix}{17}

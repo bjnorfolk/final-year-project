@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{18}
 \newcommand{\enquote}[1]{``#1''}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
@@ -8,39 +8,96 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
-\bibitem[{Vatistas et~al.(1986)Vatistas, Lin, and Kwok}]{vatistas1986reverse}
-Vatistas, G.~H., Lin, S., and Kwok, C.~K., \enquote{Reverse Flow Radius in
-  Vortex Chambers,} \emph{AIAA Journal}, Vol.~24, No.~11, 1986, pp. 1872, 1873.
-\newblock \doi{10.2514/3.13046}.
+\bibitem[{Paxson(2018)}]{paxson2018pressure}
+Paxson, D., \enquote{Pressure-Gain Combustion for Gas Turbines,} 2018.
 
-\bibitem[{Dornheim(1996)}]{dornheim1996planetary}
-Dornheim, M.~A., \enquote{Planetary Flight Surge Faces Budget Realities,}
-  \emph{Aviation Week \& Space Technology}, Vol. 145, No.~24, 1996, pp. 44--46.
+\bibitem[{G{\"u}len(2013)}]{gulen2013constant}
+G{\"u}len, S., \enquote{Constant volume combustion: The ultimate gas turbine
+  cycle,} \emph{Gas Turbine World}, Vol.~43, No.~6, 2013, pp. 20--27.
 
-\bibitem[{Terster(1997)}]{terster1997nasa}
-Terster, W., \enquote{NASA Considers Switch to Delta 2,} \emph{Space News},
-  Vol.~8, No.~2, 1997, pp. 13--19.
+\bibitem[{Eidelman et~al.(1991)Eidelman, Grossmann, and
+  Lottati}]{eidelman1991review}
+Eidelman, S., Grossmann, W., and Lottati, I., \enquote{Review of propulsion
+  applications and numerical simulations of the pulsed detonation engine
+  concept,} \emph{Journal of Propulsion and Power}, Vol.~7, No.~6, 1991, pp.
+  857--865.
 
-\bibitem[{Peyret and Taylor(1983)}]{peyret2012computational}
-Peyret, R., and Taylor, T.~D., \emph{Computational Methods for Fluid Flow},
-  2\textsuperscript{nd} ed., Springer-Verlag, New York, 1983, Chaps. 7, 14.
+\bibitem[{Kailasanath(2009)}]{kailasanath2009research}
+Kailasanath, K., \enquote{Research on pulse detonation combustion systems: a
+  status report,} \emph{47th AIAA aerospace sciences meeting including the new
+  horizons forum and aerospace exposition}, 2009, p. 631.
 
-\bibitem[{Oates(1984)}]{oates1997aerothermodynamics}
-Oates, G.~C. (ed.), \emph{Aerothermodynamics of Gas Turbine and Rocket
-  Propulsion}, AIAA Education Series, AIAA, New York, 1984, pp. 19, 136.
+\bibitem[{Dean et~al.(2005)Dean, Rasheed, Tangirala, and
+  Pinard}]{dean2005operation}
+Dean, A.~J., Rasheed, A., Tangirala, V., and Pinard, P.~F., \enquote{Operation
+  and noise transmission of an axial turbine driven by a pulse detonation
+  combustor,} \emph{ASME Turbo Expo 2005: Power for Land, Sea, and Air},
+  American Society of Mechanical Engineers, 2005, pp. 1275--1284.
 
-\bibitem[{Volpe(1994)}]{volpe1994techniques}
-Volpe, R., \enquote{Techniques for Collision Prevention, Impact Stability, and
-  Force Control by Space Manipulators,} \emph{Teleoperation and Robotics in
-  Space}, edited by S.~B. Skaar and C.~F. Ruoff, Progress in Astronautics and
-  Aeronautics, AIAA, Washington, DC, 1994, pp. 175--212.
+\bibitem[{Radulescu and Law(2007)}]{radulescu2007transient}
+Radulescu, M.~I., and Law, C.~K., \enquote{The transient start of supersonic
+  jets,} \emph{Journal of Fluid Mechanics}, Vol. 578, 2007, pp. 331--369.
 
-\bibitem[{Thompson(1989)}]{thompsonspacecraft}
-Thompson, C.~M., \enquote{Spacecraft Thermal Control, Design, and Operation,}
-  \emph{AIAA Guidance, Navigation, and Control Conference}, CP849, Vol.~1,
-  AIAA, Washington, DC, 1989, pp. 103--115.
+\bibitem[{Ishii et~al.(1999)Ishii, Fujimoto, Hatta, and
+  Umeda}]{ishii1999experimental}
+Ishii, R., Fujimoto, H., Hatta, N., and Umeda, Y., \enquote{Experimental and
+  numerical analysis of circular pulse jets,} \emph{Journal of Fluid
+  Mechanics}, Vol. 392, 1999, pp. 129--153.
 
-\bibitem[{Chi(1993)}]{chi1993fluid}
-Chi, Y. (ed.), \emph{Fluid Mechanics Proceedings}, NASA SP-255, 1993.
+\bibitem[{Elder~Jr and De~Haas(1952)}]{elder1952experimental}
+Elder~Jr, F., and De~Haas, N., \enquote{Experimental study of the formation of
+  a vortex ring at the open end of a cylindrical shock tube,} \emph{Journal of
+  Applied Physics}, Vol.~23, No.~10, 1952, pp. 1065--1069.
+
+\bibitem[{Dora et~al.(2014)Dora, Murugan, De, and Das}]{dora2014role}
+Dora, C., Murugan, T., De, S., and Das, D., \enquote{Role of slipstream
+  instability in formation of counter-rotating vortex rings ahead of a
+  compressible vortex ring,} \emph{Journal of Fluid Mechanics}, Vol. 753, 2014,
+  pp. 29--48.
+
+\bibitem[{MATSUDA et~al.(1987)MATSUDA, UMEDA, ISHII, and
+  SAWADA}]{matsuda1987numerical}
+MATSUDA, T., UMEDA, Y., ISHII, R., and SAWADA, K., \enquote{Numerical and
+  experimental studies on choked underexpanded jets,} \emph{19th AIAA, Fluid
+  Dynamics, Plasma Dynamics, and Lasers Conference}, 1987, p. 1378.
+
+\bibitem[{Gharib et~al.(1998)Gharib, Rambod, and Shariff}]{gharib1998universal}
+Gharib, M., Rambod, E., and Shariff, K., \enquote{A universal time scale for
+  vortex ring formation,} \emph{Journal of Fluid Mechanics}, Vol. 360, 1998,
+  pp. 121--140.
+
+\bibitem[{Zhao et~al.(2000)Zhao, Frankel, and Mongeau}]{zhao2000effects}
+Zhao, W., Frankel, S.~H., and Mongeau, L.~G., \enquote{Effects of trailing jet
+  instability on vortex ring formation,} \emph{Physics of Fluids}, Vol.~12,
+  No.~3, 2000, pp. 589--596.
+
+\bibitem[{Szumowski et~al.(2000)Szumowski, Sobieraj, Selerowicz, and
+  Piechna}]{szumowski2000starting}
+Szumowski, A., Sobieraj, G., Selerowicz, W., and Piechna, J., \enquote{Starting
+  jet--wall interaction,} \emph{Journal of sound and vibration}, Vol. 232,
+  No.~4, 2000, pp. 695--702.
+
+\bibitem[{Minota et~al.(1997)Minota, Nishida, and Lee}]{minota1997shock}
+Minota, T., Nishida, M., and Lee, M., \enquote{Shock formation by compressible
+  vortex ring impinging on a wall,} \emph{Fluid dynamics research}, Vol.~21,
+  No.~3, 1997, p. 139.
+
+\bibitem[{Bradley(1962)}]{john1962shock}
+Bradley, J.~N., \emph{Shock waves in chemistry and physics}, Methuen, 1962.
+
+\bibitem[{Mariani et~al.(2013)Mariani, Kontis, and
+  Gongora-Orozco}]{mariani2013head}
+Mariani, R., Kontis, K., and Gongora-Orozco, N., \enquote{Head on collisions of
+  compressible vortex rings on a smooth solid surface,} \emph{Shock Waves},
+  Vol.~23, No.~4, 2013, pp. 381--398.
+
+\bibitem[{Anderson~Jr(2010)}]{anderson2010fundamentals}
+Anderson~Jr, J.~D., \emph{Fundamentals of aerodynamics}, Tata McGraw-Hill
+  Education, 2010.
+
+\bibitem[{Settles(2001)}]{settles2001schlieren}
+Settles, G., \enquote{Schlieren and shadowgraph techniques- Visualizing
+  phenomena in transparent media(Book),} \emph{Berlin, Germany: Springer-Verlag
+  GmbH, 2001.}, 2001.
 
 \end{thebibliography}

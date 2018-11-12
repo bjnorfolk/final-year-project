@@ -1,12 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.4.14)  21 AUG 2018 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  12 OCT 2018 12:54
 entering extended mode
 **./main.tex
 (main.tex
-LaTeX2e <2018-04-01> patch level 2
-Babel <3.18> and hyphenation patterns for 0 language(s) loaded.
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/article.cls
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/size11.clo
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -21,22 +20,24 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/t1enc.def
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/fouriernc.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fourier
+nc.sty"
 Package: fouriernc 2005/12/20 1.0 fouriernc package
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fourier/fourier.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fourier.s
+ty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
 Now handling font encoding FML ...
 ... no UTF-8 mapping file for font encoding FML
@@ -45,14 +46,13 @@ Now handling font encoding FMS ...
 Now handling font encoding FMX ...
 ... no UTF-8 mapping file for font encoding FMX
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/t1enc.def
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-))
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/textcomp.sty
+)) ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.
+sty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -66,13 +66,11 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/ts1enc.def
+ ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/ts1enc.dfu
+ ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
 File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -209,7 +207,8 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/fourier/fourier-orns.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fourier-o
+rns.sty"
 Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
 )
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
@@ -355,41 +354,51 @@ LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
 (Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
+.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.s
+ty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
+.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
+hics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
+ex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/geometry-de/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/ifvtex.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvtex
+.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/home/brodie/.miktex/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxetex
+.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -405,8 +414,10 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks17
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/brodie/.miktex/texmfs/install/tex/latex/tocloft/tocloft.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometry
+.cfg"))
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tocloft\tocloft.s
+ty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
 \cftparskip=\skip43
@@ -443,7 +454,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cfttabindent=\skip72
 \cfttabnumwidth=\skip73
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/booktabs/booktabs.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\booktabs
+.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
@@ -463,13 +475,13 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count96
 \@thisrulewidth=\dimen125
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pdfpages
+.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/home/brodie/.miktex/texmfs/install/tex/latex/tools/calc.sty
+) ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count97
 \calc@Bcount=\count98
@@ -482,22 +494,28 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count99
 \calc@Cskip=\skip76
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.s
+ty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/atbegshi.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegs
+hi.sty"
 Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
+err.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
+s.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ))
-(/home/brodie/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty
+"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\colo
+r.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -514,7 +532,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pagewidth=\dimen128
 \AM@pageheight=\dimen129
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdfpages\pppdftex
+.def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box26
@@ -523,18 +542,17 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count100
 \AM@templatesizebox=\box27
 )
-(/home/brodie/.miktex/texmfs/install/tex/latex/float/float.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count101
 \float@exts=\toks20
 \float@box=\box28
 \@float@everytoks=\toks21
 \@floatcapt=\box29
-)
-(/home/brodie/.miktex/texmfs/install/tex/latex/ms/ragged2e.sty
+) ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\ragged2e.sty
+"
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/ms/everysel.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 \CenteringLeftskip=\skip77
@@ -570,7 +588,8 @@ LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 52.
 LaTeX Font Info:    Try loading font information for FML+fncmi on input line 52
 .
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/fmlfncmi.fd
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
+i.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
 LaTeX Font Info:    ... okay on input line 52.
@@ -578,7 +597,8 @@ LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 52.
 LaTeX Font Info:    Try loading font information for FMS+fncm on input line 52.
 
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/fmsfncm.fd
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm
+.fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
 LaTeX Font Info:    ... okay on input line 52.
@@ -586,26 +606,28 @@ LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 52.
 LaTeX Font Info:    Try loading font information for FMX+futm on input line 52.
 
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fourier/fmxfutm.fd
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmxfutm.f
+d"
 File: fmxfutm.fd futm-extension
 )
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
-
-(/home/brodie/.miktex/texmfs/install/tex/latex/base/ts1cmr.fd
+ ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 52.
 LaTeX Font Info:    Try loading font information for T1+fnc on input line 52.
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/t1fnc.fd
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.f
+d"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 10.18341pt on input line 52.
 
-(/home/brodie/.miktex/texmfs/install/tex/context/base/supp-pdf.mkii
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
+kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen130
@@ -618,25 +640,33 @@ LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks23
-) (/home/brodie/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+)
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
+-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
+ty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
+nekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 ))
-(/home/brodie/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
+s.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
+eys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
+ds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
+ex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -645,8 +675,9 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/home/brodie/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
+cmds.sty"
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -696,15 +727,17 @@ G,.JBIG2,.JB2,.eps]
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box31
-(/home/brodie/.miktex/texmfs/install/tex/latex/oberdiek/pdflscape.sty
+
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflscap
+e.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.s
+ty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-ABD: EverySelectfont initializing macros
+) ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 52.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
 (Font)              scaled to size 10.18341pt on input line 58.
@@ -716,7 +749,7 @@ LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 10.18341pt on input line 107.
  [1
 
-{/home/brodie/.miktex/texmfs/data/pdftex/config/pdftex.map}]
+{C:/Users/Brodie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 13.39188pt on input line 119.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <14.4> not available
@@ -736,7 +769,8 @@ LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 LaTeX Font Info:    Try loading font information for FML+fncm on input line 120
 .
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/fmlfncm.fd
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
+.fd"
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
@@ -745,19 +779,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.63599pt on input line 120.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 120.
-
-Overfull \hbox (0.35364pt too wide) in paragraph at lines 120--121
-\T1/fnc/m/n/10.95 turbines. The impingement of transient supersonic jets has pr
-eviously been studied, although
- []
-
-
-Overfull \hbox (2.06305pt too wide) in paragraph at lines 120--121
-\T1/fnc/m/n/10.95 undertaken in order to design the impinging plate and experim
-ental set up to initially produce
- []
-
-[1] [2] (main.toc
+ [1] [2] (main.toc
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
@@ -772,20 +794,14 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 
  [4] (main.lof
 Overfull \hbox (34.18002pt too wide) in paragraph at lines 2--2
- \T1/fnc/m/n/10.95 the trailing jet and the end of the transient jet process. [
-[]] []  
+ \T1/fnc/m/n/10.95 the trail-ing jet and the end of the tran-sient jet pro-cess
+. [[]] []  
  []
 
 
 Overfull \hbox (30.1473pt too wide) in paragraph at lines 4--4
- \T1/fnc/m/n/10.95 system showing notation regarding magnification and the focu
-sing lens [[]]. []  
- []
-
-
-Overfull \hbox (5.52419pt too wide) in paragraph at lines 8--8
- [][] []\T1/fnc/m/n/10.95 Schematic diagram of the shock tube facility currentl
-y under commission. Major 
+ \T1/fnc/m/n/10.95 sys-tem show-ing no-ta-tion re-gard-ing mag-ni-fi-ca-tion an
+d the fo-cus-ing lens [[]]. []  
  []
 
 )
@@ -799,49 +815,16 @@ LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 148.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 11.15991pt on input line 148.
-
-Overfull \hbox (0.12727pt too wide) in paragraph at lines 149--150
-\T1/fnc/m/n/10.95 geometry. The motivation of this experiment is to address abs
-ences in the literature discussed
- []
-
 LaTeX Font Info:    Try loading font information for TS1+fnc on input line 151.
 
-(/home/brodie/.miktex/texmfs/install/tex/latex/fouriernc/ts1fnc.fd
+
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.
+fd"
 File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
 )
 LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 (Font)              scaled to size 10.18341pt on input line 151.
-
-Overfull \hbox (1.58856pt too wide) in paragraph at lines 153--154
-\T1/fnc/m/n/10.95 post initial impingement, and does the nozzle geometry produc
-e variation in comparison
- []
-
-
-Overfull \hbox (13.26752pt too wide) in paragraph at lines 158--159
-[]\T1/fnc/m/n/10.95 This research makes use of the LTRAC Supersonic Jet Facilit
-y within the Monash University
- []
-
-[1]
-Overfull \hbox (9.24112pt too wide) in paragraph at lines 167--168
-\T1/fnc/m/n/10.95 warming [[]]. Pressure gain combustion (PGC) is one possible 
-to method of efficiency
- []
-
-
-Overfull \hbox (20.14998pt too wide) in paragraph at lines 169--174
-\T1/fnc/m/n/10.95 approximate constant volume, and significant pressure gain ac
-ross the combustor. For supersonic,
- []
-
-
-Overfull \hbox (46.06432pt too wide) in paragraph at lines 169--174
-\T1/fnc/m/n/10.95 steady flow at the turbine inlet is via implementation of a p
-ulse detonation engine [[]].
- []
-
+ [1]
 <fig0.PNG, id=31, 379.11638pt x 235.17862pt>
 File: fig0.PNG Graphic file (type png)
 <use fig0.PNG>
@@ -858,21 +841,9 @@ Overfull \hbox (8.18759pt too wide) in paragraph at lines 186--189
  []
 
 
-Overfull \hbox (0.97354pt too wide) in paragraph at lines 175--192
-\T1/fnc/m/n/10.95 formation of a curved Mach disk for a ratio of the nozzle exi
-t to free-stream pressure exceeding
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2]
-Overfull \hbox (12.40851pt too wide) in paragraph at lines 193--194
-\T1/fnc/m/n/10.95 vortex rings that interact with each other in propagation tow
-ards the plate [[]].
- []
-
-[3 <./fig0.PNG> <./fig2.png>]
+[2] [3 <./fig0.PNG> <./fig2.png>]
 <fig4.PNG, id=41, 439.04025pt x 163.812pt>
 File: fig4.PNG Graphic file (type png)
 <use fig4.PNG>
@@ -883,81 +854,28 @@ Package pdftex.def Info: fig4.PNG  used on input line 197.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [10] [11]
-Overfull \hbox (33.11386pt too wide) in paragraph at lines 285--286
-[]\T1/fnc/m/n/10.95 Identification of trends within the data for both transient
- supersonic flow and jet impingement. 
- []
-
-
-Overfull \hbox (8.54916pt too wide) in paragraph at lines 287--288
-\T1/fnc/b/n/10.95 Outcomes: \T1/fnc/m/n/10.95 Comparison of transient supersoni
-c jet impingement with the literature. Improved
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 290--293
 
  []
 
-
-Overfull \hbox (10.63704pt too wide) in paragraph at lines 295--296
-\T1/fnc/m/n/10.95 the test region will refract at varied degrees according to a
-n inhomogeneous density distribution
- []
-
-
-Overfull \hbox (4.65903pt too wide) in paragraph at lines 297--298
-\T1/fnc/m/n/10.95 schlieren apparatus (illustrated in Figure 4[]) with the Shim
-adzu HPV-1 camera. The Shimadzu
- []
-
 [12]
-Overfull \hbox (1.02602pt too wide) in paragraph at lines 299--300
-\T1/fnc/m/n/10.95 projects of three-dimensional features. Furthermore, the tech
-nique is line-of-sight dependent,
- []
-
 <fig3.PNG, id=72, 553.76888pt x 213.49762pt>
 File: fig3.PNG Graphic file (type png)
 <use fig3.PNG>
 Package pdftex.def Info: fig3.PNG  used on input line 303.
 (pdftex.def)             Requested size: 387.63556pt x 149.44731pt.
-
-Overfull \hbox (6.7874pt too wide) in paragraph at lines 330--331
-\T1/fnc/m/n/10.95 This experiment aims to explore 3 characteristic flow regimes
- including; subsonic impingement
- []
-
-[13 <./fig3.PNG>]
+ [13 <./fig3.PNG>]
 <fig1.png, id=77, 421.575pt x 316.18124pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
 Package pdftex.def Info: fig1.png  used on input line 334.
 (pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
-
-Overfull \hbox (1.30302pt too wide) in paragraph at lines 348--349
-\T1/fnc/m/n/10.95 geometries, to further understand; Mach disk formation, evide
-nce of counter rotating vortices,
- []
-
-[14 <./fig1.png (PNG copy)>] [15]
+ [14 <./fig1.png (PNG copy)>] [15]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
 (Font)              scaled to size 8.36993pt on input line 350.
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 8.36993pt on input line 354.
-
-Underfull \hbox (badness 1584) in paragraph at lines 356--358
-[]\T1/fnc/m/n/9 Cantwell, B. (2017). Fundamentals of Compressible Flow. \T1/fnc
-/m/it/9 Standford Aeronautics and
- []
-
-
-Underfull \hbox (badness 1845) in paragraph at lines 383--384
-[]\T1/fnc/m/n/9 MATSUDA, T., UMEDA, Y., ISHII, R., & SAWADA, K. (1987). Numeric
-al and
- []
-
-[16]
+ [16]
 <fig10.PNG, id=87, 235.47975pt x 93.951pt>
 File: fig10.PNG Graphic file (type png)
 <use fig10.PNG>
@@ -1335,21 +1253,23 @@ Package pdftex.def Info: fig1.png  used on input line 606.
 (pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
  [34] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4992 strings out of 494894
- 72058 string characters out of 3178672
- 141234 words of memory out of 3000000
- 8424 multiletter control sequences out of 15000+200000
+ 5003 strings out of 492970
+ 74210 string characters out of 3126149
+ 147576 words of memory out of 3000000
+ 8687 multiletter control sequences out of 15000+200000
  57255 words of font info for 81 fonts, out of 3000000 for 9000
- 0 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  41i,20n,48p,2094b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/home/brodie/.miktex/texmfs/install/fonts/enc/dvips/base/8r.
-enc}</home/brodie/.miktex/texmfs/install/fonts/type1/public/fourier/fourier-mex
-.pfb></home/brodie/.miktex/texmfs/install/fonts/type1/public/fourier/fourier-ml
-it.pfb></home/brodie/.miktex/texmfs/install/fonts/type1/public/fourier/fourier-
-ms.pfb></home/brodie/.miktex/texmfs/install/fonts/type1/urw/ncntrsbk/uncb8a.pfb
-></home/brodie/.miktex/texmfs/install/fonts/type1/urw/ncntrsbk/uncr8a.pfb></hom
-e/brodie/.miktex/texmfs/install/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (41 pages, 7033620 bytes).
+{C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
+dvips/base/8r.enc}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/fourier/fourier-mex.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Brodie/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Brodie
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/User
+s/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
+<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/unc
+ri8a.pfb>
+Output written on main.pdf (41 pages, 7033723 bytes).
 PDF statistics:
  289 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
