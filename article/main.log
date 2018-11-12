@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  21 OCT 2018 13:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  12 NOV 2018 18:12
 entering extended mode
 **./main.tex
 (main.tex
@@ -1409,12 +1409,12 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
 (Font)              scaled to size 9.0pt on input line 16.
  [5])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 265.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 265.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 265.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 265.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3059D3BF1ECE5569EF3C02A1A8C0DC99;681.
 
@@ -1423,13 +1423,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 25807 strings out of 492970
- 472945 string characters out of 3126149
+ 25805 strings out of 492970
+ 472903 string characters out of 3126149
  559514 words of memory out of 3000000
  29181 multiletter control sequences out of 15000+200000
- 621970 words of font info for 193 fonts, out of 3000000 for 9000
+ 621884 words of font info for 192 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,8n,94p,2272b,907s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,8n,94p,2272b,897s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/newtx/ntx-
 ot1-tlf.enc}{C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
 base/8r.enc}{C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
@@ -1445,7 +1445,7 @@ b><C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/newtx/t
 xexs.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
 newtx/txsys.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 151249 bytes).
+Output written on main.pdf (6 pages, 151887 bytes).
 PDF statistics:
  167 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)

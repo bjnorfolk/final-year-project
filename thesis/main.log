@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  12 OCT 2018 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  12 NOV 2018 22:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -569,74 +569,101 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \RaggedLeftParindent=\skip88
 \RaggedRightParindent=\skip89
 \JustifyingParindent=\skip90
-) (main.aux)
+)
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr
+.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip91
+\f@nch@O@elh=\skip92
+\f@nch@O@erh=\skip93
+\f@nch@O@olh=\skip94
+\f@nch@O@orh=\skip95
+\f@nch@O@elf=\skip96
+\f@nch@O@erf=\skip97
+\f@nch@O@olf=\skip98
+\f@nch@O@orf=\skip99
+)
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\nomencl\nomencl.s
+ty"
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen130
+\nom@tempdim=\dimen131
+\nomitemsep=\skip100
+)
+\@nomenclaturefile=\write3
+\openout3 = `main.nlo'.
+
+
+Writing nomenclature file main.nlo
+(main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 52.
-LaTeX Font Info:    Try loading font information for FML+fncmi on input line 52
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 67.
+LaTeX Font Info:    Try loading font information for FML+fncmi on input line 67
 .
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
 i.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 52.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for FMS+fncm on input line 67.
 
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm
 .fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 52.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 67.
 
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmxfutm.f
 d"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 52.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
  ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 52.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 67.
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.f
 d"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 52.
+(Font)              scaled to size 10.18341pt on input line 67.
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
-\scratchdimen=\dimen130
+\scratchdimen=\dimen132
 \scratchbox=\box30
 \nofMPsegments=\count103
 \nofMParguments=\count104
 \everyMPshowfont=\toks22
 \MPscratchCnt=\count105
-\MPscratchDim=\dimen131
+\MPscratchDim=\dimen133
 \MPnumerator=\count106
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks23
@@ -738,35 +765,41 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 52.
+LaTeX Info: Redefining \selectfont on input line 67.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 10.18341pt on input line 58.
+(Font)              scaled to size 10.18341pt on input line 73.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 16.07027pt on input line 71.
+(Font)              scaled to size 16.07027pt on input line 86.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 13.39188pt on input line 84.
+(Font)              scaled to size 13.39188pt on input line 99.
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 10.18341pt on input line 107.
+(Font)              scaled to size 10.18341pt on input line 122.
+<ltrac_logo.png, id=1, 241.65282pt x 61.73062pt>
+File: ltrac_logo.png Graphic file (type png)
+<use ltrac_logo.png>
+Package pdftex.def Info: ltrac_logo.png  used on input line 128.
+(pdftex.def)             Requested size: 144.9928pt x 37.03864pt.
  [1
 
-{C:/Users/Brodie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/Users/Brodie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ltrac_lo
+go.png>]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 119.
+(Font)              scaled to size 13.39188pt on input line 139.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 119.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 139.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 119.
+(Font)              scaled to size 13.39188pt on input line 139.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.71893pt on input line 120.
+(Font)              scaled to size 7.71893pt on input line 140.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 120.
+(Font)              scaled to size 5.57996pt on input line 140.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 120.
+(Font)              scaled to size 10.07397pt on input line 140.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 120.
+(Font)              scaled to size 7.63599pt on input line 140.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 120.
-LaTeX Font Info:    Try loading font information for FML+fncm on input line 120
+(Font)              scaled to size 5.51999pt on input line 140.
+LaTeX Font Info:    Try loading font information for FML+fncm on input line 140
 .
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
@@ -774,504 +807,566 @@ LaTeX Font Info:    Try loading font information for FML+fncm on input line 120
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 120.
+(Font)              scaled to size 10.07397pt on input line 140.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 120.
+(Font)              scaled to size 7.63599pt on input line 140.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 120.
- [1] [2] (main.toc
+(Font)              scaled to size 5.51999pt on input line 140.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] (main.toc
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 10.18341pt on input line 1.
 )
-\tf@toc=\write3
-\openout3 = `main.toc'.
+\tf@toc=\write4
+\openout4 = `main.toc'.
 
  [3] (main.lot)
-\tf@lot=\write4
-\openout4 = `main.lot'.
+\tf@lot=\write5
+\openout5 = `main.lot'.
 
- [4] (main.lof
-Overfull \hbox (34.18002pt too wide) in paragraph at lines 2--2
- \T1/fnc/m/n/10.95 the trail-ing jet and the end of the tran-sient jet pro-cess
-. [[]] []  
- []
+ [4] (main.lof)
+\tf@lof=\write6
+\openout6 = `main.lof'.
 
+ [5]
+No file main.nls.
 
-Overfull \hbox (30.1473pt too wide) in paragraph at lines 4--4
- \T1/fnc/m/n/10.95 sys-tem show-ing no-ta-tion re-gard-ing mag-ni-fi-ca-tion an
-d the fo-cus-ing lens [[]]. []  
- []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-)
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
- [5] [6]
+[6]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 148.
+(Font)              scaled to size 11.15991pt on input line 172.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 148.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 172.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 148.
-LaTeX Font Info:    Try loading font information for TS1+fnc on input line 151.
+(Font)              scaled to size 11.15991pt on input line 172.
 
 
-("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.
-fd"
-File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
-)
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 151.
- [1]
-<fig0.PNG, id=31, 379.11638pt x 235.17862pt>
-File: fig0.PNG Graphic file (type png)
-<use fig0.PNG>
-Package pdftex.def Info: fig0.PNG  used on input line 178.
-(pdftex.def)             Requested size: 265.37965pt x 164.6239pt.
-<fig2.png, id=33, 1577.895pt x 531.9875pt>
-File: fig2.png Graphic file (type png)
-<use fig2.png>
-Package pdftex.def Info: fig2.png  used on input line 186.
-(pdftex.def)             Requested size: 441.80759pt x 148.95547pt.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Overfull \hbox (8.18759pt too wide) in paragraph at lines 186--189
- [][] 
+[1]
+<pcg.png, id=34, 633.11531pt x 499.8675pt>
+File: pcg.png Graphic file (type png)
+<use pcg.png>
+Package pdftex.def Info: pcg.png  used on input line 186.
+(pdftex.def)             Requested size: 316.55687pt x 249.93314pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./pcg.png>]
+
+LaTeX Warning: Reference `fig:0' on page 3 undefined on input line 193.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4]
+Overfull \hbox (3.17152pt too wide) in paragraph at lines 228--229
+\T1/fnc/m/n/10.95 The ex-per-i-ments pre-sented were con-ducted in the LTRAC Su
+-per-sonic Jet Fa-cil-ity. A schematic
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3 <./fig0.PNG> <./fig2.png>]
-<fig4.PNG, id=41, 439.04025pt x 163.812pt>
-File: fig4.PNG Graphic file (type png)
-<use fig4.PNG>
-Package pdftex.def Info: fig4.PNG  used on input line 197.
-(pdftex.def)             Requested size: 395.13258pt x 147.42941pt.
- [4 <./fig4.PNG>] [5] [6] [7] [8] [9]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 290--293
-
- []
-
-[12]
-<fig3.PNG, id=72, 553.76888pt x 213.49762pt>
-File: fig3.PNG Graphic file (type png)
-<use fig3.PNG>
-Package pdftex.def Info: fig3.PNG  used on input line 303.
-(pdftex.def)             Requested size: 387.63556pt x 149.44731pt.
- [13 <./fig3.PNG>]
-<fig1.png, id=77, 421.575pt x 316.18124pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 334.
-(pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
- [14 <./fig1.png (PNG copy)>] [15]
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 350.
-LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
-(Font)              scaled to size 8.36993pt on input line 354.
- [16]
-<fig10.PNG, id=87, 235.47975pt x 93.951pt>
-File: fig10.PNG Graphic file (type png)
-<use fig10.PNG>
-Package pdftex.def Info: fig10.PNG  used on input line 417.
-(pdftex.def)             Requested size: 455.3023pt x 181.66263pt.
-
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 417--420
- [][] 
- []
-
-<fig8.PNG, id=88, 237.2865pt x 115.93312pt>
-File: fig8.PNG Graphic file (type png)
-<use fig8.PNG>
-Package pdftex.def Info: fig8.PNG  used on input line 426.
-(pdftex.def)             Requested size: 455.3023pt x 222.4546pt.
-
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 426--428
- [][] 
- []
-
-<fig9.PNG, id=89, 254.45062pt x 99.9735pt>
+<fig9.PNG, id=45, 254.45062pt x 99.9735pt>
 File: fig9.PNG Graphic file (type png)
 <use fig9.PNG>
-Package pdftex.def Info: fig9.PNG  used on input line 434.
+Package pdftex.def Info: fig9.PNG  used on input line 232.
 (pdftex.def)             Requested size: 455.3023pt x 178.8965pt.
 
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 434--436
+Overfull \hbox (21.68231pt too wide) in paragraph at lines 232--234
  [][] 
  []
 
-[17 <./fig10.PNG> <./fig8.PNG>]
 
-pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig5.pdf, id=95, 597.55246pt x 845.07718pt>
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf>
-Package pdftex.def Info: fig5.pdf  used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+LaTeX Warning: Reference `attachment' on page 5 undefined on input line 238.
 
-
-pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf>
-Package pdftex.def Info: fig5.pdf  used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig5.pdf, id=98, page=1, 597.55246pt x 845.07718pt>
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf, page 1>
-Package pdftex.def Info: fig5.pdf , page1 used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf, page 1>
-Package pdftex.def Info: fig5.pdf , page1 used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-[18 <./fig9.PNG>]
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf, page 1>
-Package pdftex.def Info: fig5.pdf , page1 used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf, page 1>
-Package pdftex.def Info: fig5.pdf , page1 used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig5.pdf Graphic file (type pdf)
-<use fig5.pdf, page 1>
-Package pdftex.def Info: fig5.pdf , page1 used on input line 444.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
- [19 <./fig5.pdf>]
-
-pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig6.pdf, id=116, 597.55246pt x 845.07718pt>
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf>
-Package pdftex.def Info: fig6.pdf  used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf>
-Package pdftex.def Info: fig6.pdf  used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig6.pdf, id=119, page=1, 597.55246pt x 845.07718pt>
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf, page 1>
-Package pdftex.def Info: fig6.pdf , page1 used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf, page 1>
-Package pdftex.def Info: fig6.pdf , page1 used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf, page 1>
-Package pdftex.def Info: fig6.pdf , page1 used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf, page 1>
-Package pdftex.def Info: fig6.pdf , page1 used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig6.pdf Graphic file (type pdf)
-<use fig6.pdf, page 1>
-Package pdftex.def Info: fig6.pdf , page1 used on input line 446.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-[20 <./fig6.pdf>]
-
-pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig7.pdf, id=132, 597.55246pt x 845.07718pt>
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf>
-Package pdftex.def Info: fig7.pdf  used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf>
-Package pdftex.def Info: fig7.pdf  used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-
-
-pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
-.7>, but at most version <1.5> allowed
-<fig7.pdf, id=135, page=1, 597.55246pt x 845.07718pt>
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf, page 1>
-Package pdftex.def Info: fig7.pdf , page1 used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf, page 1>
-Package pdftex.def Info: fig7.pdf , page1 used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf, page 1>
-Package pdftex.def Info: fig7.pdf , page1 used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf, page 1>
-Package pdftex.def Info: fig7.pdf , page1 used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: fig7.pdf Graphic file (type pdf)
-<use fig7.pdf, page 1>
-Package pdftex.def Info: fig7.pdf , page1 used on input line 448.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-[21 <./fig7.pdf>]
-<impingeplate.pdf, id=148, 1195.01462pt x 845.0471pt>
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf>
-Package pdftex.def Info: impingeplate.pdf  used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf>
-Package pdftex.def Info: impingeplate.pdf  used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-<impingeplate.pdf, id=151, page=1, 1195.01462pt x 845.0471pt>
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf, page 1>
-Package pdftex.def Info: impingeplate.pdf , page1 used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf, page 1>
-Package pdftex.def Info: impingeplate.pdf , page1 used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf, page 1>
-Package pdftex.def Info: impingeplate.pdf , page1 used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf, page 1>
-Package pdftex.def Info: impingeplate.pdf , page1 used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: impingeplate.pdf Graphic file (type pdf)
-<use impingeplate.pdf, page 1>
-Package pdftex.def Info: impingeplate.pdf , page1 used on input line 449.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
- [22 <./impingeplate.pdf>]
-<LAplate.pdf, id=162, 1195.01462pt x 845.0471pt>
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf>
-Package pdftex.def Info: LAplate.pdf  used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf>
-Package pdftex.def Info: LAplate.pdf  used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-<LAplate.pdf, id=165, page=1, 1195.01462pt x 845.0471pt>
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf, page 1>
-Package pdftex.def Info: LAplate.pdf , page1 used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf, page 1>
-Package pdftex.def Info: LAplate.pdf , page1 used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf, page 1>
-Package pdftex.def Info: LAplate.pdf , page1 used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf, page 1>
-Package pdftex.def Info: LAplate.pdf , page1 used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: LAplate.pdf Graphic file (type pdf)
-<use LAplate.pdf, page 1>
-Package pdftex.def Info: LAplate.pdf , page1 used on input line 450.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
- [23 <./LAplate.pdf>]
-<RAplate.pdf, id=176, 1195.01462pt x 845.0471pt>
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf>
-Package pdftex.def Info: RAplate.pdf  used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf>
-Package pdftex.def Info: RAplate.pdf  used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-<RAplate.pdf, id=179, page=1, 1195.01462pt x 845.0471pt>
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf, page 1>
-Package pdftex.def Info: RAplate.pdf , page1 used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf, page 1>
-Package pdftex.def Info: RAplate.pdf , page1 used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf, page 1>
-Package pdftex.def Info: RAplate.pdf , page1 used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf, page 1>
-Package pdftex.def Info: RAplate.pdf , page1 used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
-File: RAplate.pdf Graphic file (type pdf)
-<use RAplate.pdf, page 1>
-Package pdftex.def Info: RAplate.pdf , page1 used on input line 451.
-(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
- [24 <./RAplate.pdf>]
-<fig11.PNG, id=191, 253.84837pt x 205.9695pt>
-File: fig11.PNG Graphic file (type png)
-<use fig11.PNG>
-Package pdftex.def Info: fig11.PNG  used on input line 456.
-(pdftex.def)             Requested size: 304.61652pt x 247.16214pt.
-<fig12.PNG, id=192, 233.07076pt x 179.16937pt>
-File: fig12.PNG Graphic file (type png)
-<use fig12.PNG>
-Package pdftex.def Info: fig12.PNG  used on input line 463.
-(pdftex.def)             Requested size: 314.64615pt x 241.87914pt.
-<fig13.PNG, id=193, 243.309pt x 172.2435pt>
-File: fig13.PNG Graphic file (type png)
-<use fig13.PNG>
-Package pdftex.def Info: fig13.PNG  used on input line 470.
-(pdftex.def)             Requested size: 316.30167pt x 223.91652pt.
- [25 <./fig11.PNG> <./fig12.PNG>]
-<minota.PNG, id=199, 392.96812pt x 311.9655pt>
-File: minota.PNG Graphic file (type png)
-<use minota.PNG>
-Package pdftex.def Info: minota.PNG  used on input line 479.
-(pdftex.def)             Requested size: 314.37491pt x 249.57274pt.
-<szumowski.PNG, id=200, 195.43013pt x 301.125pt>
-File: szumowski.PNG Graphic file (type png)
-<use szumowski.PNG>
-Package pdftex.def Info: szumowski.PNG  used on input line 485.
-(pdftex.def)             Requested size: 156.3443pt x 240.90031pt.
- [26 <./fig13.PNG> <./minota.PNG>]
-<thangadurai2010.PNG, id=206, 343.58362pt x 261.3765pt>
-File: thangadurai2010.PNG Graphic file (type png)
-<use thangadurai2010.PNG>
-Package pdftex.def Info: thangadurai2010.PNG  used on input line 491.
-(pdftex.def)             Requested size: 433.62pt x 329.88649pt.
-<thangadurai2012.PNG, id=207, 268.30237pt x 345.08925pt>
-File: thangadurai2012.PNG Graphic file (type png)
-<use thangadurai2012.PNG>
-Package pdftex.def Info: thangadurai2012.PNG  used on input line 497.
-(pdftex.def)             Requested size: 241.46988pt x 310.57745pt.
-
-[27 <./szumowski.PNG> <./thangadurai2010.PNG>]
-<mariani1.PNG, id=213, 183.68625pt x 207.47513pt>
-File: mariani1.PNG Graphic file (type png)
-<use mariani1.PNG>
-Package pdftex.def Info: mariani1.PNG  used on input line 503.
-(pdftex.def)             Requested size: 202.05547pt x 228.22333pt.
-<mariani3.PNG, id=214, 216.81pt x 164.71538pt>
-File: mariani3.PNG Graphic file (type png)
-<use mariani3.PNG>
-Package pdftex.def Info: mariani3.PNG  used on input line 509.
-(pdftex.def)             Requested size: 390.25534pt x 296.52261pt.
- [28 <./thangadurai2012.PNG> <./mariani1.PNG>]
-<mariani5.PNG, id=220, 201.75375pt x 101.78024pt>
-File: mariani5.PNG Graphic file (type png)
-<use mariani5.PNG>
-Package pdftex.def Info: mariani5.PNG  used on input line 515.
-(pdftex.def)             Requested size: 390.25534pt x 196.8772pt.
-<RiskOnAPage.pdf, id=221, 794.97pt x 614.295pt>
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf>
-Package pdftex.def Info: RiskOnAPage.pdf  used on input line 521.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf>
-Package pdftex.def Info: RiskOnAPage.pdf  used on input line 521.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<RiskOnAPage.pdf, id=224, page=1, 794.97pt x 614.295pt>
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 1>
-Package pdftex.def Info: RiskOnAPage.pdf , page1 used on input line 521.
-(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 1>
-Package pdftex.def Info: RiskOnAPage.pdf , page1 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
- [29 <./mariani3.PNG> <./mariani5.PNG>]
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 1>
-Package pdftex.def Info: RiskOnAPage.pdf , page1 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 1>
-Package pdftex.def Info: RiskOnAPage.pdf , page1 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 1>
-Package pdftex.def Info: RiskOnAPage.pdf , page1 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
- [30 <./RiskOnAPage.pdf>]
-<RiskOnAPage.pdf, id=250, page=2, 794.97pt x 614.295pt>
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 2>
-Package pdftex.def Info: RiskOnAPage.pdf , page2 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 2>
-Package pdftex.def Info: RiskOnAPage.pdf , page2 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
-File: RiskOnAPage.pdf Graphic file (type pdf)
-<use RiskOnAPage.pdf, page 2>
-Package pdftex.def Info: RiskOnAPage.pdf , page2 used on input line 521.
-(pdftex.def)             Requested size: 795.3441pt x 614.58406pt.
-
-[31 <./RiskOnAPage.pdf>]
-<figshock.png, id=254, 817.0525pt x 798.985pt>
-File: figshock.png Graphic file (type png)
-<use figshock.png>
-Package pdftex.def Info: figshock.png  used on input line 527.
-(pdftex.def)             Requested size: 408.52525pt x 399.49152pt.
- [32 <./figshock.png>] [33]
+<fig1.png, id=46, 421.575pt x 316.18124pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 606.
+Package pdftex.def Info: fig1.png  used on input line 253.
 (pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
- [34] (main.aux) ) 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./fig9.PNG>]
+
+LaTeX Warning: Reference `fig:3' on page 6 undefined on input line 261.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./fig1.png (PNG copy)>]
+
+LaTeX Warning: Citation `mariani2013a' on page 7 undefined on input line 272.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] (main.bbl
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+<fig10.PNG, id=76, 235.47975pt x 93.951pt>
+File: fig10.PNG Graphic file (type png)
+<use fig10.PNG>
+Package pdftex.def Info: fig10.PNG  used on input line 311.
+(pdftex.def)             Requested size: 455.3023pt x 181.66263pt.
+
+Overfull \hbox (21.68231pt too wide) in paragraph at lines 311--314
+ [][] 
+ []
+
+<fig8.PNG, id=77, 237.2865pt x 115.93312pt>
+File: fig8.PNG Graphic file (type png)
+<use fig8.PNG>
+Package pdftex.def Info: fig8.PNG  used on input line 320.
+(pdftex.def)             Requested size: 455.3023pt x 222.4546pt.
+
+Overfull \hbox (21.68231pt too wide) in paragraph at lines 320--322
+ [][] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig5.pdf, id=78, 597.55246pt x 845.07718pt>
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf>
+Package pdftex.def Info: fig5.pdf  used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf>
+Package pdftex.def Info: fig5.pdf  used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./fig5.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig5.pdf, id=81, page=1, 597.55246pt x 845.07718pt>
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf, page 1>
+Package pdftex.def Info: fig5.pdf , page1 used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf, page 1>
+Package pdftex.def Info: fig5.pdf , page1 used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13 <./fig10.PNG> <./fig8.PNG>]
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf, page 1>
+Package pdftex.def Info: fig5.pdf , page1 used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf, page 1>
+Package pdftex.def Info: fig5.pdf , page1 used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: fig5.pdf Graphic file (type pdf)
+<use fig5.pdf, page 1>
+Package pdftex.def Info: fig5.pdf , page1 used on input line 330.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+[14 <./fig5.pdf>]
+
+pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig6.pdf, id=99, 597.55246pt x 845.07718pt>
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf>
+Package pdftex.def Info: fig6.pdf  used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf>
+Package pdftex.def Info: fig6.pdf  used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./fig6.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig6.pdf, id=102, page=1, 597.55246pt x 845.07718pt>
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf, page 1>
+Package pdftex.def Info: fig6.pdf , page1 used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf, page 1>
+Package pdftex.def Info: fig6.pdf , page1 used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf, page 1>
+Package pdftex.def Info: fig6.pdf , page1 used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf, page 1>
+Package pdftex.def Info: fig6.pdf , page1 used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: fig6.pdf Graphic file (type pdf)
+<use fig6.pdf, page 1>
+Package pdftex.def Info: fig6.pdf , page1 used on input line 332.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+[15 <./fig6.pdf>]
+
+pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig7.pdf, id=115, 597.55246pt x 845.07718pt>
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf>
+Package pdftex.def Info: fig7.pdf  used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf>
+Package pdftex.def Info: fig7.pdf  used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+
+pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./fig7.pdf): PDF inclusion: found PDF version <1
+.7>, but at most version <1.5> allowed
+<fig7.pdf, id=118, page=1, 597.55246pt x 845.07718pt>
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf, page 1>
+Package pdftex.def Info: fig7.pdf , page1 used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf, page 1>
+Package pdftex.def Info: fig7.pdf , page1 used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf, page 1>
+Package pdftex.def Info: fig7.pdf , page1 used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf, page 1>
+Package pdftex.def Info: fig7.pdf , page1 used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: fig7.pdf Graphic file (type pdf)
+<use fig7.pdf, page 1>
+Package pdftex.def Info: fig7.pdf , page1 used on input line 334.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+[16 <./fig7.pdf>]
+<impingeplate.pdf, id=131, 1195.01462pt x 845.0471pt>
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf>
+Package pdftex.def Info: impingeplate.pdf  used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf>
+Package pdftex.def Info: impingeplate.pdf  used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+<impingeplate.pdf, id=134, page=1, 1195.01462pt x 845.0471pt>
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf, page 1>
+Package pdftex.def Info: impingeplate.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf, page 1>
+Package pdftex.def Info: impingeplate.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf, page 1>
+Package pdftex.def Info: impingeplate.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf, page 1>
+Package pdftex.def Info: impingeplate.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: impingeplate.pdf Graphic file (type pdf)
+<use impingeplate.pdf, page 1>
+Package pdftex.def Info: impingeplate.pdf , page1 used on input line 335.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+[17 <./impingeplate.pdf>]
+<LAplate.pdf, id=145, 1195.01462pt x 845.0471pt>
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf>
+Package pdftex.def Info: LAplate.pdf  used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf>
+Package pdftex.def Info: LAplate.pdf  used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+<LAplate.pdf, id=148, page=1, 1195.01462pt x 845.0471pt>
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf, page 1>
+Package pdftex.def Info: LAplate.pdf , page1 used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf, page 1>
+Package pdftex.def Info: LAplate.pdf , page1 used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf, page 1>
+Package pdftex.def Info: LAplate.pdf , page1 used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf, page 1>
+Package pdftex.def Info: LAplate.pdf , page1 used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: LAplate.pdf Graphic file (type pdf)
+<use LAplate.pdf, page 1>
+Package pdftex.def Info: LAplate.pdf , page1 used on input line 336.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+[18 <./LAplate.pdf>]
+<RAplate.pdf, id=160, 1195.01462pt x 845.0471pt>
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf>
+Package pdftex.def Info: RAplate.pdf  used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf>
+Package pdftex.def Info: RAplate.pdf  used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+<RAplate.pdf, id=163, page=1, 1195.01462pt x 845.0471pt>
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf, page 1>
+Package pdftex.def Info: RAplate.pdf , page1 used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf, page 1>
+Package pdftex.def Info: RAplate.pdf , page1 used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf, page 1>
+Package pdftex.def Info: RAplate.pdf , page1 used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf, page 1>
+Package pdftex.def Info: RAplate.pdf , page1 used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: RAplate.pdf Graphic file (type pdf)
+<use RAplate.pdf, page 1>
+Package pdftex.def Info: RAplate.pdf , page1 used on input line 337.
+(pdftex.def)             Requested size: 1195.0117pt x 845.04504pt.
+[19 <./RAplate.pdf>]
+
+LaTeX Warning: Reference `app:litresults' on page 20 undefined on input line 34
+0.
+
+<fig11.PNG, id=174, 253.84837pt x 205.9695pt>
+File: fig11.PNG Graphic file (type png)
+<use fig11.PNG>
+Package pdftex.def Info: fig11.PNG  used on input line 363.
+(pdftex.def)             Requested size: 304.61652pt x 247.16214pt.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20]
+<fig12.PNG, id=178, 233.07076pt x 179.16937pt>
+File: fig12.PNG Graphic file (type png)
+<use fig12.PNG>
+Package pdftex.def Info: fig12.PNG  used on input line 370.
+(pdftex.def)             Requested size: 314.64615pt x 241.87914pt.
+<fig13.PNG, id=179, 243.309pt x 172.2435pt>
+File: fig13.PNG Graphic file (type png)
+<use fig13.PNG>
+Package pdftex.def Info: fig13.PNG  used on input line 377.
+(pdftex.def)             Requested size: 316.30167pt x 223.91652pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[21 <./fig11.PNG> <./fig12.PNG>]
+<figshock.png, id=185, 817.0525pt x 798.985pt>
+File: figshock.png Graphic file (type png)
+<use figshock.png>
+Package pdftex.def Info: figshock.png  used on input line 387.
+(pdftex.def)             Requested size: 408.52525pt x 399.49152pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[22 <./fig13.PNG>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23 <./figshock.png>]
+
+LaTeX Warning: Reference `fig:15' on page 24 undefined on input line 462.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24] (main.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5003 strings out of 492970
- 74210 string characters out of 3126149
- 147576 words of memory out of 3000000
- 8687 multiletter control sequences out of 15000+200000
- 57255 words of font info for 81 fonts, out of 3000000 for 9000
+ 5131 strings out of 492970
+ 75709 string characters out of 3126149
+ 146608 words of memory out of 3000000
+ 8819 multiletter control sequences out of 15000+200000
+ 52150 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,20n,48p,2094b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
-dvips/base/8r.enc}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/fourier/fourier-mex.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Users/Brodie/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Brodie
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/User
-s/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb>
-<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/unc
-ri8a.pfb>
-Output written on main.pdf (41 pages, 7033723 bytes).
+ 41i,20n,48p,2256b,461s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier
+/fourier-mex.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/fourier/fourier-mlit.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Users/Brodie/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Brodie/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Brodie
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on main.pdf (31 pages, 3721321 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
+ 218 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 241 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

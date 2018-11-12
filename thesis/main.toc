@@ -2,26 +2,20 @@
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}
 \contentsline {subsection}{\numberline {1.2}Aims}{1}
 \contentsline {section}{\numberline {2}Background Theory}{2}
-\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{6}
-\contentsline {section}{\numberline {4}Results \& Analysis}{7}
-\contentsline {section}{\numberline {5}Discussion}{8}
-\contentsline {section}{\numberline {6}Conclusions and Recommendations}{9}
-\contentsline {section}{\numberline {7}Preliminary Results}{10}
-\contentsline {subsection}{\numberline {7.1}Nozzle Design}{10}
-\contentsline {subsection}{\numberline {7.2}Impingement Plate Design}{10}
-\contentsline {subsection}{\numberline {7.3}Literature Comparison}{10}
-\contentsline {subsection}{\numberline {7.4}Saftey Documentation}{10}
-\contentsline {section}{\numberline {8}Research Plan}{10}
-\contentsline {subsection}{\numberline {8.1}Projected Research Stages}{10}
-\contentsline {subsection}{\numberline {8.2}Experimental Methodology}{12}
-\contentsline {subsection}{\numberline {8.3}Schlieren Imaging}{12}
-\contentsline {subsection}{\numberline {8.4}Flow Field}{14}
-\contentsline {subsection}{\numberline {8.5}Results Analysis and Discussion}{14}
-\contentsline {section}{References}{16}
-\contentsline {section}{Appendix}{17}
-\contentsline {section}{\numberline {A}Shock Facility}{17}
-\contentsline {section}{\numberline {B}Nozzle and Plate Design}{18}
-\contentsline {section}{\numberline {C}Manufactured Components}{25}
-\contentsline {section}{\numberline {D}Previous Literature Results}{26}
-\contentsline {section}{\numberline {E}Saftey Documentation}{29}
-\contentsline {section}{\numberline {F}Shock Relations}{32}
+\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{5}
+\contentsline {subsection}{\numberline {3.1}Shock Tube Facility}{5}
+\contentsline {subsection}{\numberline {3.2}Schlieren Imaging}{6}
+\contentsline {subsection}{\numberline {3.3}Facility Development and Calibration}{6}
+\contentsline {subsection}{\numberline {3.4}Nozzle Design}{6}
+\contentsline {subsection}{\numberline {3.5}Impingement Plate Design}{7}
+\contentsline {subsection}{\numberline {3.6}Post Processing}{7}
+\contentsline {subsubsection}{\numberline {3.6.1}Second Order Convolution}{7}
+\contentsline {section}{\numberline {4}Results \& Analysis}{8}
+\contentsline {section}{\numberline {5}Discussion}{9}
+\contentsline {section}{\numberline {6}Conclusions and Recommendations}{10}
+\contentsline {section}{Appendix}{13}
+\contentsline {section}{\numberline {A}Shock Facility}{13}
+\contentsline {section}{\numberline {B}Nozzle and Plate Design}{13}
+\contentsline {section}{\numberline {C}Literature Comparison}{20}
+\contentsline {section}{\numberline {D}Manufactured Components}{21}
+\contentsline {section}{\numberline {E}Shock Relations}{22}
