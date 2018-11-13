@@ -4,18 +4,17 @@
 \contentsline {section}{\numberline {2}Background Theory}{2}
 \contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{5}
 \contentsline {subsection}{\numberline {3.1}Shock Tube Facility}{5}
-\contentsline {subsection}{\numberline {3.2}Schlieren Imaging}{6}
-\contentsline {subsection}{\numberline {3.3}Facility Development and Calibration}{6}
-\contentsline {subsection}{\numberline {3.4}Nozzle Design}{6}
-\contentsline {subsection}{\numberline {3.5}Impingement Plate Design}{7}
-\contentsline {subsection}{\numberline {3.6}Post Processing}{7}
-\contentsline {subsubsection}{\numberline {3.6.1}Second Order Convolution}{7}
-\contentsline {section}{\numberline {4}Results \& Analysis}{8}
-\contentsline {section}{\numberline {5}Discussion}{9}
-\contentsline {section}{\numberline {6}Conclusions and Recommendations}{10}
-\contentsline {section}{Appendix}{13}
-\contentsline {section}{\numberline {A}Shock Facility}{13}
-\contentsline {section}{\numberline {B}Nozzle and Plate Design}{13}
-\contentsline {section}{\numberline {C}Literature Comparison}{20}
-\contentsline {section}{\numberline {D}Manufactured Components}{21}
-\contentsline {section}{\numberline {E}Shock Relations}{22}
+\contentsline {subsection}{\numberline {3.2}Nozzle Design}{6}
+\contentsline {subsection}{\numberline {3.3}Impingement Plate Design}{6}
+\contentsline {subsection}{\numberline {3.4}Schlieren Imaging}{8}
+\contentsline {subsection}{\numberline {3.5}Facility Development and Calibration}{9}
+\contentsline {subsection}{\numberline {3.6}Post Processing}{9}
+\contentsline {subsubsection}{\numberline {3.6.1}Second Order Convolution}{9}
+\contentsline {subsubsection}{\numberline {3.6.2}Ranking Methods}{9}
+\contentsline {section}{\numberline {4}Results \& Analysis}{10}
+\contentsline {section}{\numberline {5}Discussion}{11}
+\contentsline {section}{\numberline {6}Conclusions and Recommendations}{12}
+\contentsline {section}{Appendix}{15}
+\contentsline {section}{\numberline {A}Shock Facility}{15}
+\contentsline {section}{\numberline {B}Literature Comparison}{15}
+\contentsline {section}{\numberline {C}Shock Relations}{16}

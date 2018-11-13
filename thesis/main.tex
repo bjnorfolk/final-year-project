@@ -30,9 +30,6 @@
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
-% arara: pdflatex
-% arara: nomencl
-% arara: pdflatex
 
 \documentclass[a4paper, 11pt, oneside]{article} % A4 paper size, default 11pt font size and oneside for equal margins
 
@@ -47,11 +44,13 @@
 \usepackage{booktabs}
 \usepackage{pdfpages} 
 \usepackage{float}
+\usepackage{siunitx}
 \usepackage{ragged2e}
 \usepackage{fancyhdr}
-\usepackage{nomencl}
-\makenomenclature
-\renewcommand{\nompreamble}{This list describes several symbols that will be later used within this thesis}
+\usepackage{subfig}
+%\usepackage{nomencl}
+%\makenomenclature
+%\renewcommand{\nompreamble}{This list describes several symbols that will be later used within this thesis}
  
 \pagestyle{fancy}
 \fancyhf{}
@@ -72,11 +71,23 @@
 	
 	\scshape % Use small caps for all text on the title page
 	
-	\vspace*{3\baselineskip} % White space at the top of the page
+	\vspace*{1\baselineskip} % White space at the top of the page
 	
 	%------------------------------------------------
 	%	Title
 	%------------------------------------------------
+	\begin{figure}[H] 
+	 \centering
+	 \includegraphics[scale=0.4]{monash_logo.jpg} 
+    \end{figure}
+    Department of Mechanical and Aerospace Engineering
+    
+    \vspace{2\baselineskip}
+    
+	{\Large Honours Thesis}
+	
+
+	\vspace{2cm}
 	
 	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
 	\rule{\textwidth}{0.4pt} % Thin horizontal rule
@@ -96,7 +107,7 @@
 	%	Subtitle
 	%------------------------------------------------
 	
-	{\Large Final Year Thesis} % Subtitle or further description
+
 	
 	\vspace*{3\baselineskip} % Whitespace under the subtitle
 	
@@ -104,7 +115,7 @@
 	%	Editor(s)
 	%------------------------------------------------
 	
-	By
+	Author
 	
 	\vspace{0.5\baselineskip} % Whitespace before the editors
 	
@@ -119,7 +130,7 @@
 	
 	\vspace{2\baselineskip} % Whitespace below the editor list
 	
-	\textit{Department of Mechanical and Aerospace Engineering \\ Monash University} % Editor affiliation
+	 % Editor affiliation
 	
 	\vfill % Whitespace between editor names and publisher logo
 	
@@ -150,19 +161,28 @@ The author would like to thank those who provided advice and guidance throughout
 \listoffigures
 \newpage
 \section*{Nomenclature}
-
-\mbox{}
+%This list describes several symbols that will be later used within this thesis.
+%\mbox{}
+\begin{table}[H]
+\begin{tabular}{ll} \smallskip
+$M_1$      & Ambient Mach number                         \\ \smallskip
+$P_1$      & Ambient pressure, Pa                        \\ \smallskip
+$P_4$      & Shock tube driver section pressure, Pa      \\ \smallskip
+$U_1$      & Ambient air velocity, m/s                   \\ \smallskip
+$U_4$      & Shock tube driver section air velocity, m/s \\ \smallskip
+$\gamma_1$ & Ambient specific heat ratio                 \\ \smallskip
+$\gamma_4$ & Driver specific heat ratio                 
+\end{tabular}
+\end{table}
+%\nomenclature{$M_1$}{Ambient Mach number}
+%\nomenclature{$P_1$}{Ambient pressure, Pa}
+%\nomenclature{$P_4$}{Shock tube driver section pressure, Pa}
+%\nomenclature{$U_1$}{Ambient air velocity, m/s}
+%\nomenclature{$U_4$}{Shock tube driver section air velocity, m/s}
+%\nomenclature{$\gamma_1$}{Ambient specific heat ratio}
+%\nomenclature{$\gamma_4$}{Driver specific heat ratio}
  
-\nomenclature{$M_1$}{Ambient Mach number}
-\nomenclature{$P_1$}{Ambient pressure, Pa}
-\nomenclature{$P_4$}{Shock tube driver section pressure, Pa}
-\nomenclature{$U_1$}{Ambient air velocity, m/s}
-\nomenclature{$U_4$}{Shock tube driver section air velocity, m/s}
-\nomenclature{$\gamma_1$}{Ambient specific heat ratio}
-\nomenclature{$\gamma_4$}{Driver specific heat ratio}
-\nomenclature{$P_1$}{Ambient pressure, Pa}
- 
-\printnomenclature
+%\printnomenclature
 
 
 \newpage
@@ -209,7 +229,7 @@ A triple point occurs between the leading edge of the barrel shock, the second s
 %	\label{fig:2}
 %\end{figure}
 
-Investigation into the high pressure plenum chamber required for PDEs currently has not been undertaken. However, the flow dynamics is considered analogous to the impingement of a transient supersonic jet on a flat plate. The governing dynamics of transient jet impingment can be classified into serveral stages. The physical process is initially characterised by the reflection of the incident shock wave on the impinging plate. The reflected shock wave propargates back towards the nozzle and interacts with the approaching vortex ring. The central section of the reflected shock wave is captured by the embedded rearward-facing shock at the centre of the vortex ring, and is intensified by the opposing high-speed flow. Simultaneously, the outer section of the shock wave is diffracted by the vortex core. This process results in the formation of a toroidal shock wave which focuses in the trailing jet along the longitudinal axis of flow. The next stage of the fluid dynamics is defined by the impingement of the propagating vortex ring. Initially, as the vortex ring approaches the wall, its propagation velocity decreases and its diameter increases due to the adverse pressure gradient present \cite{szumowski2000starting}. After votex impingement the vortical flow undergoes rapid radial expansion developing a boundary layer on the surface, which slows down the flow and increases the pressure distribution over the plate. After a given duration that is dependent on the initial incident Mach number, the boundary layer separates from the plate and the flow rolls up generating a series of secondary vortices. This also occurs at the thin shear layer present between the jet flow and the exterior fluid as the region rolls up due to Kelvin-Helmholtz instabilities. This produces small interacting secondary vortex rings that propagate towards the plate \cite{minota1997shock}. Cumulative interactions between the primary and secondary wall vortex rings result in a near standing lift off of the pair. The secondary ring subsequently merges with the primary ring, and the weakened newly formed vortex ring continues to translate down the plate. %Stages of impingement are illustrated in Figure \ref{fig:4} below.
+Investigation into the high pressure plenum chamber required for PDEs currently has not been undertaken within the field. However, the flow dynamics is considered analogous to the impingement of a transient supersonic jet on a flat plate. The governing dynamics of transient jet impingment can be classified into serveral stages. The physical process is initially characterised by the reflection of the incident shock wave on the impinging plate. The reflected shock wave propargates back towards the nozzle and interacts with the approaching vortex ring. The central section of the reflected shock wave is captured by the embedded rearward-facing shock at the centre of the vortex ring, and is intensified by the opposing high-speed flow. Simultaneously, the outer section of the shock wave is diffracted by the vortex core. This process results in the formation of a toroidal shock wave which focuses in the trailing jet along the longitudinal axis of flow. The next stage of the fluid dynamics is defined by the impingement of the propagating vortex ring. Initially, as the vortex ring approaches the wall, its propagation velocity decreases and its diameter increases due to the adverse pressure gradient present \cite{szumowski2000starting}. After votex impingement the vortical flow undergoes rapid radial expansion developing a boundary layer on the surface, which slows down the flow and increases the pressure distribution over the plate. After a given duration that is dependent on the initial incident Mach number, the boundary layer separates from the plate and the flow rolls up generating a series of secondary vortices. This also occurs at the thin shear layer present between the jet flow and the exterior fluid as the region rolls up due to Kelvin-Helmholtz instabilities. This produces small interacting secondary vortex rings that propagate towards the plate \cite{minota1997shock}. Cumulative interactions between the primary and secondary wall vortex rings result in a near standing lift off of the pair. The secondary ring subsequently merges with the primary ring, and the weakened newly formed vortex ring continues to translate down the plate. %Stages of impingement are illustrated in Figure \ref{fig:4} below.
 
 %\begin{figure}[h] 
 %	\centering
@@ -235,12 +255,9 @@ The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A
 	\label{fig:shocktube}
 \end{figure}	
 
-The facility utilises compressed air delivered by the Monash University compressed air supply system. To produce a canonical transient supersonic jet a shock tube model is adopted \cite{john1962shock}. A typical shock tube consists of a high pressure section (driver section) and a low pressure section (driven section) separated by a diaphragm. Air enters the driver section until a desired pressure is reached, the diaphragm is then ruptured via a puncture from an actuated pin. Following the rupture, compression waves are fired down the driven section by the high pressure gas in the driver. As these compression waves travel down the tube they coalesce and form a shock wave that propagates into the test section, diffracts, and produces a transient supersonic jet. The shock tube model is fitted with a converging nozzle and impinging plate, shown in Figure \ref{attachment}. 
+The facility utilises compressed air delivered by the Monash University compressed air supply system. To produce a canonical transient supersonic jet a shock tube model is adopted \cite{john1962shock}. A typical shock tube consists of a high pressure section (driver section) and a low pressure section (driven section) separated by a diaphragm. Air enters the driver section until a desired pressure is reached, the diaphragm is then ruptured via a puncture from an actuated pin. Following the rupture, compression waves are fired down the driven section by the high pressure gas in the driver. As these compression waves travel down the tube they coalesce and form a shock wave that propagates into the test section, diffracts, and produces a transient supersonic jet. 
 
-To prevent reflecting flow and acoustic feedback loop interference, the converging nozzle was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \cite{mariani2013head}. As a result, an impingement plate distance is chosen DISTANCE AND WHY. The plate diameter is designed to appear infinite to the flow.
-
-ENTER SHOCK TUBE FIGURE AND NOZZLE/PLATE FIGURE
-ENTER TABLE WITH DIMENSIONS
+For the aims of this thesis, the supersonic transient jet will be studied with varied nozzle designs including a convergent, divergent and convergent-divergent configuration. Transient flow impingement will be tested via a flat plate set at $90^\circ$ to the flow. This impinging plate is set exactly at an angle of $90^\circ$ to the flow by a sequence of precisely $90^\circ$ connecting supports to the shock tube. The three nozzle designs and impingement plate will be integrated into the existing LTRAC Supersonic Jet Facility.
 
 The relationship between the driver (4) pressure ratio and the ambient (1) pressure of the system is shown in Equation \ref{shock}, and was utilised to calculate the design incident Mach number propagating from the shock tube \cite{anderson2010fundamentals}. Figure \ref{fig:gas_relation} illustrates the effect of specific heat capacity ratio on the relation between incident Mach number and pressure ratio. Helium gas has increasingly lower pressure ratios for higher Mach numbers in comparison to air, and as a result was chosen as the driver section supply gas.
 
@@ -255,21 +272,55 @@ The relationship between the driver (4) pressure ratio and the ambient (1) press
 	\label{fig:gas_relation}
 \end{figure}
 
+\subsection{Nozzle Design}
+A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). To prevent reflecting flow and acoustic feedback loop interference, each nozzle geometry was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip \cite{poldervaart1968photographic}. Each nozzle design and subsequently manufactured component is shown in Figures \ref{fig:con_noz}, \ref{fig:div_noz}, and \ref{fig:con_div_noz} below. 
+ 
+\begin{figure}[!tbp]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{convergent_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_noz.png}}
+  \caption{Convergent nozzle.}
+  \label{fig:con_noz}
+\end{figure}
+
+\begin{figure}[!tbp]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{divergent_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{div_noz.png}}
+  \caption{Divergent nozzle.}
+  \label{fig:div_noz}
+\end{figure}
+
+\begin{figure}[!tbp]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{con_div_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_div_noz.png}}
+  \caption{Convergent-divergent nozzle.}
+  \label{fig:con_div_noz}
+\end{figure}
+
+\subsection{Impingement Plate Design}
+. As a result, an impingement plate distance is chosen DISTANCE AND WHY. The plate diameter is designed to appear infinite to the flow.
+The impingement plate, as shown in appendix \ref{app:drawings}, is constructed such that it is $90^{\circ}$ to the direction of the flow. It mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. The plate is fixed to the rails such that it can be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters, from the exit for a conventional, no nozzle, shock tube \cite{mariani2013a}. As a result, an impingement plate distance is chosen below and above this limit, at 1 and 4 inner diameters, respectively. Moreover, the plate diameter is designed such that it appears infinite to the flow, to maintain consistency with the literature.
+ During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \cite{mariani2013head}
+ 
 \subsection{Schlieren Imaging}
-Schlieren imaging is a visualization technique that utilises the refraction of light to produce focused optical images of transparent media. Point source light is collimated and passed through a test region containing a transparent media with inhomogeneities.  Light entering the test region will refract at varied degrees according to an inhomogeneous density distribution present. The light is then refocused and a knife-edge is used to partially block a fraction of incident light from the screen or camera.
+Schlieren imaging is a visualization technique that utilises the refraction of light to produce focused optical images of transparent media. Point source light is collimated and passed through a test region containing a transparent media with inhomogeneities. Light entering the test region will refract at varied degrees according to an inhomogeneous density distribution present. The light is then refocused and a knife-edge is used to partially block a fraction of incident light from the screen or camera.
 
-The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:3}) with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps. 
+The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}) with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps. 
 
-ENTER SCHLIEREN SKEMATIC
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{schlieren_diagram.pdf} 
+	\caption{Detail schlieren system diagram}
+	\label{fig:schlieren}
+\end{figure}
 
 \subsection{Facility Development and Calibration}
 
-\subsection{Nozzle Design}
-One of the first tasks completed for this project was the design and manufacture of three distinct nozzles. A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). Furthermore, a $60^\circ$ exterior nozzle angle and a $0.5mm$ nozzle lip was implemented in these three designs, preventing reflected flow and acoustic feedback loop interference. The three drawings for each nozzle are supplied in Appendix \ref{app:drawings}, and the manufactured parts are shown in Appendix \ref{app:manufactured}.
-For comparability a convergent, divergent, and convergent-divergent nozzle was designed to the same area ratios as the nozzle designs tested by Technical University of Berlin (TUB). 
-
-\subsection{Impingement Plate Design}
-The impingement plate, as shown in appendix \ref{app:drawings}, is constructed such that it is $90^{\circ}$ to the direction of the flow. It mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. The plate is fixed to the rails such that it can be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters, from the exit for a conventional, no nozzle, shock tube \cite{mariani2013a}. As a result, an impingement plate distance is chosen below and above this limit, at 1 and 4 inner diameters, respectively. Moreover, the plate diameter is designed such that it appears infinite to the flow, to maintain consistency with the literature.
 
 \subsection{Post Processing}
 Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation but, is difficult to quantitatively extract physical parameters directly from image data. 
@@ -280,6 +331,8 @@ EQUATIONS
 where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix 
 
 HESSIAN MATRIX
+
+\subsubsection{Ranking Methods}
 Use a normalised ranking to threshold intensity lower then the 90th percentile 
 
 \newpage
@@ -323,19 +376,6 @@ Use a normalised ranking to threshold intensity lower then the 90th percentile
 	\label{fig:8}
 \end{figure}
 
-\section{Nozzle and Plate Design} \label{app:drawings}
-
-
-
-\includepdf[pages={-},angle=90,fitpaper,pagecommand={}]{fig5.pdf}
-
-\includepdf[pages={-},angle=90,fitpaper,pagecommand={}]{fig6.pdf}
-
-\includepdf[pages={-},angle=90,fitpaper,pagecommand={}]{fig7.pdf}
-\includepdf[pages={-},fitpaper,pagecommand={}]{impingeplate.pdf}
-\includepdf[pages={-},fitpaper,pagecommand={}]{LAplate.pdf}
-\includepdf[pages={-},fitpaper,pagecommand={}]{RAplate.pdf}
-
 \section{Literature Comparison}
 Initially, it is necessary to explore the literature and develop an understanding of the current comprehension of the flow characteristics governing supersonic transient jet impingement, and previous experimental test configurations. Section \ref{sec:background} undertakes an extensive review of previous literature, exploring the fluid dynamics and practical applications of supersonic impinging jets. Table \ref{tab1} details a summary for the research undertaken in previous literature, it's important to note all previous literature sources implement a plate diameter such that it can be considered infinite to the flow. Additionally, imaging results from the literature summarised in Table 1 is subsequently shown in appendix \ref{app:litresults}.
 
@@ -354,30 +394,6 @@ Initially, it is necessary to explore the literature and develop an understandin
 			\multicolumn{1}{|l|}{\cite{mariani2013head}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Vortex ring\\ impingement\end{tabular}}                                   & \multicolumn{1}{l|}{Schlieren}                                                                         & \multicolumn{1}{l|}{30mm}                                             & \multicolumn{1}{l|}{1.61}                                        & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}1.66di, \\ 3.33di, \\ 5.00di\end{tabular}} \\ \bottomrule
 		\end{tabular}}
 	\end{table}
-
-
-\section{Manufactured Components} \label{app:manufactured}
-
-\begin{figure}[H] 
-	\centering
-	\includegraphics[scale=1.2]{fig11.PNG} 
-	\caption{Diverging nozzle manufactured.}
-	\label{fig:11}
-\end{figure}
-
-\begin{figure}[H] 
-	\centering
-	\includegraphics[scale=1.35]{fig12.PNG} 
-	\caption{Converging nozzle manufactured.}
-	\label{fig:12}
-\end{figure}
-
-\begin{figure}[H] 
-	\centering
-	\includegraphics[scale=1.3]{fig13.PNG} 
-	\caption{Converging-diverging nozzle manufactured.}
-	\label{fig:13}
-\end{figure}
 
 \section{Shock Relations} \label{app:shock}
 In this section, the relationship between the pressure of the flow behind the leading shock and the ambient pressure will be derived. Figure \ref{fig:shock} details pressure, temperature, and velocity relations for the shock tube.
