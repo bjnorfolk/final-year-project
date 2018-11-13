@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  13 NOV 2018 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  14 NOV 2018 10:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -859,7 +859,11 @@ Package caption Info: float package is loaded.
 \c@subtable@save=\count281
 \sf@top=\skip115
 \sf@bottom=\skip116
-) (main.aux)
+) (main.aux
+
+LaTeX Warning: Label `fig:shocktube' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1094,14 +1098,6 @@ LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 10.18341pt on input line 1.
-LaTeX Font Info:    Try loading font information for TS1+fnc on input line 10.
-
-("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.
-fd"
-File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
-)
-LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 10.
 )
 \tf@toc=\write3
 \openout3 = `main.toc'.
@@ -1110,7 +1106,8 @@ LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
 \tf@lot=\write4
 \openout4 = `main.lot'.
 
- [4] (main.lof)
+ [4]
+(main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
@@ -1153,122 +1150,127 @@ Package pdftex.def Info: fig4.PNG  used on input line 240.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4 <./fig2.png>] [5 <./fig4.PNG>]
-LaTeX Font Info:    Font shape `TS1/fnc/bx/n' in size <12> not available
-(Font)              Font shape `TS1/fnc/b/n' tried instead on input line 252.
-LaTeX Font Info:    Font shape `TS1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 252.
+<berlin.PNG, id=55, 864.22874pt x 548.0475pt>
+File: berlin.PNG Graphic file (type png)
+<use berlin.PNG>
+Package pdftex.def Info: berlin.PNG  used on input line 266.
+(pdftex.def)             Requested size: 433.62pt x 274.9764pt.
 
-Overfull \hbox (3.17152pt too wide) in paragraph at lines 254--255
+Overfull \hbox (3.17152pt too wide) in paragraph at lines 272--273
 \T1/fnc/m/n/10.95 The ex-per-i-ments pre-sented were con-ducted in the LTRAC Su
 -per-sonic Jet Fa-cil-ity. A schematic
  []
 
-<fig9.PNG, id=55, 254.45062pt x 99.9735pt>
+<fig9.PNG, id=56, 254.45062pt x 99.9735pt>
 File: fig9.PNG Graphic file (type png)
 <use fig9.PNG>
-Package pdftex.def Info: fig9.PNG  used on input line 258.
+Package pdftex.def Info: fig9.PNG  used on input line 276.
 (pdftex.def)             Requested size: 433.62pt x 170.37674pt.
-<fig1.png, id=56, 421.575pt x 316.18124pt>
+[6 <./berlin.PNG>]
+<fig1.png, id=61, 421.575pt x 316.18124pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 276.
+Package pdftex.def Info: fig1.png  used on input line 294.
 (pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
-[6 <./fig9.PNG>]
-<convergent_cad.png, id=63, 341.275pt x 461.725pt>
+ [7 <./fig9.PNG>]
+<convergent_cad.png, id=67, 341.275pt x 461.725pt>
 File: convergent_cad.png Graphic file (type png)
 <use convergent_cad.png>
-Package pdftex.def Info: convergent_cad.png  used on input line 287.
+Package pdftex.def Info: convergent_cad.png  used on input line 305.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 287.
-<con_noz.png, id=64, 132.19388pt x 179.16937pt>
+(Font)              scaled to size 8.36993pt on input line 305.
+<con_noz.png, id=68, 132.19388pt x 179.16937pt>
 File: con_noz.png Graphic file (type png)
 <use con_noz.png>
-Package pdftex.def Info: con_noz.png  used on input line 289.
+Package pdftex.def Info: con_noz.png  used on input line 307.
 (pdftex.def)             Requested size: 173.44534pt x 235.08813pt.
-<divergent_cad.png, id=65, 341.275pt x 461.725pt>
+<divergent_cad.png, id=69, 341.275pt x 461.725pt>
 File: divergent_cad.png Graphic file (type png)
 <use divergent_cad.png>
-Package pdftex.def Info: divergent_cad.png  used on input line 296.
+Package pdftex.def Info: divergent_cad.png  used on input line 314.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
-<div_noz.png, id=66, 142.131pt x 205.9695pt>
+<div_noz.png, id=70, 142.131pt x 205.9695pt>
 File: div_noz.png Graphic file (type png)
 <use div_noz.png>
-Package pdftex.def Info: div_noz.png  used on input line 298.
+Package pdftex.def Info: div_noz.png  used on input line 316.
 (pdftex.def)             Requested size: 173.44534pt x 251.35782pt.
-<con_div_cad.png, id=67, 341.275pt x 461.725pt>
+<con_div_cad.png, id=71, 341.275pt x 461.725pt>
 File: con_div_cad.png Graphic file (type png)
 <use con_div_cad.png>
-Package pdftex.def Info: con_div_cad.png  used on input line 305.
+Package pdftex.def Info: con_div_cad.png  used on input line 323.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
-<con_div_noz.png, id=68, 128.58037pt x 171.34012pt>
+<con_div_noz.png, id=72, 128.58037pt x 171.34012pt>
 File: con_div_noz.png Graphic file (type png)
 <use con_div_noz.png>
-Package pdftex.def Info: con_div_noz.png  used on input line 307.
+Package pdftex.def Info: con_div_noz.png  used on input line 325.
 (pdftex.def)             Requested size: 173.44534pt x 231.12662pt.
 
 
-LaTeX Warning: Reference `fig:plate' on page 7 undefined on input line 313.
+LaTeX Warning: Reference `fig:plate' on page 8 undefined on input line 331.
 
 
-LaTeX Warning: Citation `mariani2013a' on page 7 undefined on input line 313.
+LaTeX Warning: Citation `mariani2013a' on page 8 undefined on input line 331.
 
 
-LaTeX Warning: Reference `fig:wobble' on page 7 undefined on input line 317.
+LaTeX Warning: Reference `fig:wobble' on page 8 undefined on input line 335.
 
 
-LaTeX Warning: Reference `fig:plate_support' on page 7 undefined on input line 
-317.
+LaTeX Warning: Reference `fig:plate_support' on page 8 undefined on input line 
+335.
 
-[7 <./fig1.png (PNG copy)>] [8 <./convergent_cad.png (PNG copy)> <./con_noz.png
-> <./divergent_cad.png (PNG copy)> <./div_noz.png>]
-<schlieren.png, id=77, 793.46437pt x 493.0922pt>
+[8 <./fig1.png (PNG copy)>] [9 <./convergent_cad.png (PNG copy)> <./con_noz.png
+> <./divergent_cad.png (PNG copy)> <./div_noz.png>] [10 <./con_div_cad.png (PNG
+ copy)> <./con_div_noz.png>]
+<schlieren.png, id=85, 793.46437pt x 493.0922pt>
 File: schlieren.png Graphic file (type png)
 <use schlieren.png>
-Package pdftex.def Info: schlieren.png  used on input line 347.
+Package pdftex.def Info: schlieren.png  used on input line 357.
 (pdftex.def)             Requested size: 433.62pt x 269.47102pt.
- [9 <./con_div_cad.png (PNG copy)> <./con_div_noz.png>] [10 <./schlieren.png>] 
-[11] [12] [13] [14]
+ [11 <./schlieren.png>] [12] [13] [14] [15]
 (main.bbl
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 10.18341pt on input line 5.
- [15]) [16]
-<fig10.PNG, id=105, 235.47975pt x 93.951pt>
+ [16]) [17]
+<fig10.PNG, id=109, 235.47975pt x 93.951pt>
 File: fig10.PNG Graphic file (type png)
 <use fig10.PNG>
-Package pdftex.def Info: fig10.PNG  used on input line 391.
+Package pdftex.def Info: fig10.PNG  used on input line 408.
 (pdftex.def)             Requested size: 433.62pt x 173.011pt.
-<fig8.PNG, id=106, 237.2865pt x 115.93312pt>
+<fig8.PNG, id=110, 237.2865pt x 115.93312pt>
 File: fig8.PNG Graphic file (type png)
 <use fig8.PNG>
-Package pdftex.def Info: fig8.PNG  used on input line 400.
+Package pdftex.def Info: fig8.PNG  used on input line 417.
 (pdftex.def)             Requested size: 433.62pt x 211.86009pt.
 
 
-LaTeX Warning: Reference `app:litresults' on page 17 undefined on input line 40
-7.
+LaTeX Warning: Reference `app:litresults' on page 18 undefined on input line 42
+4.
 
-[17 <./fig10.PNG> <./fig8.PNG>]
-<figshock.png, id=112, 817.0525pt x 798.985pt>
+[18 <./fig10.PNG> <./fig8.PNG>]
+<figshock.png, id=117, 817.0525pt x 798.985pt>
 File: figshock.png Graphic file (type png)
 <use figshock.png>
-Package pdftex.def Info: figshock.png  used on input line 430.
+Package pdftex.def Info: figshock.png  used on input line 447.
 (pdftex.def)             Requested size: 408.52525pt x 399.49152pt.
- [18] [19 <./figshock.png>]
+ [19] [20 <./figshock.png>]
 
-LaTeX Warning: Reference `fig:15' on page 20 undefined on input line 505.
+LaTeX Warning: Reference `fig:15' on page 21 undefined on input line 522.
 
-[20] (main.aux)
+[21] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 17824 strings out of 492970
- 344459 string characters out of 3126149
- 372478 words of memory out of 3000000
- 21455 multiletter control sequences out of 15000+200000
- 585168 words of font info for 96 fonts, out of 3000000 for 9000
+ 17804 strings out of 492970
+ 344082 string characters out of 3126149
+ 372525 words of memory out of 3000000
+ 21439 multiletter control sequences out of 15000+200000
+ 584547 words of font info for 94 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,63p,2272b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
@@ -1279,9 +1281,9 @@ c}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier
 rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Brodie/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Brodie
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (27 pages, 3567551 bytes).
+Output written on main.pdf (28 pages, 3689502 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 148 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

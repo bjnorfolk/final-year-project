@@ -249,7 +249,25 @@ The far-field noise developed by the shock wave-vortex interaction can be decomp
 
 \newpage
 \section{Experimental Methods \& Analysis Techniques}
-\subsection{•}
+\subsection{Technical University of Berlin Pulse Detonation Combustion Facility}
+The initial imaging processing work conducted in this thesis was tested on experimental data supplied by the Technical University of Berlin's pulse detonation combustion (PDC) facility. The PDC consists of a 685 mm deflagration-to-detonation transition (DDT)
+section and 825 mm exhaust tube. The DDT section has a diameter of 40 mm whilst
+the exhaust tube has a diameter of 30 mm. Hydrogen and air are fed to the DDT
+section. A number of orifice plates are used to initiate DDT. The detonation wave
+front is tracked through the exhaust tube using a number of ionisation and pressure
+sensors.
+Schlieren measurements were undertaken using a Toepler Z-Type schlieren system(20).
+Two 8in parabolic mirrors were combined with a high speed LED(21) to
+produce images of the exhaust flow. Images were recorded on a Photron SA-Z camera
+for converging and diverging nozzles.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{berlin.PNG} 
+	\caption{Shock tube facility schematic. Major parts of the
+		system have been labelled.}
+	\label{fig:shocktube}
+\end{figure}
 \subsection{Shock Tube Facility}
 The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A schematic of the facility is shown in Figure \ref{fig:shocktube}. 
 
@@ -332,16 +350,8 @@ Schlieren imaging is a visualization technique that utilises the refraction of l
 \epsilon_y = \frac{L}{n_0}\frac{\delta n}{\delta y}
 \end{equation}
 
-The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}). This Z-type apparatus incorporates parabolic mirrors to collimate the light. Parabolic mirrors eliminates problems associated with chromatic aberration and provides a unique advantage for imaging in comparison to systems using lenses. However, the use of mirrors introduces common imaging problems including coma and astigmatism. Coma is the result of off-axis, incorrect parabolic mirror tilting and disrupts the collimated light beam. It also causes the focal point of the parabolic mirrors to spread into a line. This issue is resolved by careful calibration of each parabolic mirror titling to achieve an overall cancelling effect.  Astigmatism is similarly caused by tilting the parabolic mirror off-axis. It occurs due alternating path lengths of light dependent on their respective optical plane. Astigmatism results in different focal points for each plane of propagating light and requires the knife-edge to be positioned for different density gradients. For Z-type schlieren configurations, coma and astigmatism is minimised by restricting the offset angle (tilt) of the parabolic mirrors to a minimum practical value. The facility utilises mirrors with an effective focal length of
-2032 mm. Illumination was provided by a pulsed LED. For more details on the system and
-LED operation, see Mitchell et al (2012) and Willert et al (2012).
-In order to avoid the problems associated with coma and astigmatism, careful calibration
-of the optical systems was conducted prior to experiments. Calibration involved
-alignment of the mirrors to ensure the collimated beam from one mirror was incident on
-the second mirror. This was followed by movement of the knife edge to the focal point.
-Finally, the distance between the focusing lens and the camera was adjusted until the image
-became in focus. This method was utilised to calibrate both the high resolution and high
-to with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps.
+The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}). This Z-type apparatus incorporates parabolic mirrors to collimate the light. Parabolic mirrors eliminates problems associated with chromatic aberration and provides a unique advantage for imaging in comparison to systems using lenses. However, the use of mirrors introduces common imaging problems including coma and astigmatism. Coma is the result of off-axis, incorrect parabolic mirror tilting and disrupts the collimated light beam. It also causes the focal point of the parabolic mirrors to spread into a line. This issue is resolved by careful calibration of each parabolic mirror titling to achieve an overall cancelling effect.  Astigmatism is similarly caused by tilting the parabolic mirror off-axis. It occurs due alternating path lengths of light dependent on their respective optical plane. Astigmatism results in different focal points for each plane of propagating light and requires the knife-edge to be positioned for different density gradients. For Z-type schlieren configurations, coma and astigmatism is minimised by restricting the offset angle (tilt) of the parabolic mirrors to minimum achievable values. Careful calibration prior to experimentation is required to avoid problems associated with coma and astigmatism. This involves correcting mirror allingments, adjusting the knife edge, and positioning the camera distance until the desired image is displayed. The parabolic mirrors used in the facility have an an effective focal length of $1200mm$ and the light source was supplied by a pulsed LED \cite{willert2012assessment}. 
+
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=1\textwidth]{schlieren.png} 
@@ -349,6 +359,13 @@ to with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pi
 	\label{fig:schlieren}
 \end{figure}
 
+\subsubsection{High Resolution Imaging}
+
+\subsubsection{High Speed Imaging}
+became in focus. This method was utilised to calibrate both the high resolution and high
+to with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps.
+\subsubsection{Limitations}
+Schlieren imaging has a number of limitations. Firstly, schlieren images are constructed using density gradients within the test region. The gradients are integrated over the optical path and as a result, images are developed as two-dimensional projections of an original three-dimensional fluid flow. This introduces possible incorrect projects of three-dimensional features. Additionally, the technique is line-of-sight dependent as the light must be collimated and refocused in order to produce an image. This restricts the layout of test section and sets requirements on the amount of space required for the apparatus.
 \subsection{Post Processing}
 Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation but, is difficult to quantitatively extract physical parameters directly from image data. 
 

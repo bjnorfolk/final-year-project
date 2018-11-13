@@ -7,23 +7,26 @@
 \contentsline {subsection}{\numberline {2.3}Transient Jet Impingement}{4}
 \contentsline {subsection}{\numberline {2.4}Acoustic Noise}{5}
 \contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{6}
-\contentsline {subsection}{\numberline {3.1}\IeC {\textbullet }}{6}
+\contentsline {subsection}{\numberline {3.1}Technical University of Berlin Pulse Detonation Combustion Facility}{6}
 \contentsline {subsection}{\numberline {3.2}Shock Tube Facility}{6}
-\contentsline {subsection}{\numberline {3.3}Facility Development and Calibration}{7}
-\contentsline {subsection}{\numberline {3.4}Nozzle Design}{7}
-\contentsline {subsection}{\numberline {3.5}Impingement Plate Design and Development}{7}
-\contentsline {subsubsection}{\numberline {3.5.1}Hydrostatic Test}{9}
-\contentsline {subsubsection}{\numberline {3.5.2}Sensor Calibration}{9}
-\contentsline {subsubsection}{\numberline {3.5.3}Diaphragm Study}{9}
-\contentsline {subsubsection}{\numberline {3.5.4}LED Calibration}{9}
-\contentsline {subsection}{\numberline {3.6}Schlieren Imaging}{9}
-\contentsline {subsection}{\numberline {3.7}Post Processing}{11}
-\contentsline {subsubsection}{\numberline {3.7.1}Second Order Convolution}{11}
-\contentsline {subsubsection}{\numberline {3.7.2}Ranking Methods}{11}
-\contentsline {section}{\numberline {4}Results \& Analysis}{12}
-\contentsline {section}{\numberline {5}Discussion}{13}
-\contentsline {section}{\numberline {6}Conclusions and Recommendations}{14}
-\contentsline {section}{Appendix}{17}
-\contentsline {section}{\numberline {A}Shock Facility}{17}
-\contentsline {section}{\numberline {B}Literature Comparison}{17}
-\contentsline {section}{\numberline {C}Shock Relations}{18}
+\contentsline {subsection}{\numberline {3.3}Facility Development and Calibration}{8}
+\contentsline {subsection}{\numberline {3.4}Nozzle Design}{8}
+\contentsline {subsection}{\numberline {3.5}Impingement Plate Design and Development}{8}
+\contentsline {subsubsection}{\numberline {3.5.1}Hydrostatic Test}{10}
+\contentsline {subsubsection}{\numberline {3.5.2}Sensor Calibration}{10}
+\contentsline {subsubsection}{\numberline {3.5.3}Diaphragm Study}{10}
+\contentsline {subsubsection}{\numberline {3.5.4}LED Calibration}{10}
+\contentsline {subsection}{\numberline {3.6}Schlieren Imaging}{10}
+\contentsline {subsubsection}{\numberline {3.6.1}High Resolution Imaging}{11}
+\contentsline {subsubsection}{\numberline {3.6.2}High Speed Imaging}{11}
+\contentsline {subsubsection}{\numberline {3.6.3}Limitations}{12}
+\contentsline {subsection}{\numberline {3.7}Post Processing}{12}
+\contentsline {subsubsection}{\numberline {3.7.1}Second Order Convolution}{12}
+\contentsline {subsubsection}{\numberline {3.7.2}Ranking Methods}{12}
+\contentsline {section}{\numberline {4}Results \& Analysis}{13}
+\contentsline {section}{\numberline {5}Discussion}{14}
+\contentsline {section}{\numberline {6}Conclusions and Recommendations}{15}
+\contentsline {section}{Appendix}{18}
+\contentsline {section}{\numberline {A}Shock Facility}{18}
+\contentsline {section}{\numberline {B}Literature Comparison}{18}
+\contentsline {section}{\numberline {C}Shock Relations}{19}
