@@ -2,19 +2,28 @@
 \contentsline {subsection}{\numberline {1.1}Motivation}{1}
 \contentsline {subsection}{\numberline {1.2}Aims}{1}
 \contentsline {section}{\numberline {2}Background Theory}{2}
-\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{5}
-\contentsline {subsection}{\numberline {3.1}Shock Tube Facility}{5}
-\contentsline {subsection}{\numberline {3.2}Nozzle Design}{6}
-\contentsline {subsection}{\numberline {3.3}Impingement Plate Design}{6}
-\contentsline {subsection}{\numberline {3.4}Schlieren Imaging}{8}
-\contentsline {subsection}{\numberline {3.5}Facility Development and Calibration}{9}
-\contentsline {subsection}{\numberline {3.6}Post Processing}{9}
-\contentsline {subsubsection}{\numberline {3.6.1}Second Order Convolution}{9}
-\contentsline {subsubsection}{\numberline {3.6.2}Ranking Methods}{9}
-\contentsline {section}{\numberline {4}Results \& Analysis}{10}
-\contentsline {section}{\numberline {5}Discussion}{11}
-\contentsline {section}{\numberline {6}Conclusions and Recommendations}{12}
-\contentsline {section}{Appendix}{15}
-\contentsline {section}{\numberline {A}Shock Facility}{15}
-\contentsline {section}{\numberline {B}Literature Comparison}{15}
-\contentsline {section}{\numberline {C}Shock Relations}{16}
+\contentsline {subsection}{\numberline {2.1}Pressure Gain Combustion}{2}
+\contentsline {subsection}{\numberline {2.2}Transient Supersonic Jet}{3}
+\contentsline {subsection}{\numberline {2.3}Transient Jet Impingement}{4}
+\contentsline {subsection}{\numberline {2.4}Acoustic Noise}{5}
+\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{6}
+\contentsline {subsection}{\numberline {3.1}\IeC {\textbullet }}{6}
+\contentsline {subsection}{\numberline {3.2}Shock Tube Facility}{6}
+\contentsline {subsection}{\numberline {3.3}Facility Development and Calibration}{7}
+\contentsline {subsection}{\numberline {3.4}Nozzle Design}{7}
+\contentsline {subsection}{\numberline {3.5}Impingement Plate Design and Development}{7}
+\contentsline {subsubsection}{\numberline {3.5.1}Hydrostatic Test}{9}
+\contentsline {subsubsection}{\numberline {3.5.2}Sensor Calibration}{9}
+\contentsline {subsubsection}{\numberline {3.5.3}Diaphragm Study}{9}
+\contentsline {subsubsection}{\numberline {3.5.4}LED Calibration}{9}
+\contentsline {subsection}{\numberline {3.6}Schlieren Imaging}{9}
+\contentsline {subsection}{\numberline {3.7}Post Processing}{11}
+\contentsline {subsubsection}{\numberline {3.7.1}Second Order Convolution}{11}
+\contentsline {subsubsection}{\numberline {3.7.2}Ranking Methods}{11}
+\contentsline {section}{\numberline {4}Results \& Analysis}{12}
+\contentsline {section}{\numberline {5}Discussion}{13}
+\contentsline {section}{\numberline {6}Conclusions and Recommendations}{14}
+\contentsline {section}{Appendix}{17}
+\contentsline {section}{\numberline {A}Shock Facility}{17}
+\contentsline {section}{\numberline {B}Literature Comparison}{17}
+\contentsline {section}{\numberline {C}Shock Relations}{18}

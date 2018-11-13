@@ -5,6 +5,20 @@ P.~Akbari and R.~Nalim, ``Review of recent developments in wave rotor
   combustion technology,'' {\em Journal of Propulsion and Power}, vol.~25,
   no.~4, pp.~833--844, 2009.
 
+\bibitem{skews1967perturbed}
+B.~W. Skews, ``The perturbed region behind a diffracting shock wave,'' {\em
+  Journal of Fluid Mechanics}, vol.~29, no.~4, pp.~705--719, 1967.
+
+\bibitem{fernandez2017compressible}
+J.~J.~P. Fern{\'a}ndez and J.~Sesterhenn, ``Compressible starting jet:
+  Pinch-off and vortex ring--trailing jet interaction,'' {\em Journal of Fluid
+  Mechanics}, vol.~817, pp.~560--589, 2017.
+
+\bibitem{szumowski2000starting}
+A.~Szumowski, G.~Sobieraj, W.~Selerowicz, and J.~Piechna, ``Starting jet--wall
+  interaction,'' {\em Journal of sound and vibration}, vol.~232, no.~4,
+  pp.~695--702, 2000.
+
 \bibitem{cantwell2017}
 B.~Cantwell, ``Fundamentals of compressible flow,'' 2017.
 
@@ -63,11 +77,6 @@ M.~Gharib, E.~Rambod, and K.~Shariff, ``A universal time scale for vortex ring
 W.~Zhao, S.~H. Frankel, and L.~G. Mongeau, ``Effects of trailing jet
   instability on vortex ring formation,'' {\em Physics of Fluids}, vol.~12,
   no.~3, pp.~589--596, 2000.
-
-\bibitem{szumowski2000starting}
-A.~Szumowski, G.~Sobieraj, W.~Selerowicz, and J.~Piechna, ``Starting jet--wall
-  interaction,'' {\em Journal of sound and vibration}, vol.~232, no.~4,
-  pp.~695--702, 2000.
 
 \bibitem{minota1997shock}
 T.~Minota, M.~Nishida, and M.~Lee, ``Shock formation by compressible vortex

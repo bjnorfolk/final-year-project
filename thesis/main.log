@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  13 NOV 2018 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  13 NOV 2018 16:26
 entering extended mode
 **./main.tex
 (main.tex
@@ -862,59 +862,59 @@ Package caption Info: float package is loaded.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 66.
-LaTeX Font Info:    Try loading font information for FML+fncmi on input line 66
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 67.
+LaTeX Font Info:    Try loading font information for FML+fncmi on input line 67
 .
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
 i.fd"
 File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 66.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for FMS+fncm on input line 67.
 
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmsfncm
 .fd"
 File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 66.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 67.
 
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fourier\fmxfutm.f
 d"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 67.
  ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 66.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Try loading font information for T1+fnc on input line 67.
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\t1fnc.f
 d"
 File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
 )
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.18341pt on input line 66.
+(Font)              scaled to size 10.18341pt on input line 67.
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
@@ -991,15 +991,15 @@ G,.JBIG2,.JB2,.eps]
 * hratio: 1:1
 * modes: 
 * h-part:(L,W,R)=(81.94394pt, 433.62pt, 81.94394pt)
-* v-part:(T,H,B)=(71.13188pt, 650.43pt, 123.48497pt)
+* v-part:(T,H,B)=(99.58464pt, 650.43pt, 95.03221pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=433.62pt
 * \textheight=650.43pt
 * \oddsidemargin=9.67395pt
 * \evensidemargin=9.67395pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
+* \topmargin=-9.68535pt
+* \headheight=14.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
 * \footskip=30.0pt
@@ -1036,21 +1036,21 @@ Dictionary: translator-basic-dictionary, Language: English
 bbreviations.cfg"
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 66.
+LaTeX Info: Redefining \selectfont on input line 67.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 7.71893pt on input line 66.
+(Font)              scaled to size 7.71893pt on input line 67.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 5.57996pt on input line 66.
+(Font)              scaled to size 5.57996pt on input line 67.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 66.
+(Font)              scaled to size 10.07397pt on input line 67.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 66.
+(Font)              scaled to size 7.63599pt on input line 67.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 66.
-LaTeX Font Info:    Try loading font information for FML+fncm on input line 66.
+(Font)              scaled to size 5.51999pt on input line 67.
+LaTeX Font Info:    Try loading font information for FML+fncm on input line 67.
 
 
 ("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\fmlfncm
@@ -1058,56 +1058,50 @@ LaTeX Font Info:    Try loading font information for FML+fncm on input line 66.
 File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 66.
+(Font)              scaled to size 10.07397pt on input line 67.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 66.
+(Font)              scaled to size 7.63599pt on input line 67.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 66.
+(Font)              scaled to size 5.51999pt on input line 67.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 10.18341pt on input line 72.
+(Font)              scaled to size 10.18341pt on input line 73.
 <monash_logo.jpg, id=1, 811.1103pt x 345.9324pt>
 File: monash_logo.jpg Graphic file (type jpg)
 <use monash_logo.jpg>
-Package pdftex.def Info: monash_logo.jpg  used on input line 81.
+Package pdftex.def Info: monash_logo.jpg  used on input line 82.
 (pdftex.def)             Requested size: 324.43837pt x 138.3705pt.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 13.39188pt on input line 87.
+(Font)              scaled to size 13.39188pt on input line 88.
 LaTeX Font Info:    Font shape `T1/fnc/m/sc' will be
-(Font)              scaled to size 16.07027pt on input line 97.
+(Font)              scaled to size 16.07027pt on input line 98.
 <ltrac_logo.png, id=2, 241.65282pt x 61.73062pt>
 File: ltrac_logo.png Graphic file (type png)
 <use ltrac_logo.png>
-Package pdftex.def Info: ltrac_logo.png  used on input line 139.
+Package pdftex.def Info: ltrac_logo.png  used on input line 140.
 (pdftex.def)             Requested size: 144.9928pt x 37.03864pt.
  [1
 
 {C:/Users/Brodie/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./monash_l
 ogo.jpg> <./ltrac_logo.png>]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.39188pt on input line 150.
+(Font)              scaled to size 13.39188pt on input line 151.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 150.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 151.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.39188pt on input line 150.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] (main.toc
+(Font)              scaled to size 13.39188pt on input line 151.
+ [1] [2] (main.toc
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fnc/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 (Font)              scaled to size 10.18341pt on input line 1.
+LaTeX Font Info:    Try loading font information for TS1+fnc on input line 10.
+
+("C:\Users\Brodie\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fouriernc\ts1fnc.
+fd"
+File: ts1fnc.fd 2005/12/13 font definitions for TS1/fnc.
+)
+LaTeX Font Info:    Font shape `TS1/fnc/m/n' will be
+(Font)              scaled to size 10.18341pt on input line 10.
 )
 \tf@toc=\write3
 \openout3 = `main.toc'.
@@ -1120,272 +1114,165 @@ LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [5]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6]
+ [5] [6]
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 192.
+(Font)              scaled to size 11.15991pt on input line 193.
 LaTeX Font Info:    Font shape `T1/fnc/bx/n' in size <12> not available
-(Font)              Font shape `T1/fnc/b/n' tried instead on input line 192.
+(Font)              Font shape `T1/fnc/b/n' tried instead on input line 193.
 LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 192.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1]
+(Font)              scaled to size 11.15991pt on input line 193.
+ [1]
 <pcg.png, id=36, 633.11531pt x 499.8675pt>
 File: pcg.png Graphic file (type png)
 <use pcg.png>
-Package pdftex.def Info: pcg.png  used on input line 206.
+Package pdftex.def Info: pcg.png  used on input line 208.
 (pdftex.def)             Requested size: 316.55687pt x 249.93314pt.
+ [2 <./pcg.png>]
+<fig0.PNG, id=41, 379.11638pt x 235.17862pt>
+File: fig0.PNG Graphic file (type png)
+<use fig0.PNG>
+Package pdftex.def Info: fig0.PNG  used on input line 219.
+(pdftex.def)             Requested size: 341.20158pt x 211.6588pt.
+<fig2.png, id=42, 1577.895pt x 531.9875pt>
+File: fig2.png Graphic file (type png)
+<use fig2.png>
+Package pdftex.def Info: fig2.png  used on input line 228.
+(pdftex.def)             Requested size: 433.62pt x 146.19554pt.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./pcg.png>]
+[3 <./fig0.PNG>]
+<fig4.PNG, id=47, 439.04025pt x 163.812pt>
+File: fig4.PNG Graphic file (type png)
+<use fig4.PNG>
+Package pdftex.def Info: fig4.PNG  used on input line 240.
+(pdftex.def)             Requested size: 433.62pt x 161.79193pt.
 
-LaTeX Warning: Reference `fig:0' on page 3 undefined on input line 213.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+[4 <./fig2.png>] [5 <./fig4.PNG>]
+LaTeX Font Info:    Font shape `TS1/fnc/bx/n' in size <12> not available
+(Font)              Font shape `TS1/fnc/b/n' tried instead on input line 252.
+LaTeX Font Info:    Font shape `TS1/fnc/b/n' will be
+(Font)              scaled to size 11.15991pt on input line 252.
 
-[3]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-Overfull \hbox (3.17152pt too wide) in paragraph at lines 248--249
+Overfull \hbox (3.17152pt too wide) in paragraph at lines 254--255
 \T1/fnc/m/n/10.95 The ex-per-i-ments pre-sented were con-ducted in the LTRAC Su
 -per-sonic Jet Fa-cil-ity. A schematic
  []
 
-<fig9.PNG, id=47, 254.45062pt x 99.9735pt>
+<fig9.PNG, id=55, 254.45062pt x 99.9735pt>
 File: fig9.PNG Graphic file (type png)
 <use fig9.PNG>
-Package pdftex.def Info: fig9.PNG  used on input line 252.
-(pdftex.def)             Requested size: 455.3023pt x 178.8965pt.
-
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 252--254
- [][] 
- []
-
-<fig1.png, id=48, 421.575pt x 316.18124pt>
+Package pdftex.def Info: fig9.PNG  used on input line 258.
+(pdftex.def)             Requested size: 433.62pt x 170.37674pt.
+<fig1.png, id=56, 421.575pt x 316.18124pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 270.
+Package pdftex.def Info: fig1.png  used on input line 276.
 (pdftex.def)             Requested size: 379.41399pt x 284.56049pt.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5 <./fig9.PNG>]
-<convergent_cad.png, id=54, 341.275pt x 461.725pt>
+[6 <./fig9.PNG>]
+<convergent_cad.png, id=63, 341.275pt x 461.725pt>
 File: convergent_cad.png Graphic file (type png)
 <use convergent_cad.png>
-Package pdftex.def Info: convergent_cad.png  used on input line 280.
+Package pdftex.def Info: convergent_cad.png  used on input line 287.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
 LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 280.
-<con_noz.png, id=55, 132.19388pt x 179.16937pt>
+(Font)              scaled to size 8.36993pt on input line 287.
+<con_noz.png, id=64, 132.19388pt x 179.16937pt>
 File: con_noz.png Graphic file (type png)
 <use con_noz.png>
-Package pdftex.def Info: con_noz.png  used on input line 282.
+Package pdftex.def Info: con_noz.png  used on input line 289.
 (pdftex.def)             Requested size: 173.44534pt x 235.08813pt.
-<divergent_cad.png, id=56, 341.275pt x 461.725pt>
+<divergent_cad.png, id=65, 341.275pt x 461.725pt>
 File: divergent_cad.png Graphic file (type png)
 <use divergent_cad.png>
-Package pdftex.def Info: divergent_cad.png  used on input line 289.
+Package pdftex.def Info: divergent_cad.png  used on input line 296.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
-<div_noz.png, id=57, 142.131pt x 205.9695pt>
+<div_noz.png, id=66, 142.131pt x 205.9695pt>
 File: div_noz.png Graphic file (type png)
 <use div_noz.png>
-Package pdftex.def Info: div_noz.png  used on input line 291.
+Package pdftex.def Info: div_noz.png  used on input line 298.
 (pdftex.def)             Requested size: 173.44534pt x 251.35782pt.
-<con_div_cad.png, id=58, 341.275pt x 461.725pt>
+<con_div_cad.png, id=67, 341.275pt x 461.725pt>
 File: con_div_cad.png Graphic file (type png)
 <use con_div_cad.png>
-Package pdftex.def Info: con_div_cad.png  used on input line 298.
+Package pdftex.def Info: con_div_cad.png  used on input line 305.
 (pdftex.def)             Requested size: 173.44534pt x 234.66641pt.
-<con_div_noz.png, id=59, 128.58037pt x 171.34012pt>
+<con_div_noz.png, id=68, 128.58037pt x 171.34012pt>
 File: con_div_noz.png Graphic file (type png)
 <use con_div_noz.png>
-Package pdftex.def Info: con_div_noz.png  used on input line 300.
+Package pdftex.def Info: con_div_noz.png  used on input line 307.
 (pdftex.def)             Requested size: 173.44534pt x 231.12662pt.
 
 
-LaTeX Warning: Reference `app:drawings' on page 6 undefined on input line 307.
+LaTeX Warning: Reference `fig:plate' on page 7 undefined on input line 313.
 
 
-LaTeX Warning: Citation `mariani2013a' on page 6 undefined on input line 307.
+LaTeX Warning: Citation `mariani2013a' on page 7 undefined on input line 313.
 
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:wobble' on page 7 undefined on input line 317.
 
-[6 <./fig1.png (PNG copy)>]
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+LaTeX Warning: Reference `fig:plate_support' on page 7 undefined on input line 
+317.
 
-[7 <./convergent_cad.png (PNG copy)> <./con_noz.png> <./divergent_cad.png (PNG 
-copy)> <./div_noz.png>]
+[7 <./fig1.png (PNG copy)>] [8 <./convergent_cad.png (PNG copy)> <./con_noz.png
+> <./divergent_cad.png (PNG copy)> <./div_noz.png>] [9 <./con_div_cad.png (PNG 
+copy)> <./con_div_noz.png>]
 
 pdfTeX warning: pdflatex (file ./schlieren_diagram.pdf): PDF inclusion: found P
 DF version <1.7>, but at most version <1.5> allowed
-<schlieren_diagram.pdf, id=69, 963.6pt x 542.025pt>
+<schlieren_diagram.pdf, id=81, 963.6pt x 542.025pt>
 File: schlieren_diagram.pdf Graphic file (type pdf)
 <use schlieren_diagram.pdf>
-Package pdftex.def Info: schlieren_diagram.pdf  used on input line 317.
+Package pdftex.def Info: schlieren_diagram.pdf  used on input line 379.
 (pdftex.def)             Requested size: 433.62pt x 243.90898pt.
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <./con_div_cad.png (PNG copy)> <./con_div_noz.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./schlieren_diagram.pdf>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12] (main.bbl
+[10] [11 <./schlieren_diagram.pdf>] [12] [13] [14] (main.bbl
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 10.18341pt on input line 5.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13])
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14]
-<fig10.PNG, id=102, 235.47975pt x 93.951pt>
+ [15]) [16]
+<fig10.PNG, id=113, 235.47975pt x 93.951pt>
 File: fig10.PNG Graphic file (type png)
 <use fig10.PNG>
-Package pdftex.def Info: fig10.PNG  used on input line 364.
-(pdftex.def)             Requested size: 455.3023pt x 181.66263pt.
-
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 364--367
- [][] 
- []
-
-<fig8.PNG, id=103, 237.2865pt x 115.93312pt>
+Package pdftex.def Info: fig10.PNG  used on input line 423.
+(pdftex.def)             Requested size: 433.62pt x 173.011pt.
+<fig8.PNG, id=114, 237.2865pt x 115.93312pt>
 File: fig8.PNG Graphic file (type png)
 <use fig8.PNG>
-Package pdftex.def Info: fig8.PNG  used on input line 373.
-(pdftex.def)             Requested size: 455.3023pt x 222.4546pt.
-
-Overfull \hbox (21.68231pt too wide) in paragraph at lines 373--375
- [][] 
- []
+Package pdftex.def Info: fig8.PNG  used on input line 432.
+(pdftex.def)             Requested size: 433.62pt x 211.86009pt.
 
 
-LaTeX Warning: Reference `app:litresults' on page 15 undefined on input line 38
-0.
+LaTeX Warning: Reference `app:litresults' on page 17 undefined on input line 43
+9.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./fig10.PNG> <./fig8.PNG>]
-<figshock.png, id=109, 817.0525pt x 798.985pt>
+[17 <./fig10.PNG> <./fig8.PNG>]
+<figshock.png, id=120, 817.0525pt x 798.985pt>
 File: figshock.png Graphic file (type png)
 <use figshock.png>
-Package pdftex.def Info: figshock.png  used on input line 403.
+Package pdftex.def Info: figshock.png  used on input line 462.
 (pdftex.def)             Requested size: 408.52525pt x 399.49152pt.
+ [18] [19 <./figshock.png>]
 
+LaTeX Warning: Reference `fig:15' on page 20 undefined on input line 537.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <./figshock.png>]
-
-LaTeX Warning: Reference `fig:15' on page 18 undefined on input line 478.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18] (main.aux)
+[20] (main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17775 strings out of 492970
- 343764 string characters out of 3126149
- 372427 words of memory out of 3000000
- 21414 multiletter control sequences out of 15000+200000
- 584547 words of font info for 94 fonts, out of 3000000 for 9000
+ 17824 strings out of 492970
+ 344523 string characters out of 3126149
+ 372478 words of memory out of 3000000
+ 21455 multiletter control sequences out of 15000+200000
+ 585168 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,15n,63p,2273b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,15n,63p,2272b,550s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
 c}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier
 /fourier-mex.pfb><C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
@@ -1394,9 +1281,9 @@ c}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier
 rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Brodie/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Brodie
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (25 pages, 2545672 bytes).
+Output written on main.pdf (27 pages, 3693328 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 152 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
