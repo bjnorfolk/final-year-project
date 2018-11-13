@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  13 NOV 2018 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.10.12)  13 NOV 2018 17:01
 entering extended mode
 **./main.tex
 (main.tex
@@ -1221,44 +1221,42 @@ LaTeX Warning: Reference `fig:plate_support' on page 7 undefined on input line
 317.
 
 [7 <./fig1.png (PNG copy)>] [8 <./convergent_cad.png (PNG copy)> <./con_noz.png
-> <./divergent_cad.png (PNG copy)> <./div_noz.png>] [9 <./con_div_cad.png (PNG 
-copy)> <./con_div_noz.png>]
-
-pdfTeX warning: pdflatex (file ./schlieren_diagram.pdf): PDF inclusion: found P
-DF version <1.7>, but at most version <1.5> allowed
-<schlieren_diagram.pdf, id=81, 963.6pt x 542.025pt>
-File: schlieren_diagram.pdf Graphic file (type pdf)
-<use schlieren_diagram.pdf>
-Package pdftex.def Info: schlieren_diagram.pdf  used on input line 379.
-(pdftex.def)             Requested size: 433.62pt x 243.90898pt.
-[10] [11 <./schlieren_diagram.pdf>] [12] [13] [14] (main.bbl
+> <./divergent_cad.png (PNG copy)> <./div_noz.png>]
+<schlieren.png, id=77, 793.46437pt x 493.0922pt>
+File: schlieren.png Graphic file (type png)
+<use schlieren.png>
+Package pdftex.def Info: schlieren.png  used on input line 347.
+(pdftex.def)             Requested size: 433.62pt x 269.47102pt.
+ [9 <./con_div_cad.png (PNG copy)> <./con_div_noz.png>] [10 <./schlieren.png>] 
+[11] [12] [13] [14]
+(main.bbl
 LaTeX Font Info:    Font shape `T1/fnc/m/it' will be
 (Font)              scaled to size 10.18341pt on input line 5.
  [15]) [16]
-<fig10.PNG, id=113, 235.47975pt x 93.951pt>
+<fig10.PNG, id=105, 235.47975pt x 93.951pt>
 File: fig10.PNG Graphic file (type png)
 <use fig10.PNG>
-Package pdftex.def Info: fig10.PNG  used on input line 423.
+Package pdftex.def Info: fig10.PNG  used on input line 391.
 (pdftex.def)             Requested size: 433.62pt x 173.011pt.
-<fig8.PNG, id=114, 237.2865pt x 115.93312pt>
+<fig8.PNG, id=106, 237.2865pt x 115.93312pt>
 File: fig8.PNG Graphic file (type png)
 <use fig8.PNG>
-Package pdftex.def Info: fig8.PNG  used on input line 432.
+Package pdftex.def Info: fig8.PNG  used on input line 400.
 (pdftex.def)             Requested size: 433.62pt x 211.86009pt.
 
 
-LaTeX Warning: Reference `app:litresults' on page 17 undefined on input line 43
-9.
+LaTeX Warning: Reference `app:litresults' on page 17 undefined on input line 40
+7.
 
 [17 <./fig10.PNG> <./fig8.PNG>]
-<figshock.png, id=120, 817.0525pt x 798.985pt>
+<figshock.png, id=112, 817.0525pt x 798.985pt>
 File: figshock.png Graphic file (type png)
 <use figshock.png>
-Package pdftex.def Info: figshock.png  used on input line 462.
+Package pdftex.def Info: figshock.png  used on input line 430.
 (pdftex.def)             Requested size: 408.52525pt x 399.49152pt.
  [18] [19 <./figshock.png>]
 
-LaTeX Warning: Reference `fig:15' on page 20 undefined on input line 537.
+LaTeX Warning: Reference `fig:15' on page 20 undefined on input line 505.
 
 [20] (main.aux)
 
@@ -1267,7 +1265,7 @@ LaTeX Warning: There were undefined references.
  ) 
 Here is how much of TeX's memory you used:
  17824 strings out of 492970
- 344523 string characters out of 3126149
+ 344459 string characters out of 3126149
  372478 words of memory out of 3000000
  21455 multiletter control sequences out of 15000+200000
  585168 words of font info for 96 fonts, out of 3000000 for 9000
@@ -1281,9 +1279,9 @@ c}<C:/Users/Brodie/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fourier
 rograms/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Brodie/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/Users/Brodie
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on main.pdf (27 pages, 3693328 bytes).
+Output written on main.pdf (27 pages, 3567551 bytes).
 PDF statistics:
- 152 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

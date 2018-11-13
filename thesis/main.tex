@@ -322,7 +322,7 @@ The first iterative design of the plate resulted in a slight unexpected wobble d
 \subsubsection{LED Calibration}
 
 \subsection{Schlieren Imaging}
-Schlieren imaging is a visualization technique that utilises the refraction of light to produce focused optical images of transparent media. Point source light is collimated and passed through a test region containing a transparent media with inhomogeneities. Light entering the test region will refract at varied degrees according to an inhomogeneous density distribution present. When refraction occurs the curvature $\epsilon$ of light can be calculated using Equations \ref{eqn:curv_x} and \ref{eqn:curv_y}. The light is then refocused and a knife-edge is used to partially block a fraction of incident light from the screen or camera.
+Schlieren imaging is a visualization technique that utilises the refraction of light to produce focused optical images of transparent media. Point source light is collimated and passed through a test region containing a transparent media with inhomogeneities. Light entering the test region will refract at varied degrees according to an inhomogeneous density distribution present. When refraction occurs the curvature $\epsilon$ of light, for a given test section length L, and refractive index $n_0$ can be calculated using Equations \ref{eqn:curv_x} and \ref{eqn:curv_y} for x and y orthogonal coordinates. The light is then refocused and a knife-edge is used to partially block a fraction of incident light from the screen or camera.
 
 \begin{equation}\label{eqn:curv_x}
 \epsilon_x = \frac{L}{n_0}\frac{\delta n}{\delta x}
@@ -332,39 +332,7 @@ Schlieren imaging is a visualization technique that utilises the refraction of l
 \epsilon_y = \frac{L}{n_0}\frac{\delta n}{\delta y}
 \end{equation}
 
-The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}) with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps. 
-
- The angular curvature of the light rays can be calculated from
-
-where  is the angular curvature, L is the length over which the light passes through the
-inhomogeneous region, n0 is the refractive index of the medium and x and y are orthogonal
-coordinates.
-The light is then refocused using a another mirror. A knife-edge is used to partially
-block some light from the screen or camera. When the knife-edge is placed at this point,
-the light rays which bend the most are blocked while those that did not bend as much are
-allowed to pass through to the camera. The result is the formation of regions of varying
-brightness which dark regions indicating regions where light refracted a greater amount. A
-number of different schlieren experimental setups have been devised over the years. Each
-setup has its own advantages and limitations. For more details, see Settles (2012).
-The most common schlieren setup used by researchers is a Z-type schlieren apparatus,
-shown in Figure 3.7. The Z-type apparatus allows for optimal use of space. Other experimental
-setups that utilise lenses require aberration free lenses, which are very expensive.
-The Z-type apparatus utilises parabolic mirrors to collimate the light. The use of a mirrors
-over lenses allows for problems associated with chromatic aberration to be eliminated.
-However, the use of mirrors also introduced two other problems - coma and astigmatism.
-Coma is the result of the tilting of the mirrors off axis. This causes light reflection directions
-from the mirrors to change and depend upon the reflection point. It also causes the
-focal point to become spread out into a line. Careful calibration of the mirrors by titling
-to equal and opposite angles cancels out this problem. Astigmatism is also the result of
-the tilting of the mirrors off axis. Astigmatism occurs due to a difference in the path
-length of light based upon the optical plane along which the light travels. This results in
-different focal points for different planes and thus the knife-edge must be moved to seek
-different density gradients. In the Z-type schlieren setup, these problems are minimised by
-restricting the offset angle of the mirrors to their minimum practical values [Settles, 2012].
-The experimental setup shown in Figure 3.7 is similar to the Toepler Z-type schlieren
-apparatus currently installed in the Monash University LTRAC Combustion Laboratory.
-In the LTRAC facility, the jet assembly shown in the previous section is within the test
-region shown in Figure 3.7. The facility utilises mirrors with an effective focal length of
+The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}). This Z-type apparatus incorporates parabolic mirrors to collimate the light. Parabolic mirrors eliminates problems associated with chromatic aberration and provides a unique advantage for imaging in comparison to systems using lenses. However, the use of mirrors introduces common imaging problems including coma and astigmatism. Coma is the result of off-axis, incorrect parabolic mirror tilting and disrupts the collimated light beam. It also causes the focal point of the parabolic mirrors to spread into a line. This issue is resolved by careful calibration of each parabolic mirror titling to achieve an overall cancelling effect.  Astigmatism is similarly caused by tilting the parabolic mirror off-axis. It occurs due alternating path lengths of light dependent on their respective optical plane. Astigmatism results in different focal points for each plane of propagating light and requires the knife-edge to be positioned for different density gradients. For Z-type schlieren configurations, coma and astigmatism is minimised by restricting the offset angle (tilt) of the parabolic mirrors to a minimum practical value. The facility utilises mirrors with an effective focal length of
 2032 mm. Illumination was provided by a pulsed LED. For more details on the system and
 LED operation, see Mitchell et al (2012) and Willert et al (2012).
 In order to avoid the problems associated with coma and astigmatism, careful calibration
@@ -373,10 +341,10 @@ alignment of the mirrors to ensure the collimated beam from one mirror was incid
 the second mirror. This was followed by movement of the knife edge to the focal point.
 Finally, the distance between the focusing lens and the camera was adjusted until the image
 became in focus. This method was utilised to calibrate both the high resolution and high
-
+to with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps.
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=1\textwidth]{schlieren_diagram.pdf} 
+	\includegraphics[width=1\textwidth]{schlieren.png} 
 	\caption{Detail schlieren system diagram}
 	\label{fig:schlieren}
 \end{figure}
