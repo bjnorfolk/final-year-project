@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{rudzki2009vessel}
+M.~Rudzki, ``Vessel detection method based on eigenvalues of the hessian matrix
+  and its applicability to airway tree segmentation,'' in {\em Proceedings of
+  the 11th International PhD Workshop OWD}, pp.~100--105, 2009.
+
 \bibitem{akbari2009review}
 P.~Akbari and R.~Nalim, ``Review of recent developments in wave rotor
   combustion technology,'' {\em Journal of Propulsion and Power}, vol.~25,
@@ -18,6 +23,20 @@ J.~J.~P. Fern{\'a}ndez and J.~Sesterhenn, ``Compressible starting jet:
 A.~Szumowski, G.~Sobieraj, W.~Selerowicz, and J.~Piechna, ``Starting jet--wall
   interaction,'' {\em Journal of sound and vibration}, vol.~232, no.~4,
   pp.~695--702, 2000.
+
+\bibitem{bhavberlin}
+B.~Thethy, ``Influence of nozzle geometry on detonation-driven and shock-driven
+  transient supersonic jet flow,'' {\em ISABE}, 2019.
+
+\bibitem{settles2001schlieren}
+G.~Settles, ``Schlieren and shadowgraph techniques- visualizing phenomena in
+  transparent media(book),'' {\em Berlin, Germany: Springer-Verlag GmbH,
+  2001.}, 2001.
+
+\bibitem{grauman2011visual}
+K.~Grauman and B.~Leibe, ``Visual object recognition,'' {\em Synthesis lectures
+  on artificial intelligence and machine learning}, vol.~5, no.~2, pp.~1--181,
+  2011.
 
 \bibitem{cantwell2017}
 B.~Cantwell, ``Fundamentals of compressible flow,'' 2017.
@@ -93,6 +112,11 @@ T.~Murugan and D.~Das, ``Characteristics of noise produced during impingement
   of a compressible vortex ring on a wall,'' {\em International Journal of
   Aeroacoustics}, vol.~9, no.~6, pp.~849--858, 2010.
 
+\bibitem{willert2012assessment}
+C.~E. Willert, D.~M. Mitchell, and J.~Soria, ``An assessment of high-power
+  light-emitting diodes for high frame rate schlieren imaging,'' {\em
+  Experiments in fluids}, vol.~53, no.~2, pp.~413--421, 2012.
+
 \bibitem{john1962shock}
 J.~N. Bradley, {\em Shock waves in chemistry and physics}.
 \newblock Methuen, 1962.
@@ -107,15 +131,17 @@ L.~Poldervaart, A.~Vink, and A.~Wijnands, ``The photographic evidence of the
   {\em Proceedings of the 6th International Congress on Acoustics, Tokyo,
   Japan}, 1968.
 
-\bibitem{settles2001schlieren}
-G.~Settles, ``Schlieren and shadowgraph techniques- visualizing phenomena in
-  transparent media(book),'' {\em Berlin, Germany: Springer-Verlag GmbH,
-  2001.}, 2001.
+\bibitem{lindeberg1994linear}
+T.~Lindeberg and B.~M. ter Haar~Romeny, ``Linear scale-space i: Basic theory,''
+  in {\em Geometry-driven diffusion in computer vision}, pp.~1--38, Springer,
+  1994.
 
-\bibitem{willert2012assessment}
-C.~E. Willert, D.~M. Mitchell, and J.~Soria, ``An assessment of high-power
-  light-emitting diodes for high frame rate schlieren imaging,'' {\em
-  Experiments in fluids}, vol.~53, no.~2, pp.~413--421, 2012.
+\bibitem{meijering2004design}
+E.~Meijering, M.~Jacob, J.-C. Sarria, P.~Steiner, H.~Hirling, and M.~Unser,
+  ``Design and validation of a tool for neurite tracing and analysis in
+  fluorescence microscopy images,'' {\em Cytometry Part A: the journal of the
+  International Society for Analytical Cytology}, vol.~58, no.~2, pp.~167--176,
+  2004.
 
 \bibitem{thangadurai2012experimental}
 M.~Thangadurai and D.~Das, ``Experimental study on a compressible vortex ring

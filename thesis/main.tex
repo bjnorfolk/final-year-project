@@ -169,8 +169,11 @@ The author would like to thank those who provided advice and guidance throughout
 $M_1$      & Ambient Mach number                         \\ \smallskip
 $P_1$      & Ambient pressure, Pa                        \\ \smallskip
 $P_4$      & Shock tube driver section pressure, Pa      \\ \smallskip
+$T_p$      & LED pulse width timing, seconds             \\ \smallskip
+$U_i$      & Incident shock wave air velocity, m/s       \\ \smallskip
 $U_1$      & Ambient air velocity, m/s                   \\ \smallskip
 $U_4$      & Shock tube driver section air velocity, m/s \\ \smallskip
+$X_{image}$      & Image length, mm                      \\ \smallskip
 $\gamma_1$ & Ambient specific heat ratio                 \\ \smallskip
 $\gamma_4$ & Driver specific heat ratio                 
 \end{tabular}
@@ -191,7 +194,7 @@ $\gamma_4$ & Driver specific heat ratio
 \section{Introduction} 
 
 \subsection{Motivation}
-Understanding transient supersonic jets is integral for the integration of pressure gain combustion in ground and aerospace gas turbine applications. PGC offers a significant gain in thermodynamic efficiencies and subsequent reduction in fossil fuel consumption. The literature adeptly describes transient supersonic jet fluid dynamics for propagation from a no nozzle shock tube, and impingement on plates set to varying angles in respect to the flow. However, there is an absence of extensive, repeated experiments, high quality schlieren, and variable exit geometry. The motivation of this experiment is to address  absences in the literature discussed in \ref{sec:background} and to explore in detail, the shock-vortex interaction during jet impingement. To this end the project will seek to answer the following research questions:
+Understanding transient supersonic jets is integral for the integration of pressure gain combustion in ground and aerospace gas turbine applications. PGC offers a significant gain in thermodynamic efficiencies and subsequent reduction in fossil fuel consumption. The literature adeptly describes the fluid dynamics for a transient supersonic jet propagating from a no nozzle shock tube, and the impingement of a transient supersonic on plates set to varying angles in respect to the flow. However, there is an absence of extensive, repeated experiments, high quality schlieren, and variable exit geometry. This thesis is motivated by absences in the literature and aims to explore in detail, the shock-vortex interaction during jet impingement.
 
 \subsection{Aims}
 This thesis aims to explore the fundamental fluid dynamics for transient supersonic jets by means of varying the exit flow nozzle geometry and introducing an impingement plate set at $90^{\circ}$ to the oncoming flow. The propagation and time dependent growth of transient and trailing jet Mach disks will be investigated in an attempt to address absences in the literature, and explore in detail the shock-vortex interaction during jet impingement. The pixel relative velocity of the impinging shock wave for plate and no plate experiments will be extracted from the data in order to define each individual flow regime. The fundamental fluid dynamics under investigation are; nozzle geometry effects on the shock-vortex interaction and jet impingement, and Mach number variations on all of the latter.
@@ -250,24 +253,17 @@ The far-field noise developed by the shock wave-vortex interaction can be decomp
 \newpage
 \section{Experimental Methods \& Analysis Techniques}
 \subsection{Technical University of Berlin Pulse Detonation Combustion Facility}
-The initial imaging processing work conducted in this thesis was tested on experimental data supplied by the Technical University of Berlin's pulse detonation combustion (PDC) facility. The PDC consists of a 685 mm deflagration-to-detonation transition (DDT)
-section and 825 mm exhaust tube. The DDT section has a diameter of 40 mm whilst
-the exhaust tube has a diameter of 30 mm. Hydrogen and air are fed to the DDT
-section. A number of orifice plates are used to initiate DDT. The detonation wave
-front is tracked through the exhaust tube using a number of ionisation and pressure
-sensors.
-Schlieren measurements were undertaken using a Toepler Z-Type schlieren system(20).
-Two 8in parabolic mirrors were combined with a high speed LED(21) to
-produce images of the exhaust flow. Images were recorded on a Photron SA-Z camera
-for converging and diverging nozzles.
+The initial imaging processing work conducted in this thesis was tested on experimental data supplied by the Technical University of Berlin's (TBU) pulse detonation combustion (PDC) facility. The PDC facility at TBU consists of a $685mm$ long deflagration-to-detonation transition (DDT) section with a tube diameter of $40mm$, and 825 mm exhaust section with a tube diameter of $30mm$. The DDT supply gas is a combination of hydrogen and air. DDT is initiated with a number of orifice plates, and the leading detonation wave
+is tracked using a number of ionisation and pressure sensors placed throughout the exhaust tube. The governing flow dynamics were captured using schlieren measurements positioned in a Toepler Z-Type schlieren system \cite{settles2001schlieren}. The schlieren system is constructed using two 8in parabolic mirrors with a high speed LED providing the necessary light source \cite{willert2012assessment}. The images were captured using a Photron SA-Z camera for converging and diverging nozzles. The experimental layout is shown in Figure \ref{fig:berlin}.
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=1\textwidth]{berlin.PNG} 
-	\caption{Shock tube facility schematic. Major parts of the
-		system have been labelled.}
-	\label{fig:shocktube}
+	\caption{Shock tube facility schematic at TUB. Major parts of the
+		system have been labelled \cite{bhavberlin}.}
+	\label{fig:berlin}
 \end{figure}
+\newpage
 \subsection{Shock Tube Facility}
 The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A schematic of the facility is shown in Figure \ref{fig:shocktube}. 
 
@@ -295,49 +291,6 @@ The relationship between the driver (4) pressure ratio and the ambient (1) press
 	\caption{Specific Heat Capacity Ratio effect on Mach Number/Pressure Ratio Relation.}
 	\label{fig:gas_relation}
 \end{figure}
- 
-\subsection{Facility Development and Calibration}
-\subsection{Nozzle Design}
-A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). To prevent reflecting flow and acoustic feedback loop interference, each nozzle geometry was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip \cite{poldervaart1968photographic}. Each nozzle design and subsequently manufactured component is shown in Figures \ref{fig:con_noz}, \ref{fig:div_noz}, and \ref{fig:con_div_noz} below. 
- 
-\begin{figure}[!tbp]
-  \centering
-  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{convergent_cad.png}}
-  \hfill
-  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_noz.png}}
-  \caption{Convergent nozzle.}
-  \label{fig:con_noz}
-\end{figure}
-
-\begin{figure}[!tbp]
-  \centering
-  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{divergent_cad.png}}
-  \hfill
-  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{div_noz.png}}
-  \caption{Divergent nozzle.}
-  \label{fig:div_noz}
-\end{figure}
-
-\begin{figure}[!tbp]
-  \centering
-  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{con_div_cad.png}}
-  \hfill
-  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_div_noz.png}}
-  \caption{Convergent-divergent nozzle.}
-  \label{fig:con_div_noz}
-\end{figure}
-
-\subsection{Impingement Plate Design and Development}
-The impingement plate as shown in Figure \ref{fig:plate} is constructed such that it is $90^{\circ}$ to the direction of the flow, and in the reference frame of the oncoming flow appears infinite. The plate is mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. This construction allows the plate to be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \cite{mariani2013a}. As a result, an impingement plate distance is chosen below and above this limit at 1 and 4 inner diameters, respectively. 
-
-INCLUDE PLATE CAD AND PHOTO
-
-The first iterative design of the plate resulted in a slight unexpected wobble during jet impingement, shown in Figure \ref{fig:wobble}. This design error was resolved by the addition of two support frames between the plate and the mounting arms. The position of the support frames was chosen such that interference with the transient supersonic jet and impingement by-products was not possible. This design iteration is shown in Figure \ref{fig:plate_support}
-
-\subsubsection{Hydrostatic Test}
-\subsubsection{Sensor Calibration}
-\subsubsection{Diaphragm Study}
-\subsubsection{LED Calibration}
 
 \subsection{Schlieren Imaging}
 Schlieren imaging is a visualization technique that utilises the refraction of light to produce focused optical images of transparent media. Point source light is collimated and passed through a test region containing a transparent media with inhomogeneities. Light entering the test region will refract at varied degrees according to an inhomogeneous density distribution present. When refraction occurs the curvature $\epsilon$ of light, for a given test section length L, and refractive index $n_0$ can be calculated using Equations \ref{eqn:curv_x} and \ref{eqn:curv_y} for x and y orthogonal coordinates. The light is then refocused and a knife-edge is used to partially block a fraction of incident light from the screen or camera.
@@ -355,32 +308,284 @@ The shock-driven, transient, supersonic jet is measured using a Toepler Z-type s
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=1\textwidth]{schlieren.png} 
-	\caption{Detail schlieren system diagram}
+	\caption{Detailed schlieren system diagram.}
 	\label{fig:schlieren}
 \end{figure}
 
 \subsubsection{High Resolution Imaging}
+High spatial-resolution images were captured using the Chronos camera with a resolution
+of 1280x1024 pixels at 1057 frames per second (fps). Image sets varied in
+size and were determined by the fluid dynamic structures captured. If a set contained significant detail of the transient process by nature it was larger. Smaller sets were recorded if the respective trailing jet displayed unique flow qualities. Image sets containing information on the transient process were of more significance given the aims of this thesis and were a priority for capturing, this led to the implementation of high speed cameras. The schlieren parameters for several conditions using the Chronos camera are included in Table \ref{tab:highres}, Figure \ref{fig:settle} shows the physical representation of each parameter.
 
 \subsubsection{High Speed Imaging}
-became in focus. This method was utilised to calibrate both the high resolution and high
-to with the Shimadzu HPV-1 camera. The Shimadzu has a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps.
-\subsubsection{Limitations}
-Schlieren imaging has a number of limitations. Firstly, schlieren images are constructed using density gradients within the test region. The gradients are integrated over the optical path and as a result, images are developed as two-dimensional projections of an original three-dimensional fluid flow. This introduces possible incorrect projects of three-dimensional features. Additionally, the technique is line-of-sight dependent as the light must be collimated and refocused in order to produce an image. This restricts the layout of test section and sets requirements on the amount of space required for the apparatus.
-\subsection{Post Processing}
-Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation but, is difficult to quantitatively extract physical parameters directly from image data. 
+High speed images were captured using the Shimadzu HPV-1 camera with a resolution of 312 x 260 pixels and a frame rate of up to 1 million fps. Image sets were approximately constant give this camera was utilised to specifically capture the transient supersonic jet. Image quality provided by the Shimadzu HPV-1 is low in comparison to the Chronos camera. As a result, data from the Shimadzu was solely used for flow analysis and not flow feature discussions. The schlieren parameters for several conditions using the Shimadzu HPV-1 camera are included in Table \ref{tab:highspeed}, Figure \ref{fig:settle} shows the physical representation of each parameter.
 
-\subsubsection{Second Order Convolution}
-the required second order image derivatives are computed by convolution with the second order derivatives of the Gaussian kernel (reference). Mathematically this means that if f denotes the image and G the normalised Gaussian, we compute
+\begin{table}[h]
+\centering
+\caption{High spatial-resolution schlieren parameters.}
+\label{tab:highres}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+b (mm) & h (mm) & Magnitude & $f_3$ (mm) & e (mm)  \\ \midrule
+50     & 20     & 0.169     & 204.911   & 201.448 \\
+35     & 15     & 0.241     & 294.902   & 287.782 \\
+20     & 10     & 0.422     & 525.836   & 503.620 \\
+12     & 6      & 0.704     & 902.949   & 839.366 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{High speed schlieren parameters.}
+\label{tab:highspeed}
+\begin{tabular}{@{}lllll@{}}
+\toprule
+b (mm) & h (mm) & Magnitude & $f_3$ (mm) & e (mm)   \\ \midrule
+50     & 20     & 0.721     & 926.821    & 859.956  \\
+35     & 15     & 1.031     & 1369.672   & 1228.509 \\
+20     & 10     & 1.803     & 2622.970   & 2149.891 \\
+12     & 6      & 3.006     & 5123.180   & 3583.152 \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.8]{settle.png} 
+	\caption{Schlieren parameters \cite{settles2001schlieren}.}
+	\label{fig:settle}
+\end{figure}
+
+\subsubsection{Limitations}
+Schlieren imaging has a number of limitations. Firstly, schlieren images are constructed using density gradients within the test region. The gradients are integrated over the optical path and as a result, images are developed as two-dimensional projections of an original three-dimensional fluid flow. This introduces possible incorrect projects of three-dimensional features. Additionally, the technique is line-of-sight dependent as the light must be collimated and refocused in order to produce an image. This restricts the layout of test section and sets requirements on the amount of space required for the apparatus. 
+
+\subsection{Facility Development and Calibration}
+\subsubsection{Nozzle Design}
+A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). To prevent reflecting flow and acoustic feedback loop interference, each nozzle geometry was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip \cite{poldervaart1968photographic}. Each nozzle design and subsequently manufactured component is shown in Figures \ref{fig:con_noz}, \ref{fig:div_noz}, and \ref{fig:con_div_noz} below. 
+ 
+\begin{figure}[!tbh]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{convergent_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_noz.png}}
+  \caption{Convergent nozzle.}
+  \label{fig:con_noz}
+\end{figure}
+
+\begin{figure}[!tbh]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{divergent_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{div_noz.png}}
+  \caption{Divergent nozzle.}
+  \label{fig:div_noz}
+\end{figure}
+
+\begin{figure}[!tbh]
+  \centering
+  \subfloat[CAD design (all measurements are in mm).]{\includegraphics[width=0.4\textwidth]{con_div_cad.png}}
+  \hfill
+  \subfloat[Manufactured nozzle.]{\includegraphics[width=0.4\textwidth]{con_div_noz.png}}
+  \caption{Convergent-divergent nozzle.}
+  \label{fig:con_div_noz}
+\end{figure}
+
+\subsubsection{Impingement Plate Design}
+The impingement plate as shown in Figure \ref{fig:plate_draw} is constructed such that it is $90^{\circ}$ to the direction of the flow, and will appear infinite in the reference frame of the oncoming flow. The plate is mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. This construction allows the plate to be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \cite{mariani2013head}. As a result, an impingement plate distance is chosen below and above this limit at 1 and 4 inner diameters, respectively. 
+
+\begin{figure}[!tbh] 
+	\centering
+	\includegraphics[width=1\textwidth]{plate_draw.png} 
+	\caption{Impingement plate CAD design (all measurements are in mm).}
+	\label{fig:plate_draw}
+\end{figure}
+
+\newpage
+
+\subsubsection{Impingement Plate Development}
+The first iterative design of the plate resulted in a significant unexpected wobble during jet impingement. Figures \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} are constructed using post processing techniques detailed in Section \ref{sect:post}, and illustrates the pixel displacement of the plate resulting from flow impingement for design iterations 1, 2, and 3 respectively. Figure \ref{fig:wobble_iter1} illustrates the first design iteration which involved the incorrect tightening of impingement plate bolt fixings. This caused an oscillatory pixel displacement response as a result of the significant freedom of movement given to the plate by inadequate fastening. The pixel displacement decreases as a function of increasing frame number, this is governed by the initial transient supersonic jet impingement, under-expanded trailing jet impingement, and the decreasing back pressure of the shock tube. Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} represent the pixel displacement for an adequately fastened impinging plate and a reinforced impinging plate structure. Both figures highlight the evolution of the transient supersonic jet. Initially at frame 0 the pixel displacement is similarly 0 given impingement has not yet occurred. The sudden jump in pixel displacement in frame 1, and subsequent pixel displacement in the following frames represents the impingement of the evolving transient supersonic jet. As the supersonic jet becomes an under-expanded trailing jet the relative pressure of the flow on the plate decreases as the back pressure in the shock tube decreases. Given the limitations of the recording time for the Chronos camera, the full evolution of the under-expanded trailing jet was not captured and as a result, the pixel displacement shown in Figure's \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} have final values not representative of pixel displacement at the end of the under-expanded jet process, and once the back pressure in the shock tube is approximately equal to atmospheric pressure. If the full fluid dynamics process was captured it is to be expected that the pixel displacement once the back pressure within the shock tube reaches atmospheric pressure, or once the pressure induced on impinging plate is negligible would be 0. This design error was addressed between iterations 2 and 3 (Figures \ref{fig:wobble_iter2} and \ref{fig:wobble}) with the addition of support brackets as shown in Figure \ref{fig:plate_iter}. The position of the support brackets was chosen such that interference with the transient supersonic jet and impingement by-products was not possible. This design change had little affect on the pixel displacement of the impingement plate. In comparison to Figure \ref{fig:wobble_iter2}, Figure \ref{fig:wobble} contains a lower magnitude minima pixel displacement value although, the range between maxima and minima stays approximately the same for both iterations. This suggests the design of the impinging plate needs further modification with additional supports and improved fastening bolts. However, in Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} the largest pixel displacement approximates to $0.6\%$ and for the purposes of this thesis will be considered negligible.
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Iteration 2.]{\includegraphics[width=0.48\textwidth]{iter1.jpg}}
+  \hfill
+  \subfloat[Iteration 3.]{\includegraphics[width=0.48\textwidth]{iter2.jpg}}
+  \caption{Impinging plate design iterations.}
+  \label{fig:plate_iter}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{wobble_iter1.png} 
+	\caption{Plate displacement for design iteration 1.}
+	\label{fig:wobble_iter1}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{wobble_iter2.png} 
+	\caption{Plate displacement for design iteration 2.}
+	\label{fig:wobble_iter2}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{wobble.png} 
+	\caption{Plate displacement for design iteration 3.}
+	\label{fig:wobble}
+\end{figure}
+
+\subsubsection{Hydrostatic Test}
+
+A hydrostatic test is required of all apparatuses operating under pressurised conditions. The testing of the shock tube driver section involved sealing all non operational valves and pressurising the driver section with water until failure. An air outlet was initially left open and sealed once the driver section was completely filled with water. Figure \ref{fig:hydro_test} illustrates the testing configuration used and Table \ref{tab:hydro} details pressure value limitations and recordings. To comply with manufacturer specifications and design parameters, the high pressure quick release clamp with set to $4Nm$ and the M16 bolts used to construct the driver section were set to $75Nm$. Hydrostatic testing was successfully conducted and resulted in component failure when the driver section pressure exceeded $80bar$. This occurred as a result of an excessive extrusion of the O-ring and is consistent with the high pressure clamp's operational rating. Whilst failure was not the desired outcome, due to the small size of the shock tube's driver section pressurised occurred rapidly and operational limits were exceeded within two pumps of the hydrostatic testing pump. It is believed component failure was the result of stresses exceeding the clamp's material elastic limit. Experimental design operations are not expected to reach similar pressures and as a precaution, the clamp and associated O-ring have been decommissioned. Following a successful hydrostatic test the shock tube driver section was qualified for operation.
+
+
+\begin{table}[h]
+\centering
+\caption{Hydrostatic test pressure values.}
+\label{tab:hydro}
+\begin{tabular}{@{}ll@{}}
+\toprule
+Device              & Pressure (Bar) \\ \midrule
+Clamp rating        & 82             \\
+Driver design       & 100            \\
+Operational maximum & 25             \\
+Test maximum        & $>80$          \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{hydro_test.png} 
+	\caption{Shock tube drive section hydrostatic test schematic.}
+	\label{fig:hydro_test}
+\end{figure}
+
+\subsubsection{Sensor Calibration}
+\cite{knight1958piezoelectric}
+\cite{knight1958piezoelectric, anderson2000shock,ryu1995shock} 
+Pressure measurement in shock tubes is typically conducted using high speed pressure transducers [100]. The
+mounting of pressure transducers inside the shock tube is an important consideration in obtaining accurate
+measurements. Pressure transducers are typically cylindrical in shape, with a flat surface sensing area on end
+of the cylinder. This can be placed flush to the wall of the tube and is standard in the research community
+[100–102]. Whilst this method is widely used in square geometry tubes, there is no such simple mounting
+method for non-square geometries such as circular or elliptical tubes. This is due to the curvature of the shock
+tube wall and the flat surface sensing area of the pressure transducers; a flush mounting of the two is no longer
+possible. In large diameter shock tubes, small pressure sensors can be placed close to the surface [42]. Due
+to the geometrical constraints, the sensors are still either protruding into the flow or recessed away from
+the wall. In a smaller tube, protrusions and recesses may have a major effect on the flow in the tube. As
+the diameter of the tube decreases, the scale of the problem from the mismatch in geometry becomes more
+
+significant.
+An experimental campaign was conducted at the University of New South Wales - Australian Defence
+Force Academy (UNSW-ADFA) in a rectangular shock tube in an attempt to find the most suitable method
+to mount a sensor. The shock tube has three pressure transducer mounts located exactly the same distance
+from the diaphragm. This allowed simultaneous measurement of the pressure behind the passing shock wave
+from different sensors and to recess, protrude and flush mount sensors simultaneously. Three Kistler 603B
+pressure sensors and a PCB 132B38 Micro ICP® pressure sensor was tested.
+The experimental campaign encountered challenges and was not able to answer the initial question of
+how to mount the pressure sensors. An interesting result was found when comparing the performance of the
+PCB and Kistler sensors. Despite the sensing area of the Kistler sensor being larger than the PCB sensor
+(diameters of 5.5 mm v 3.18 mm respectively), the PCB 132B38 pressure sensor detected the shock wave
+10.2±1.8µs faster than the Kistler 603B pressure sensor. This result is shown in Figure 6. The experiments
+conducted in this campaign confirmed that the delay was due to an inherent delay in the Kistler pressure
+sensing system. The experiments were varied in a number of ways including the variation of the pressure
+sensors (where possible) to ensure it was independent of a particular sensor, variation of sensor mounting
+positions, variation of signal conditioning electronics and recession of the PCB sensor to delay the incoming
+wave
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{pressure1.png} 
+	\caption{Pressure sensor calibration data(in Psi).}
+	\label{fig:hydro_test}
+\end{figure}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{pressure2.png} 
+	\caption{Pressure sensor calibration data(in Bar).}
+	\label{fig:hydro_test}
+\end{figure}
+
+
+\subsubsection{Diaphragm Study}
+\subsubsection{LED Calibration}
+
+\begin{equation}
+\%_{blur} = \frac{U_i}{T_p*X_{image}}
+\end{equation}
+\begin{figure}[!tbh]
+  \centering
+  \subfloat[Pulse width = 5ms.]{\includegraphics[width=0.48\textwidth]{blur_example.png}}
+  \hfill
+  \subfloat[Pulse width = 0.5ms.]{\includegraphics[width=0.48\textwidth]{grain_example.png}}
+  \caption{Pulse width study.}
+  \label{fig:pulse}
+\end{figure}
+
+\newpage
+
+\section{Analysis} \label{sect:post}
+
+Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation however, it is difficult to quantitatively extract physical parameters directly from image data. 
+
+\subsection{Second Order Convolution}
+The first step of the local feature extraction pipeline is to find a set of distinctive
+keypoints that can be reliably localized under varying imaging conditions, viewpoint
+changes, and in the presence of noise. In particular, the extraction procedure should
+yield the same feature locations if the input image is translated or rotated. It is
+obvious that those criteria cannot be met for all image points. For instance, if we
+consider a point lying in a uniform region, we cannot determine its exact motion,
+since we cannot distinguish the point from its neighbors. Similarly, if we consider a
+point on a straight line, we can only measure its motion perpendicular to the line.
+This motivates us to focus on a particular subset of points, namely those exhibiting
+signal changes in two directions. In the following, we will present two keypoint
+detectors that employ different criteria for finding such regions: the Hessian detector
+and the H
+The Hessian detector [Bea78] searches for image locations that exhibit strong derivatives
+in two orthogonal directions. It is based on the matrix of second derivatives,
+the so-called Hessian:
+The detector computes the second derivatives Ixx, Ixy, and Iyy for each image point
+and then searches for points where the determinant of the Hessian becomes maximal:
+
+The detector computes the second derivatives Ixx, Ixy, and Iyy for each image point
+and then searches for points where the determinant of the Hessian becomes maximal:
+
+\begin{figure}[!tbh] 
+	\centering
+	\includegraphics[width=1\textwidth]{hessian_app.png} 
+	\caption{Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \cite{grauman2011visual}.}
+	\label{fig:hessian_app}
+\end{figure}
+
+the required second order image derivatives are computed by convolution with the second order derivatives of the Gaussian kernel \cite{lindeberg1994linear}. Mathematically this means that if f denotes the image and G the normalised Gaussian, we compute
 EQUATIONS
-where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix 
+where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix \cite{meijering2004design}.
 
 HESSIAN MATRIX
 
-\subsubsection{Ranking Methods}
+\begin{table}[h]
+\centering
+\caption{"Eigenvalues of the Hessian matrix and image structure
+orientation (L low, H+ high positive, H- high negative)" \cite{rudzki2009vessel}.}
+\begin{tabular}{@{}llll@{}}
+\toprule
+$\lambda_1$ & $\lambda_2$ & $\lambda_3$ & Structure orientation          \\ \midrule
+L           & L           & L           & noise (no preferred structure) \\
+L           & L           & H-          & bright sheet-like structure    \\
+L           & L           & H+          & dark sheet-like structure      \\
+L           & H-          & H-          & bright tubular structure       \\
+L           & H+          & H+          & dark tubular structure         \\
+H-          & H-          & H-          & bright blob-like structure     \\
+H+          & H+          & H+          & dark blob-like structure       \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ranking Methods}
 Use a normalised ranking to threshold intensity lower then the 90th percentile 
 
 \newpage
-\section{Results \& Analysis}
+\section{Results}
 
 \newpage
 \section{Discussion}
@@ -516,10 +721,10 @@ Using the following identity
 
 and noting that $P_3/P_2 = 1$ solve Equation 10 for $P_4/P_3 = 1$, substituting in $P_2/P_1$ from Equation 6. Simplifying, the result is the basic shock tube equation
 
-\begin{equation}
+\begin{equation} \label{shock_relation}
 \frac{P_4}{P_1} = \frac{2\gamma_1M_1^2 - (\gamma_1 - 1)}{\gamma_1 + 1}\left(1 - \frac{\gamma_{4-1}}{\gamma_{1+1}}\frac{U_1}{U_4}\left(M_1 - \frac{1}{M_1}\right)\right)^{-2\gamma_4/\gamma_{4-1}}
 \end{equation}
-And given the specific gas information, for the driver helium, $\gamma_4 = 1.667$, and the driven air, $\gamma_1 = 1.4$. Taking the ambient air temperature $T_1 = 273.15K$, the relation in equation 13 can be shown in the Figure \ref{fig:15}. This figure highlights the relationship between the driver pressure ratio at 4, and the ambient pressure at 1, for a design incident Mach number. The figure also illustrates the reduced pressure ratio benefit of using a helium to air experiment in comparison to a air to air experiment. 
+And given the specific gas information, for the driver helium, $\gamma_4 = 1.667$, and the driven air, $\gamma_1 = 1.4$. Taking the ambient air temperature $T_1 = 273.15K$, the relation in Equation \ref{shock_relation} can be shown in the Figure \ref{fig:gas_relation}. This figure highlights the relationship between the driver pressure ratio at 4, and the ambient pressure at 1, for a design incident Mach number. The figure also illustrates the reduced pressure ratio benefit of using a helium to air experiment in comparison to an air to air experiment. 
 	
 
 \end{document}
