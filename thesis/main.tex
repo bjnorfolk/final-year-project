@@ -31,7 +31,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[a4paper, 11pt, oneside]{article} % A4 paper size, default 11pt font size and oneside for equal margins
+\documentclass[a4paper, 12pt, oneside]{article} % A4 paper size, default 11pt font size and oneside for equal margins
 
 \newcommand{\plogo}{\fbox{$\mathcal{PL}$}} % Generic dummy publisher logo
 
@@ -39,7 +39,10 @@
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 \usepackage{fouriernc} % Use the New Century Schoolbook font
 \usepackage{graphicx} 
-\usepackage[hmarginratio=1:1,top=35mm,columnsep=20pt,total={6in, 9in}]{geometry}
+%\usepackage[hmarginratio=1:1,top=35mm,columnsep=20pt,total={6in, 9in}]{geometry}
+\usepackage[natbibapa]{apacite}
+
+\usepackage[colorlinks,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
 \usepackage{tocloft}
 \usepackage{booktabs}
 \usepackage{pdfpages} 
@@ -72,7 +75,7 @@
 	
 	\scshape % Use small caps for all text on the title page
 	
-	\vspace*{1\baselineskip} % White space at the top of the page
+	%\vspace*{1\baselineskip} % White space at the top of the page
 	
 	%------------------------------------------------
 	%	Title
@@ -88,7 +91,7 @@
 	{\Large Honours Thesis}
 	
 
-	\vspace{2cm}
+	\vspace*{3\baselineskip} % Whitespace under the subtitle
 	
 	\rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
 	\rule{\textwidth}{0.4pt} % Thin horizontal rule
@@ -102,7 +105,7 @@
 	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
 	\rule{\textwidth}{1.6pt} % Thick horizontal rule
 	
-	\vspace{2\baselineskip} % Whitespace after the title block
+
 	
 	%------------------------------------------------
 	%	Subtitle
@@ -120,14 +123,14 @@
 	
 	\vspace{0.5\baselineskip} % Whitespace before the editors
 	
-	{\scshape\Large Brodie James Norfolk} % Editor list
+	{\scshape\large Brodie James Norfolk} % Editor list
 	
 	\vspace{2\baselineskip}
 	Supervisor
 	
 	\vspace{0.5\baselineskip} % Whitespace before the editors
 	
-	{\scshape\Large Daniel Edgington-Mitchell} % Editor list
+	{\scshape\large Daniel Edgington-Mitchell} % Editor list
 	
 	\vspace{2\baselineskip} % Whitespace below the editor list
 	
@@ -166,16 +169,25 @@ The author would like to thank those who provided advice and guidance throughout
 %\mbox{}
 \begin{table}[H]
 \begin{tabular}{ll} \smallskip
+$B_p$      & Impinging plate base thickness, mm          \\ \smallskip
+$D_i$      & Nozzle entry diameter, mm                   \\ \smallskip
+$D_t$      & Nozzle throat diameter, mm                  \\ \smallskip
+$D_f$      & Nozzle exit diameter, mm                    \\ \smallskip
+$H_p$      & Impinging plate height thickness, mm          \\ \smallskip
 $M_1$      & Ambient Mach number                         \\ \smallskip
 $P_1$      & Ambient pressure, Pa                        \\ \smallskip
 $P_4$      & Shock tube driver section pressure, Pa      \\ \smallskip
-$T_p$      & LED pulse width timing, seconds             \\ \smallskip
+$T_p$      & Impinging plate thickness, mm               \\ \smallskip
+$T_{LED}$      & LED pulse width timing, seconds         \\ \smallskip
 $U_i$      & Incident shock wave air velocity, m/s       \\ \smallskip
 $U_1$      & Ambient air velocity, m/s                   \\ \smallskip
 $U_4$      & Shock tube driver section air velocity, m/s \\ \smallskip
+$X_{driver}$      & Shock tube driver section length, mm   \\ \smallskip
+$X_{driven}$      & Shock tube driven section length, mm   \\ \smallskip
 $X_{image}$      & Image length, mm                      \\ \smallskip
 $\gamma_1$ & Ambient specific heat ratio                 \\ \smallskip
-$\gamma_4$ & Driver specific heat ratio                 
+$\gamma_4$ & Driver specific heat ratio                  \\ \smallskip
+$\theta$   & Exterior nozzle angle, degrees   
 \end{tabular}
 \end{table}
 %\nomenclature{$M_1$}{Ambient Mach number}
@@ -204,47 +216,47 @@ This thesis aims to explore the fundamental fluid dynamics for transient superso
 
 \section{Background Theory} \label{sec:background}
 \subsection{Pressure Gain Combustion}
-Gas turbine engines are an integral component for the function of ground based power generation and aircraft engines. They account for a large percentage of power generation world wide. Thermodynamic cycle advances in gas turbine design play an important role in preventing the growth of emissions pollution and prolonged global warming \cite{paxson2018pressure}. Pressure gain combustion (PGC) shown in Figure \ref{fig:pcg} is one possible to method of efficiency improvement. PGC is a constant volume combustion process that operates by increasing the stagnation pressure entering the turbine via heat released from combustion. Increasing the turbine inlet pressure allows for considerably more work to be extracted when the turbine expands the flow back to the free stream pressure. PGC optimises gas turbine thermodynamic cycle efficiency, and has the potential to increase current engine efficiency up to 10\% \cite{gulen2013constant}.
+Gas turbine engines are an integral component for the function of ground based power generation and aircraft engines. They account for a large percentage of power generation world wide. Thermodynamic cycle advances in gas turbine design play an important role in preventing the growth of emissions pollution and prolonged global warming \citep{paxson2018pressure}. Pressure gain combustion (PGC) shown in Figure \ref{fig:pcg} is one possible to method of efficiency improvement. PGC is a constant volume combustion process that operates by increasing the stagnation pressure entering the turbine via heat released from combustion. Increasing the turbine inlet pressure allows for considerably more work to be extracted when the turbine expands the flow back to the free stream pressure. PGC optimises gas turbine thermodynamic cycle efficiency, and has the potential to increase current engine efficiency up to 10\% \citep{gulen2013constant}.
 
 \begin{figure}[H] 
  \centering
  \includegraphics[scale=0.5]{pcg.png} 
- \caption{PCG design concept \cite{akbari2009review}.}
+ \caption{PCG design concept \citep{akbari2009review}.}
  \label{fig:pcg}
 \end{figure}
 
-PGC is at peak efficiency when accomplished through detonation driven combustion, this involves the implementation of detonation waves within the combuster to cause an increase in the temperature and pressure of the fuel-air mixture \cite{eidelman1991review}. During combustion, detonation waves produce flow at supersonic velocities leading to an approximate constant volume and significant pressure gain across the combustor. For supersonic velocities high pressure turbine inlet flow must be steady. A possible method to achieve steady flow at the turbine inlet is via the implementation of a pulse detonation engine \cite{kailasanath2009research} with an equalising plenum chamber. Wear on the first stage of the turbine presents itself as one of the most significant problems of PGC implemetation in current engines. Replacing the combustor in a conventional gas turbine with a pulse detonation combustor (PDC) will result in the propergating detonation waves to converge on the first stage of the turbine. This overtime can lead to concentrated wear on the first stage of the turbine high wear stress points \cite{dean2005operation}. To alleviate turbine wear, the utilization of a high pressure plenum chamber is placed at the exit of the PDC, and creates steady flow conditions effectively shielding the first stage of the turbine from combustion detonations. It remains unclear on how to integrate a pressure plenum into a PDC design. 
+PGC is at peak efficiency when accomplished through detonation driven combustion, this involves the implementation of detonation waves within the combuster to cause an increase in the temperature and pressure of the fuel-air mixture \citep{eidelman1991review}. During combustion, detonation waves produce flow at supersonic velocities leading to an approximate constant volume and significant pressure gain across the combustor. For supersonic velocities high pressure turbine inlet flow must be steady. A possible method to achieve steady flow at the turbine inlet is via the implementation of a pulse detonation engine \citep{kailasanath2009research} with an equalising plenum chamber. Wear on the first stage of the turbine presents itself as one of the most significant problems of PGC implemetation in current engines. Replacing the combustor in a conventional gas turbine with a pulse detonation combustor (PDC) will result in the propergating detonation waves to converge on the first stage of the turbine. This overtime can lead to concentrated wear on the first stage of the turbine high wear stress points \cite{dean2005operation}. To alleviate turbine wear, the utilization of a high pressure plenum chamber is placed at the exit of the PDC, and creates steady flow conditions effectively shielding the first stage of the turbine from combustion detonations. It remains unclear on how to integrate a pressure plenum into a PDC design. 
 
 \subsection{Transient Supersonic Jet}
-The fluid dynamics characterising the governing flow at the exit of PDC is defined as a shock-driven, transient, supersonic jet process \cite{radulescu2007transient}. The governing flow can be classified into several different stages \cite{ishii1999experimental}. The first stage of jet evolution is defined by the diffraction of a shock wave around the corners of the tube exit as shown in Figure \ref{fig:0}. This region is bounded by the curved part of the incident shock, the nozzle lip, and a reflected sound wave. 
+The fluid dynamics characterising the governing flow at the exit of PDC is defined as a shock-driven, transient, supersonic jet process \citep{radulescu2007transient}. The governing flow can be classified into several different stages \citep{ishii1999experimental}. The first stage of jet evolution is defined by the diffraction of a shock wave around the corners of the tube exit as shown in Figure \ref{fig:0}. This region is bounded by the curved part of the incident shock, the nozzle lip, and a reflected sound wave. 
 \begin{figure}[h]  
 \centering
 \includegraphics[scale=0.9]{fig0.PNG}
-\caption{Features of the diffraction pattern \cite{skews1967perturbed}}
+\caption{Features of the diffraction pattern \citep{skews1967perturbed}}
 \label{fig:0}
 \end{figure}
-In the next stage of jet evolution, a vortex ring is generated by the roll-up of the shear layer due to Kelvin-Helmholtz type instabilities along the slipstream at the nozzle lip \cite{elder1952experimental,dora2014role}. Kelvin-Helmholtz instabilities exist within the shock as a result of external perturbations (inhomogeneities in the flow) producing oscillations in the vortex sheet separating fluids with different flow characteristics. This structure propagates down the jet axis, and is simultaneously accompanied by the translation of a curved barrel shock formed initially at the nozzle lip. This instigates the formation of a curved Mach disk for a ratio of the nozzle exit to free-stream pressure exceeding $2.06$ \cite{matsuda1987numerical}. MORE ON MACH DISK
+In the next stage of jet evolution, a vortex ring is generated by the roll-up of the shear layer due to Kelvin-Helmholtz type instabilities along the slipstream at the nozzle lip \citep{elder1952experimental,dora2014role}. Kelvin-Helmholtz instabilities exist within the shock as a result of external perturbations (inhomogeneities in the flow) producing oscillations in the vortex sheet separating fluids with different flow characteristics. This structure propagates down the jet axis, and is simultaneously accompanied by the translation of a curved barrel shock formed initially at the nozzle lip. This instigates the formation of a curved Mach disk for a ratio of the nozzle exit to free-stream pressure exceeding $2.06$ \citep{matsuda1987numerical}. MORE ON MACH DISK
 
-A triple point occurs between the leading edge of the barrel shock, the second shock, and the Mach disk. Given a sufficiently strong jet, a slip surface is generated downstream of the triple point. The first shock cell is formed in the third stage of jet evolution which is marked by the pinch-off phenomenon of the vortex ring, and signals the start of the trailing jet phase \cite{gharib1998universal}. Separation of the vortex ring from the flow structure is driven by Kelvin-Helmholtz instabilities within the shear layer of the trailing jet \cite{zhao2000effects}. The final stage of the supersonic jet is defined by the point at which the transient jet and vortex are no longer joined and the trailing jet forms. This is accompanied by the formation of a quasi-steady shock cell in self-sustained oscillation, radiating strong pressure waves. These four stages of jet evolution are illustrated in Figure \ref{fig:2}.
+A triple point occurs between the leading edge of the barrel shock, the second shock, and the Mach disk. Given a sufficiently strong jet, a slip surface is generated downstream of the triple point. The first shock cell is formed in the third stage of jet evolution which is marked by the pinch-off phenomenon of the vortex ring, and signals the start of the trailing jet phase \citep{gharib1998universal}. Separation of the vortex ring from the flow structure is driven by Kelvin-Helmholtz instabilities within the shear layer of the trailing jet \citep{zhao2000effects}. The final stage of the supersonic jet is defined by the point at which the transient jet and vortex are no longer joined and the trailing jet forms. This is accompanied by the formation of a quasi-steady shock cell in self-sustained oscillation, radiating strong pressure waves. These four stages of jet evolution are illustrated in Figure \ref{fig:2}.
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=1\textwidth]{fig2.png} 
 	\caption{Evolution of the transient supersonic jet. (a) Diffracting shock/Pressure
 		wave. (b) Axial translation of the vortex rings, formation of the curved shock and an unsteady Mach disk. (c) Formation of the trailing supersonic jet. (d) Decay of the trailing jet and the end of the transient jet
-		process. \cite{fernandez2017compressible}}
+		process. \citep{fernandez2017compressible}}
 	\label{fig:2}
 \end{figure}
 
 \subsection{Transient Jet Impingement}
-Investigation into the high pressure plenum chamber required for PDEs currently has not been undertaken within the field. However, the flow dynamics is considered analogous to the impingement of a transient supersonic jet on a flat plate. The governing dynamics of transient jet impingment can be classified into serveral stages. The physical process is initially characterised by the reflection of the incident shock wave on the impinging plate. The reflected shock wave propargates back towards the nozzle and interacts with the approaching vortex ring. The central section of the reflected shock wave is captured by the embedded rearward-facing shock at the centre of the vortex ring, and is intensified by the opposing high-speed flow. Simultaneously, the outer section of the shock wave is diffracted by the vortex core. This process results in the formation of a toroidal shock wave which focuses in the trailing jet along the longitudinal axis of flow. The next stage of the fluid dynamics is defined by the impingement of the propagating vortex ring. Initially, as the vortex ring approaches the wall, its propagation velocity decreases and its diameter increases due to the adverse pressure gradient present \cite{szumowski2000starting}. After votex impingement the vortical flow undergoes rapid radial expansion developing a boundary layer on the surface, which slows down the flow and increases the pressure distribution over the plate. After a given duration that is dependent on the initial incident Mach number, the boundary layer separates from the plate and the flow rolls up generating a series of secondary vortices. This also occurs at the thin shear layer present between the jet flow and the exterior fluid as the region rolls up due to Kelvin-Helmholtz instabilities. This produces small interacting secondary vortex rings that propagate towards the plate \cite{minota1997shock}. Cumulative interactions between the primary and secondary wall vortex rings result in a near standing lift off of the pair. The secondary ring subsequently merges with the primary ring, and the weakened newly formed vortex ring continues to translate down the plate. Stages of impingement are illustrated in Figure \ref{fig:4} below.
+Investigation into the high pressure plenum chamber required for PDEs currently has not been undertaken within the field. However, the flow dynamics is considered analogous to the impingement of a transient supersonic jet on a flat plate. The governing dynamics of transient jet impingment can be classified into serveral stages. The physical process is initially characterised by the reflection of the incident shock wave on the impinging plate. The reflected shock wave propargates back towards the nozzle and interacts with the approaching vortex ring. The central section of the reflected shock wave is captured by the embedded rearward-facing shock at the centre of the vortex ring, and is intensified by the opposing high-speed flow. Simultaneously, the outer section of the shock wave is diffracted by the vortex core. This process results in the formation of a toroidal shock wave which focuses in the trailing jet along the longitudinal axis of flow. The next stage of the fluid dynamics is defined by the impingement of the propagating vortex ring. Initially, as the vortex ring approaches the wall, its propagation velocity decreases and its diameter increases due to the adverse pressure gradient present \citep{szumowski2000starting}. After votex impingement the vortical flow undergoes rapid radial expansion developing a boundary layer on the surface, which slows down the flow and increases the pressure distribution over the plate. After a given duration that is dependent on the initial incident Mach number, the boundary layer separates from the plate and the flow rolls up generating a series of secondary vortices. This also occurs at the thin shear layer present between the jet flow and the exterior fluid as the region rolls up due to Kelvin-Helmholtz instabilities. This produces small interacting secondary vortex rings that propagate towards the plate \citep{minota1997shock}. Cumulative interactions between the primary and secondary wall vortex rings result in a near standing lift off of the pair. The secondary ring subsequently merges with the primary ring, and the weakened newly formed vortex ring continues to translate down the plate. Stages of impingement are illustrated in Figure \ref{fig:4} below.
 
 \begin{figure}[h] 
 	\centering
 	\includegraphics[width=1\textwidth]{fig4.PNG} 
-	\caption{Evolution of jet impingement. (a) Impingement of vortex ring. (b) Vortex ring translates down the plate. (c) Secondary vortex formation. (d) Lift-off of votex rings and dissapation. \cite{szumowski2000starting}}
+	\caption{Evolution of jet impingement. (a) Impingement of vortex ring. (b) Vortex ring translates down the plate. (c) Secondary vortex formation. (d) Lift-off of votex rings and dissapation. \citep{szumowski2000starting}}
 	\label{fig:4}
 \end{figure}
-For a plate of variable angle, the lower core of the vortex ring impinges initially and generates an asymmetric set of secondary vortices. These new flow structures orbit around the main vortex, creating a temporarily thicker boundary layer at the lower end of the flow field. Again after a period of time, dependent on the incident Mach number, he boundary layer separates from the plate. This results in the vortex ring pivoting on the lower core, undergoing negligible deformation, and propergates towards the surface plate. The upper core then impinges on the plate and the upper wall vortex is generated. This new structure begins to expand radially increasing in thickness due to the remaining jet flow. While simultaneously, the lower wall vortex propagates around the outer limits of the main vortex, stops expanding, and dissipates into a thin structure. The impinging jet continues to feed into the upper section of the flow field generating wall vortices with a thicker upper core. For lower angles of plate alignment, the flow field shows an increase in overall velocity and visible curvature of the vortex ring structure during impingement. The toroidal shock wave that forms as a result of impingement propagates perpendicularly with respect to the surface \cite{mariani2013head}.  
+For a plate of variable angle, the lower core of the vortex ring impinges initially and generates an asymmetric set of secondary vortices. These new flow structures orbit around the main vortex, creating a temporarily thicker boundary layer at the lower end of the flow field. Again after a period of time, dependent on the incident Mach number, he boundary layer separates from the plate. This results in the vortex ring pivoting on the lower core, undergoing negligible deformation, and propergates towards the surface plate. The upper core then impinges on the plate and the upper wall vortex is generated. This new structure begins to expand radially increasing in thickness due to the remaining jet flow. While simultaneously, the lower wall vortex propagates around the outer limits of the main vortex, stops expanding, and dissipates into a thin structure. The impinging jet continues to feed into the upper section of the flow field generating wall vortices with a thicker upper core. For lower angles of plate alignment, the flow field shows an increase in overall velocity and visible curvature of the vortex ring structure during impingement. The toroidal shock wave that forms as a result of impingement propagates perpendicularly with respect to the surface \citep{mariani2013head}.  
 
 \subsection{Acoustic Noise}
 The far-field noise developed by the shock wave-vortex interaction can be decomposed into three components, the sound field due to the formation and evolution of the vortex ring, the reflection shock and vortex ring interaction noise production, and the noise due to impingement of the ring on the plate. The plate-votex ring impingement noise is produced by fluctuating pressure due to the deformation and stretching of the vortex ring, formation and growth of a secondary wall vortex ring, and lifting-off of the primary-secondary vortex ring pair \cite{murugan2010characteristics}.
@@ -254,18 +266,18 @@ The far-field noise developed by the shock wave-vortex interaction can be decomp
 \section{Experimental Methods \& Analysis Techniques}
 \subsection{Technical University of Berlin Pulse Detonation Combustion Facility}
 The initial imaging processing work conducted in this thesis was tested on experimental data supplied by the Technical University of Berlin's (TBU) pulse detonation combustion (PDC) facility. The PDC facility at TBU consists of a $685mm$ long deflagration-to-detonation transition (DDT) section with a tube diameter of $40mm$, and 825 mm exhaust section with a tube diameter of $30mm$. The DDT supply gas is a combination of hydrogen and air. DDT is initiated with a number of orifice plates, and the leading detonation wave
-is tracked using a number of ionisation and pressure sensors placed throughout the exhaust tube. The governing flow dynamics were captured using schlieren measurements positioned in a Toepler Z-Type schlieren system \cite{settles2001schlieren}. The schlieren system is constructed using two 8in parabolic mirrors with a high speed LED providing the necessary light source \cite{willert2012assessment}. The images were captured using a Photron SA-Z camera for converging and diverging nozzles. The experimental layout is shown in Figure \ref{fig:berlin}.
+is tracked using a number of ionisation and pressure sensors placed throughout the exhaust tube. The governing flow dynamics were captured using schlieren measurements positioned in a Toepler Z-Type schlieren system \citep{settles2001schlieren}. The schlieren system is constructed using two 8in parabolic mirrors with a high speed LED providing the necessary light source \citep{willert2012assessment}. The images were captured using a Photron SA-Z camera for converging and diverging nozzles. The experimental layout is shown in Figure \ref{fig:berlin}.
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=1\textwidth]{berlin.PNG} 
 	\caption{Shock tube facility schematic at TUB. Major parts of the
-		system have been labelled \cite{bhavberlin}.}
+		system have been labelled \citep{bhavberlin}.}
 	\label{fig:berlin}
 \end{figure}
 \newpage
 \subsection{Shock Tube Facility}
-The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A schematic of the facility is shown in Figure \ref{fig:shocktube}. 
+The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A schematic of the facility is shown in Figure \ref{fig:shocktube} and the experimental parameters are detailed in Table \ref{tab:experiment}. 
 
 \begin{figure}[H] 
 	\centering
@@ -275,15 +287,47 @@ The experiments presented were conducted in the LTRAC Supersonic Jet Facility. A
 	\label{fig:shocktube}
 \end{figure}	
 
-The facility utilises compressed air delivered by the Monash University compressed air supply system. To produce a canonical transient supersonic jet a shock tube model is adopted \cite{john1962shock}. A typical shock tube consists of a high pressure section (driver section) and a low pressure section (driven section) separated by a diaphragm. Air enters the driver section until a desired pressure is reached, the diaphragm is then ruptured via a puncture from an actuated pin. Following the rupture, compression waves are fired down the driven section by the high pressure gas in the driver. As these compression waves travel down the tube they coalesce and form a shock wave that propagates into the test section, diffracts, and produces a transient supersonic jet. 
+The facility utilises compressed air delivered by the Monash University compressed air supply system. To produce a canonical transient supersonic jet a shock tube model is adopted \citep{john1962shock}. A typical shock tube consists of a high pressure section (driver section) and a low pressure section (driven section) separated by a diaphragm. Air enters the driver section until a desired pressure is reached, the diaphragm is then ruptured via a puncture from an actuated pin. Following the rupture, compression waves are fired down the driven section by the high pressure gas in the driver. As these compression waves travel down the tube they coalesce and form a shock wave that propagates into the test section, diffracts, and produces a transient supersonic jet. 
 
 For the aims of this thesis, the supersonic transient jet will be studied with varied nozzle designs including a convergent, divergent and convergent-divergent configuration. Transient flow impingement will be tested via a flat plate set at $90^\circ$ to the flow. This impinging plate is set exactly at an angle of $90^\circ$ to the flow by a sequence of precisely $90^\circ$ connecting supports to the shock tube. The three nozzle designs and impingement plate will be integrated into the existing LTRAC Supersonic Jet Facility.
 
-The relationship between the driver (4) pressure ratio and the ambient (1) pressure of the system is shown in Equation \ref{shock}, and was utilised to calculate the design incident Mach number propagating from the shock tube \cite{anderson2010fundamentals}. Figure \ref{fig:gas_relation} illustrates the effect of specific heat capacity ratio on the relation between incident Mach number and pressure ratio. Helium gas has increasingly lower pressure ratios for higher Mach numbers in comparison to air, and as a result was chosen as the driver section supply gas.
+The relationship between the driver (4) pressure ratio and the ambient (1) pressure of the system is shown in Equation \ref{shock}, and was utilised to calculate the design incident Mach number propagating from the shock tube \citep{anderson2010fundamentals}. Figure \ref{fig:gas_relation} illustrates the effect of specific heat capacity ratio on the relation between incident Mach number and pressure ratio. Helium gas has increasingly lower pressure ratios for higher Mach numbers in comparison to air, and as a result was chosen as the driver section supply gas.
 
 \begin{equation} \label{shock}
 \frac{P_4}{P_1} = \frac{2\gamma_1M_1^2 - (\gamma_1 - 1)}{\gamma_1 + 1}\left(1 - \frac{\gamma_{4-1}}{\gamma_{1+1}}\frac{U_1}{U_4}\left(M_1 - \frac{1}{M_1}\right)\right)^{-2\gamma_4/\gamma_{4-1}}
 \end{equation}
+\smallskip
+\begin{table}[H]
+\centering
+\caption{Experimental parameters.}
+\label{tab:experiment}
+\begin{tabular}{@{}ccc@{}}
+\toprule
+\toprule
+\textbf{Component} & \textbf{Nomenclature} & \textbf{Value} \\ \midrule
+\multicolumn{3}{c}{Shock Tube}                                  \\ \midrule
+Driver section     & $X_{driver}$          & ??                 \\
+Driven section     & $X_{driven}$          & ??                 \\ \midrule
+\multicolumn{3}{c}{Converging Nozzle}                           \\ \midrule
+Entry diameter     & $D_i$                 & 12.5 mm            \\
+Exit diameter      & $D_f$                 & 6.2 mm             \\
+Exterior angle     & $\theta$              & $60^\circ$         \\ \midrule
+\multicolumn{3}{c}{Diverging Nozzle}                            \\ \midrule
+Entry diameter     & $D_i$                 & 12.5 mm            \\
+Exit diameter      & $D_f$                 & 18.7 mm            \\
+Exterior angle     & $\theta$              & $60^\circ$         \\ \midrule
+\multicolumn{3}{c}{Converging-diverging Nozzle}                 \\ \midrule
+Entry diameter     & $D_i$                 & 12.5 mm            \\
+Throat diameter    & $D_t$                 & 6.4 mm             \\
+Exit diameter      & $D_f$                 & 18.7 mm            \\
+Exterior angle     & $\theta$              & $60^\circ$         \\ \midrule
+\multicolumn{3}{c}{Impingement Plate}                           \\ \midrule
+Base               & $B_p$                 & 110 mm             \\
+Height             & $H_p$                 & 200 mm             \\
+Thickness          & $T_p$                 & 10 mm              \\ \bottomrule
+\bottomrule
+\end{tabular}
+\end{table}
 
 \begin{figure}[H] 
 	\centering
@@ -303,7 +347,7 @@ Schlieren imaging is a visualization technique that utilises the refraction of l
 \epsilon_y = \frac{L}{n_0}\frac{\delta n}{\delta y}
 \end{equation}
 
-The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \cite{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}). This Z-type apparatus incorporates parabolic mirrors to collimate the light. Parabolic mirrors eliminates problems associated with chromatic aberration and provides a unique advantage for imaging in comparison to systems using lenses. However, the use of mirrors introduces common imaging problems including coma and astigmatism. Coma is the result of off-axis, incorrect parabolic mirror tilting and disrupts the collimated light beam. It also causes the focal point of the parabolic mirrors to spread into a line. This issue is resolved by careful calibration of each parabolic mirror titling to achieve an overall cancelling effect.  Astigmatism is similarly caused by tilting the parabolic mirror off-axis. It occurs due alternating path lengths of light dependent on their respective optical plane. Astigmatism results in different focal points for each plane of propagating light and requires the knife-edge to be positioned for different density gradients. For Z-type schlieren configurations, coma and astigmatism is minimised by restricting the offset angle (tilt) of the parabolic mirrors to minimum achievable values. Careful calibration prior to experimentation is required to avoid problems associated with coma and astigmatism. This involves correcting mirror allingments, adjusting the knife edge, and positioning the camera distance until the desired image is displayed. The parabolic mirrors used in the facility have an an effective focal length of $1200mm$ and the light source was supplied by a pulsed LED \cite{willert2012assessment}. 
+The shock-driven, transient, supersonic jet is measured using a Toepler Z-type schlieren apparatus \citep{settles2001schlieren} (illustrated in Figure \ref{fig:schlieren}). This Z-type apparatus incorporates parabolic mirrors to collimate the light. Parabolic mirrors eliminates problems associated with chromatic aberration and provides a unique advantage for imaging in comparison to systems using lenses. However, the use of mirrors introduces common imaging problems including coma and astigmatism. Coma is the result of off-axis, incorrect parabolic mirror tilting and disrupts the collimated light beam. It also causes the focal point of the parabolic mirrors to spread into a line. This issue is resolved by careful calibration of each parabolic mirror titling to achieve an overall cancelling effect.  Astigmatism is similarly caused by tilting the parabolic mirror off-axis. It occurs due alternating path lengths of light dependent on their respective optical plane. Astigmatism results in different focal points for each plane of propagating light and requires the knife-edge to be positioned for different density gradients. For Z-type schlieren configurations, coma and astigmatism is minimised by restricting the offset angle (tilt) of the parabolic mirrors to minimum achievable values. Careful calibration prior to experimentation is required to avoid problems associated with coma and astigmatism. This involves correcting mirror allingments, adjusting the knife edge, and positioning the camera distance until the desired image is displayed. The parabolic mirrors used in the facility have an an effective focal length of $1200mm$ and the light source was supplied by a pulsed LED \citep{willert2012assessment}. 
 
 \begin{figure}[H] 
 	\centering
@@ -351,7 +395,7 @@ b (mm) & h (mm) & Magnitude & $f_3$ (mm) & e (mm)   \\ \midrule
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.8]{settle.png} 
-	\caption{Schlieren parameters \cite{settles2001schlieren}.}
+	\caption{Schlieren parameters \citep{settles2001schlieren}.}
 	\label{fig:settle}
 \end{figure}
 
@@ -360,7 +404,7 @@ Schlieren imaging has a number of limitations. Firstly, schlieren images are con
 
 \subsection{Facility Development and Calibration}
 \subsubsection{Nozzle Design}
-A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). To prevent reflecting flow and acoustic feedback loop interference, each nozzle geometry was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip \cite{poldervaart1968photographic}. Each nozzle design and subsequently manufactured component is shown in Figures \ref{fig:con_noz}, \ref{fig:div_noz}, and \ref{fig:con_div_noz} below. 
+A convergent, divergent, and convergent-divergent nozzle was designed using CAD and manufactured by the Engineering department Mechanical Workshop. All three nozzle designs adopt geometry ratios implemented in the nozzles designed by Technical University of Berlin (TUB). To prevent reflecting flow and acoustic feedback loop interference, each nozzle geometry was designed with a $60^\circ$ exterior angle and a $0.5mm$ lip \citep{poldervaart1968photographic}. Each nozzle design and subsequently manufactured component is shown in Figures \ref{fig:con_noz}, \ref{fig:div_noz}, and \ref{fig:con_div_noz} below. 
  
 \begin{figure}[!tbh]
   \centering
@@ -390,7 +434,7 @@ A convergent, divergent, and convergent-divergent nozzle was designed using CAD 
 \end{figure}
 
 \subsubsection{Impingement Plate Design}
-The impingement plate as shown in Figure \ref{fig:plate_draw} is constructed such that it is $90^{\circ}$ to the direction of the flow, and will appear infinite in the reference frame of the oncoming flow. The plate is mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. This construction allows the plate to be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \cite{mariani2013head}. As a result, an impingement plate distance is chosen below and above this limit at 1 and 4 inner diameters, respectively. 
+The impingement plate as shown in Figure \ref{fig:plate_draw} is constructed such that it is $90^{\circ}$ to the direction of the flow, and will appear infinite in the reference frame of the oncoming flow. The plate is mounted on rails which fix to the shock tube rig, this construction can be adjusted to 1 and 4 inner diameters. This construction allows the plate to be removed and replaced with another plate of alternate geometry for future research. During the evolution of a transient supersonic jet, the vortex is fully formed at approximately 3 inner diameters from the exit for a conventional, no nozzle, shock tube \citep{mariani2013head}. As a result, an impingement plate distance is chosen below and above this limit at 1 and 4 inner diameters, respectively. 
 
 \begin{figure}[!tbh] 
 	\centering
@@ -399,16 +443,15 @@ The impingement plate as shown in Figure \ref{fig:plate_draw} is constructed suc
 	\label{fig:plate_draw}
 \end{figure}
 
-\newpage
 
 \subsubsection{Impingement Plate Development}
 The first iterative design of the plate resulted in a significant unexpected wobble during jet impingement. Figures \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} are constructed using post processing techniques detailed in Section \ref{sect:post}, and illustrates the pixel displacement of the plate resulting from flow impingement for design iterations 1, 2, and 3 respectively. Figure \ref{fig:wobble_iter1} illustrates the first design iteration which involved the incorrect tightening of impingement plate bolt fixings. This caused an oscillatory pixel displacement response as a result of the significant freedom of movement given to the plate by inadequate fastening. The pixel displacement decreases as a function of increasing frame number, this is governed by the initial transient supersonic jet impingement, under-expanded trailing jet impingement, and the decreasing back pressure of the shock tube. Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} represent the pixel displacement for an adequately fastened impinging plate and a reinforced impinging plate structure. Both figures highlight the evolution of the transient supersonic jet. Initially at frame 0 the pixel displacement is similarly 0 given impingement has not yet occurred. The sudden jump in pixel displacement in frame 1, and subsequent pixel displacement in the following frames represents the impingement of the evolving transient supersonic jet. As the supersonic jet becomes an under-expanded trailing jet the relative pressure of the flow on the plate decreases as the back pressure in the shock tube decreases. Given the limitations of the recording time for the Chronos camera, the full evolution of the under-expanded trailing jet was not captured and as a result, the pixel displacement shown in Figure's \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} have final values not representative of pixel displacement at the end of the under-expanded jet process, and once the back pressure in the shock tube is approximately equal to atmospheric pressure. If the full fluid dynamics process was captured it is to be expected that the pixel displacement once the back pressure within the shock tube reaches atmospheric pressure, or once the pressure induced on impinging plate is negligible would be 0. This design error was addressed between iterations 2 and 3 (Figures \ref{fig:wobble_iter2} and \ref{fig:wobble}) with the addition of support brackets as shown in Figure \ref{fig:plate_iter}. The position of the support brackets was chosen such that interference with the transient supersonic jet and impingement by-products was not possible. This design change had little affect on the pixel displacement of the impingement plate. In comparison to Figure \ref{fig:wobble_iter2}, Figure \ref{fig:wobble} contains a lower magnitude minima pixel displacement value although, the range between maxima and minima stays approximately the same for both iterations. This suggests the design of the impinging plate needs further modification with additional supports and improved fastening bolts. However, in Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} the largest pixel displacement approximates to $0.6\%$ and for the purposes of this thesis will be considered negligible.
 
 \begin{figure}[H]
   \centering
-  \subfloat[Iteration 2.]{\includegraphics[width=0.48\textwidth]{iter1.jpg}}
+  \subfloat[Iteration 2.]{\includegraphics[width=0.4\textwidth]{iter1.jpg}}
   \hfill
-  \subfloat[Iteration 3.]{\includegraphics[width=0.48\textwidth]{iter2.jpg}}
+  \subfloat[Iteration 3.]{\includegraphics[width=0.4\textwidth]{iter2.jpg}}
   \caption{Impinging plate design iterations.}
   \label{fig:plate_iter}
 \end{figure}
@@ -438,8 +481,14 @@ The first iterative design of the plate resulted in a significant unexpected wob
 
 A hydrostatic test is required of all apparatuses operating under pressurised conditions. The testing of the shock tube driver section involved sealing all non operational valves and pressurising the driver section with water until failure. An air outlet was initially left open and sealed once the driver section was completely filled with water. Figure \ref{fig:hydro_test} illustrates the testing configuration used and Table \ref{tab:hydro} details pressure value limitations and recordings. To comply with manufacturer specifications and design parameters, the high pressure quick release clamp with set to $4Nm$ and the M16 bolts used to construct the driver section were set to $75Nm$. Hydrostatic testing was successfully conducted and resulted in component failure when the driver section pressure exceeded $80bar$. This occurred as a result of an excessive extrusion of the O-ring and is consistent with the high pressure clamp's operational rating. Whilst failure was not the desired outcome, due to the small size of the shock tube's driver section pressurised occurred rapidly and operational limits were exceeded within two pumps of the hydrostatic testing pump. It is believed component failure was the result of stresses exceeding the clamp's material elastic limit. Experimental design operations are not expected to reach similar pressures and as a precaution, the clamp and associated O-ring have been decommissioned. Following a successful hydrostatic test the shock tube driver section was qualified for operation.
 
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{hydro_test.png} 
+	\caption{Shock tube drive section hydrostatic test schematic.}
+	\label{fig:hydro_test}
+\end{figure}
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Hydrostatic test pressure values.}
 \label{tab:hydro}
@@ -453,69 +502,38 @@ Test maximum        & $>80$          \\ \bottomrule
 \end{tabular}
 \end{table}
 
-\begin{figure}[H] 
-	\centering
-	\includegraphics[width=1\textwidth]{hydro_test.png} 
-	\caption{Shock tube drive section hydrostatic test schematic.}
-	\label{fig:hydro_test}
-\end{figure}
 
-\subsubsection{Sensor Calibration}
-\cite{knight1958piezoelectric}
-\cite{knight1958piezoelectric, anderson2000shock,ryu1995shock} 
 
-Pressure measurement in shock tubes is typically conducted using high speed pressure transducers [100]. The
-mounting of pressure transducers inside the shock tube is an important consideration in obtaining accurate
-measurements. Pressure transducers are typically cylindrical in shape, with a flat surface sensing area on end
-of the cylinder. This can be placed flush to the wall of the tube and is standard in the research community
-[100–102]. Whilst this method is widely used in square geometry tubes, there is no such simple mounting
-method for non-square geometries such as circular or elliptical tubes. This is due to the curvature of the shock
-tube wall and the flat surface sensing area of the pressure transducers; a flush mounting of the two is no longer
-possible. In large diameter shock tubes, small pressure sensors can be placed close to the surface [42]. Due
-to the geometrical constraints, the sensors are still either protruding into the flow or recessed away from
-the wall. In a smaller tube, protrusions and recesses may have a major effect on the flow in the tube. As
-the diameter of the tube decreases, the scale of the problem from the mismatch in geometry becomes more
+\subsubsection{Pressure Sensor Calibration}
 
-significant.
-An experimental campaign was conducted at the University of New South Wales - Australian Defence
-Force Academy (UNSW-ADFA) in a rectangular shock tube in an attempt to find the most suitable method
-to mount a sensor. The shock tube has three pressure transducer mounts located exactly the same distance
-from the diaphragm. This allowed simultaneous measurement of the pressure behind the passing shock wave
-from different sensors and to recess, protrude and flush mount sensors simultaneously. Three Kistler 603B
-pressure sensors and a PCB 132B38 Micro ICP® pressure sensor was tested.
-The experimental campaign encountered challenges and was not able to answer the initial question of
-how to mount the pressure sensors. An interesting result was found when comparing the performance of the
-PCB and Kistler sensors. Despite the sensing area of the Kistler sensor being larger than the PCB sensor
-(diameters of 5.5 mm v 3.18 mm respectively), the PCB 132B38 pressure sensor detected the shock wave
-10.2±1.8µs faster than the Kistler 603B pressure sensor. This result is shown in Figure 6. The experiments
-conducted in this campaign confirmed that the delay was due to an inherent delay in the Kistler pressure
-sensing system. The experiments were varied in a number of ways including the variation of the pressure
-sensors (where possible) to ensure it was independent of a particular sensor, variation of sensor mounting
-positions, variation of signal conditioning electronics and recession of the PCB sensor to delay the incoming
-wave
+Shock tube pressure measurements are typically taken using high speed, cylindrical pressure transducers placed flush to the section wall \citep{knight1958piezoelectric}. Mounting pressure transducers flush to the wall of the shock tube has classically been performed on square geometrical tubes \citep{knight1958piezoelectric, anderson2000shock,ryu1995shock}. Cylindrical shock tubes present a more complicated problem given the curved geometry of the section wall and flat sensing surface of the pressure transducer. For large cylindrical shock tubes this problem is negligible, but for small cylindrical shock tubes protrusions and recesses resulting from the presence of pressure traducers may have a major effect on the flow structure propagating through the tube.
+
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=0.88\textwidth]{pressure1.png} 
-	\caption{Pressure sensor calibration data(in Psi).}
+	\caption{Pressure sensor calibration data (in Psi).}
 	\label{fig:hydro_test}
 \end{figure}
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[width=0.88\textwidth]{pressure2.png} 
-	\caption{Pressure sensor calibration data(in Bar).}
+	\caption{Pressure sensor calibration data (in Bar).}
 	\label{fig:hydro_test}
 \end{figure}
 
-
 \subsubsection{Diaphragm Study}
-\subsubsection{LED Calibration}
 
-\begin{equation}
-\%_{blur} = \frac{U_i}{T_p*X_{image}}
+\subsubsection{LED Calibration}
+The pulsed light emitting diode (LEDs) provides the necessary light source required to capture density gradients present within the evolution of the transient supersonic jet and following flow structures. The pulsed LED source is operated by a simple driver circuit and is modulated to supply a constant pulse width within the input voltage limitations of the specific LED. The LED produces a narrow emission bandwidth which reduces chromatic aberrations that is still spectrally wide enough to prevent the appearance of diffraction effects in captured images \citep{willert2012assessment}. Light provided by a LED is emitted within nanoseconds and is essentially lag-free unlike historically used light sources such as lasers or discharge lamps. The amount of light supplied to a schlieren system dictates the quality of a captured image. Equation \ref{eqn:blur} highlights the relation between the speed of the exiting flow $U_i$, the length of the image window $X_{image}$, the pulse width of the LED $T_{LED}$, and the percentage of blur captured in the image. Figure \ref{fig:pulse} shows that as the pulse width increases so does the image blur. This is a result of an over-saturation of light and subsequent blurring of the image. If the pulse width is decreased the image suffers a shortage of light and appears grainy. A pulse width value is determined sufficient based on the desired outcome of a captured image. For a clear representation of flow structures a slightly higher pulse width may be used whereas, for the accurate analysis of stock structure propagation blurring is undesirable and a lower pulse width value will be implemented. Using equation \ref{eqn:blur}, (a) and (b) from Figure \ref{fig:pulse} displays a percentage blur of 10\% and 2\% respectively. It was found that analytically this was not suitable. Figure \ref{fig:pulse_f} shows an under-expanded jet for a pulse width of 0.8ms, this value was found acceptable for data extraction analytic tools and detailed flow structure discussions.
+
+
+
+\begin{equation} \label{eqn:blur}
+\%_{blur} = \frac{U_i}{T_{LED}*X_{image}}
 \end{equation}
-\begin{figure}[!tbh]
+\begin{figure}[H]
   \centering
   \subfloat[Pulse width = 5ms.]{\includegraphics[width=0.48\textwidth]{blur_example.png}}
   \hfill
@@ -524,9 +542,17 @@ wave
   \label{fig:pulse}
 \end{figure}
 
+%\begin{figure}[H] 
+%	\centering
+%	\includegraphics[width=0.88\textwidth]{pulse.png} 
+%	\caption{Under-expanded shock for a pulse width of 0.8ms.}
+%	\label{fig:pulse_f}
+%\end{figure}
+
+
 \newpage
 
-\section{Analysis} \label{sect:post}
+\section{Analysis Techniques} \label{sect:post}
 
 Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation however, it is difficult to quantitatively extract physical parameters directly from image data. 
 
@@ -555,20 +581,20 @@ and then searches for points where the determinant of the Hessian becomes maxima
 \begin{figure}[!tbh] 
 	\centering
 	\includegraphics[width=1\textwidth]{hessian_app.png} 
-	\caption{Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \cite{grauman2011visual}.}
+	\caption{Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \citep{grauman2011visual}.}
 	\label{fig:hessian_app}
 \end{figure}
 
-the required second order image derivatives are computed by convolution with the second order derivatives of the Gaussian kernel \cite{lindeberg1994linear}. Mathematically this means that if f denotes the image and G the normalised Gaussian, we compute
+the required second order image derivatives are computed by convolution with the second order derivatives of the Gaussian kernel \citep{lindeberg1994linear}. Mathematically this means that if f denotes the image and G the normalised Gaussian, we compute
 EQUATIONS
-where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix \cite{meijering2004design}.
+where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix \citep{meijering2004design}.
 
 HESSIAN MATRIX
 
 \begin{table}[h]
 \centering
 \caption{"Eigenvalues of the Hessian matrix and image structure
-orientation (L low, H+ high positive, H- high negative)" \cite{rudzki2009vessel}.}
+orientation (L low, H+ high positive, H- high negative)" \citep{rudzki2009vessel}.}
 \begin{tabular}{@{}llll@{}}
 \toprule
 $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & Structure orientation          \\ \midrule
@@ -597,7 +623,7 @@ Use a normalised ranking to threshold intensity lower then the 90th percentile
 \newpage
 %\footnotesize
 %\printbibliography
-\bibliographystyle{ieeetr}
+\bibliographystyle{apacite}
 \bibliography{sample}
 
 %----------------------------------------------------------------------------------------
@@ -637,11 +663,11 @@ Initially, it is necessary to explore the literature and develop an understandin
 		\begin{tabular}{@{}llllll@{}}
 			\toprule
 			Reference                                                                                                                           & \begin{tabular}[c]{@{}l@{}}Main\\ Research\\ Focus\end{tabular}                                                          & \begin{tabular}[c]{@{}l@{}}Imaging\\ Technique\end{tabular}                                            & \begin{tabular}[c]{@{}l@{}}Inner Shock\\ Tube\\ Diameter\end{tabular} & \begin{tabular}[c]{@{}l@{}}Incident\\ Mach\\ Number\end{tabular} & \begin{tabular}[c]{@{}l@{}}Impingement\\ Plate Distance\\ (inner diameter)\end{tabular}   \\ \midrule
-			\multicolumn{1}{|l|}{\cite{minota1997shock}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Shock-vortex \\ interaction in \\ the flow field\end{tabular}}            & \multicolumn{1}{l|}{Shadowgraph}                                                                       & \multicolumn{1}{l|}{40mm}                                             & \multicolumn{1}{l|}{1.35}                                        & \multicolumn{1}{l|}{0.4di}                                                                \\ \midrule
-			\multicolumn{1}{|l|}{\cite{szumowski2000starting}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Sound generation \\ upon impingement\end{tabular}}                        & \multicolumn{1}{l|}{Schlieren}                                                                         & \multicolumn{1}{l|}{65mm}                                             & \multicolumn{1}{l|}{1.14}                                        & \multicolumn{1}{l|}{2di}                                                                  \\ \midrule
-			\multicolumn{1}{|l|}{\cite{murugan2010characteristics}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Noise due to shock-\\ vortex interaction \\ and impingement\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}High-speed\\ smoke flow\\ visualisations.\end{tabular}} & \multicolumn{1}{l|}{64mm}                                             & \multicolumn{1}{l|}{1.31 - 1.55}                                 & \multicolumn{1}{l|}{4.7di}                                                                \\ \midrule
-			\multicolumn{1}{|l|}{\cite{thangadurai2012experimental}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Vortex ring\\ impingement\end{tabular}}                                   & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}High-speed\\ smoke flow\\ visualisations.\end{tabular}} & \multicolumn{1}{l|}{64mm}                                             & \multicolumn{1}{l|}{1.31 - 1.85}                                 & \multicolumn{1}{l|}{4.7di}                                                                \\ \midrule
-			\multicolumn{1}{|l|}{\cite{mariani2013head}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Vortex ring\\ impingement\end{tabular}}                                   & \multicolumn{1}{l|}{Schlieren}                                                                         & \multicolumn{1}{l|}{30mm}                                             & \multicolumn{1}{l|}{1.61}                                        & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}1.66di, \\ 3.33di, \\ 5.00di\end{tabular}} \\ \bottomrule
+			\multicolumn{1}{|l|}{\citep{minota1997shock}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Shock-vortex \\ interaction in \\ the flow field\end{tabular}}            & \multicolumn{1}{l|}{Shadowgraph}                                                                       & \multicolumn{1}{l|}{40mm}                                             & \multicolumn{1}{l|}{1.35}                                        & \multicolumn{1}{l|}{0.4di}                                                                \\ \midrule
+			\multicolumn{1}{|l|}{\citep{szumowski2000starting}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Sound generation \\ upon impingement\end{tabular}}                        & \multicolumn{1}{l|}{Schlieren}                                                                         & \multicolumn{1}{l|}{65mm}                                             & \multicolumn{1}{l|}{1.14}                                        & \multicolumn{1}{l|}{2di}                                                                  \\ \midrule
+			\multicolumn{1}{|l|}{\citep{murugan2010characteristics}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Noise due to shock-\\ vortex interaction \\ and impingement\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}High-speed\\ smoke flow\\ visualisations.\end{tabular}} & \multicolumn{1}{l|}{64mm}                                             & \multicolumn{1}{l|}{1.31 - 1.55}                                 & \multicolumn{1}{l|}{4.7di}                                                                \\ \midrule
+			\multicolumn{1}{|l|}{\citep{thangadurai2012experimental}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Vortex ring\\ impingement\end{tabular}}                                   & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}High-speed\\ smoke flow\\ visualisations.\end{tabular}} & \multicolumn{1}{l|}{64mm}                                             & \multicolumn{1}{l|}{1.31 - 1.85}                                 & \multicolumn{1}{l|}{4.7di}                                                                \\ \midrule
+			\multicolumn{1}{|l|}{\citep{mariani2013head}}                                                                                              & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Vortex ring\\ impingement\end{tabular}}                                   & \multicolumn{1}{l|}{Schlieren}                                                                         & \multicolumn{1}{l|}{30mm}                                             & \multicolumn{1}{l|}{1.61}                                        & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}1.66di, \\ 3.33di, \\ 5.00di\end{tabular}} \\ \bottomrule
 		\end{tabular}}
 	\end{table}
 
@@ -651,7 +677,7 @@ In this section, the relationship between the pressure of the flow behind the le
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale=0.5]{figshock.png} 
-	\caption{Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \cite{cantwell2017}.}
+	\caption{Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \citep{cantwell2017}.}
 	\label{fig:shock}
 \end{figure}
 

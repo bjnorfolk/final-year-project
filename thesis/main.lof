@@ -1,35 +1,35 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces PCG design concept \cite {akbari2009review}.\relax }}{2}
-\contentsline {figure}{\numberline {2}{\ignorespaces Features of the diffraction pattern \cite {skews1967perturbed}\relax }}{3}
-\contentsline {figure}{\numberline {3}{\ignorespaces Evolution of the transient supersonic jet. (a) Diffracting shock/Pressure wave. (b) Axial translation of the vortex rings, formation of the curved shock and an unsteady Mach disk. (c) Formation of the trailing supersonic jet. (d) Decay of the trailing jet and the end of the transient jet process. \cite {fernandez2017compressible}\relax }}{4}
-\contentsline {figure}{\numberline {4}{\ignorespaces Evolution of jet impingement. (a) Impingement of vortex ring. (b) Vortex ring translates down the plate. (c) Secondary vortex formation. (d) Lift-off of votex rings and dissapation. \cite {szumowski2000starting}\relax }}{5}
-\contentsline {figure}{\numberline {5}{\ignorespaces Shock tube facility schematic at TUB. Major parts of the system have been labelled \cite {bhavberlin}.\relax }}{6}
-\contentsline {figure}{\numberline {6}{\ignorespaces Shock tube facility schematic. Major parts of the system have been labelled.\relax }}{7}
-\contentsline {figure}{\numberline {7}{\ignorespaces Specific Heat Capacity Ratio effect on Mach Number/Pressure Ratio Relation.\relax }}{8}
-\contentsline {figure}{\numberline {8}{\ignorespaces Detailed schlieren system diagram.\relax }}{9}
-\contentsline {figure}{\numberline {9}{\ignorespaces Schlieren parameters \cite {settles2001schlieren}.\relax }}{10}
-\contentsline {figure}{\numberline {10}{\ignorespaces Convergent nozzle.\relax }}{11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{11}
-\contentsline {figure}{\numberline {11}{\ignorespaces Divergent nozzle.\relax }}{12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{12}
-\contentsline {figure}{\numberline {12}{\ignorespaces Convergent-divergent nozzle.\relax }}{12}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{12}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Impingement plate CAD design (all measurements are in mm).\relax }}{13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Impinging plate design iterations.\relax }}{14}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Iteration 2.}}}{14}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Iteration 3.}}}{14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Plate displacement for design iteration 1.\relax }}{15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Plate displacement for design iteration 2.\relax }}{15}
-\contentsline {figure}{\numberline {17}{\ignorespaces Plate displacement for design iteration 3.\relax }}{16}
-\contentsline {figure}{\numberline {18}{\ignorespaces Shock tube drive section hydrostatic test schematic.\relax }}{17}
-\contentsline {figure}{\numberline {19}{\ignorespaces Pressure sensor calibration data(in Psi).\relax }}{18}
-\contentsline {figure}{\numberline {20}{\ignorespaces Pressure sensor calibration data(in Bar).\relax }}{18}
-\contentsline {figure}{\numberline {21}{\ignorespaces Pulse width study.\relax }}{19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pulse width = 5ms.}}}{19}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulse width = 0.5ms.}}}{19}
-\contentsline {figure}{\numberline {22}{\ignorespaces Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \cite {grauman2011visual}.\relax }}{20}
-\contentsline {figure}{\numberline {23}{\ignorespaces (Left): Isometric view of the LTRAC Shock Lab, with the shock tube facility stored under the shelving. (Right): Top view of the LTRAC Shock Lab, with the PIV (orange) and schlieren (red) sites highlighted.\relax }}{27}
-\contentsline {figure}{\numberline {24}{\ignorespaces Isometric view of the design of the shock tube facility. (Right): Progress of the commission of the shock tube facility.\relax }}{27}
-\contentsline {figure}{\numberline {25}{\ignorespaces Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \cite {cantwell2017}.\relax }}{29}
+\contentsline {figure}{\numberline {1}{\ignorespaces PCG design concept \citep {akbari2009review}.\relax }}{2}{figure.caption.7}
+\contentsline {figure}{\numberline {2}{\ignorespaces Features of the diffraction pattern \citep {skews1967perturbed}\relax }}{4}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces Evolution of the transient supersonic jet. (a) Diffracting shock/Pressure wave. (b) Axial translation of the vortex rings, formation of the curved shock and an unsteady Mach disk. (c) Formation of the trailing supersonic jet. (d) Decay of the trailing jet and the end of the transient jet process. \citep {fernandez2017compressible}\relax }}{5}{figure.caption.9}
+\contentsline {figure}{\numberline {4}{\ignorespaces Evolution of jet impingement. (a) Impingement of vortex ring. (b) Vortex ring translates down the plate. (c) Secondary vortex formation. (d) Lift-off of votex rings and dissapation. \citep {szumowski2000starting}\relax }}{6}{figure.caption.10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Shock tube facility schematic at TUB. Major parts of the system have been labelled \citep {bhavberlin}.\relax }}{7}{figure.caption.11}
+\contentsline {figure}{\numberline {6}{\ignorespaces Shock tube facility schematic. Major parts of the system have been labelled.\relax }}{8}{figure.caption.12}
+\contentsline {figure}{\numberline {7}{\ignorespaces Specific Heat Capacity Ratio effect on Mach Number/Pressure Ratio Relation.\relax }}{10}{figure.caption.14}
+\contentsline {figure}{\numberline {8}{\ignorespaces Detailed schlieren system diagram.\relax }}{12}{figure.caption.15}
+\contentsline {figure}{\numberline {9}{\ignorespaces Schlieren parameters \citep {settles2001schlieren}.\relax }}{13}{figure.caption.18}
+\contentsline {figure}{\numberline {10}{\ignorespaces Convergent nozzle.\relax }}{14}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{14}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{14}{subfigure.10.2}
+\contentsline {figure}{\numberline {11}{\ignorespaces Divergent nozzle.\relax }}{15}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{15}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{15}{subfigure.11.2}
+\contentsline {figure}{\numberline {12}{\ignorespaces Convergent-divergent nozzle.\relax }}{15}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {CAD design (all measurements are in mm).}}}{15}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Manufactured nozzle.}}}{15}{subfigure.12.2}
+\contentsline {figure}{\numberline {13}{\ignorespaces Impingement plate CAD design (all measurements are in mm).\relax }}{16}{figure.caption.22}
+\contentsline {figure}{\numberline {14}{\ignorespaces Impinging plate design iterations.\relax }}{18}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Iteration 2.}}}{18}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Iteration 3.}}}{18}{subfigure.14.2}
+\contentsline {figure}{\numberline {15}{\ignorespaces Plate displacement for design iteration 1.\relax }}{18}{figure.caption.24}
+\contentsline {figure}{\numberline {16}{\ignorespaces Plate displacement for design iteration 2.\relax }}{19}{figure.caption.25}
+\contentsline {figure}{\numberline {17}{\ignorespaces Plate displacement for design iteration 3.\relax }}{19}{figure.caption.26}
+\contentsline {figure}{\numberline {18}{\ignorespaces Shock tube drive section hydrostatic test schematic.\relax }}{20}{figure.caption.27}
+\contentsline {figure}{\numberline {19}{\ignorespaces Pressure sensor calibration data (in Psi).\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {20}{\ignorespaces Pressure sensor calibration data (in Bar).\relax }}{22}{figure.caption.30}
+\contentsline {figure}{\numberline {21}{\ignorespaces Pulse width study.\relax }}{24}{figure.caption.31}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pulse width = 5ms.}}}{24}{subfigure.21.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulse width = 0.5ms.}}}{24}{subfigure.21.2}
+\contentsline {figure}{\numberline {22}{\ignorespaces Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \citep {grauman2011visual}.\relax }}{26}{figure.caption.32}
+\contentsline {figure}{\numberline {23}{\ignorespaces (Left): Isometric view of the LTRAC Shock Lab, with the shock tube facility stored under the shelving. (Right): Top view of the LTRAC Shock Lab, with the PIV (orange) and schlieren (red) sites highlighted.\relax }}{33}{figure.caption.35}
+\contentsline {figure}{\numberline {24}{\ignorespaces Isometric view of the design of the shock tube facility. (Right): Progress of the commission of the shock tube facility.\relax }}{33}{figure.caption.36}
+\contentsline {figure}{\numberline {25}{\ignorespaces Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \citep {cantwell2017}.\relax }}{35}{figure.caption.38}

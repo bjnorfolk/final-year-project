@@ -1,151 +1,924 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{rudzki2009vessel}
-M.~Rudzki, ``Vessel detection method based on eigenvalues of the hessian matrix
-  and its applicability to airway tree segmentation,'' in {\em Proceedings of
-  the 11th International PhD Workshop OWD}, pp.~100--105, 2009.
+\bibitem [\protect \citeauthoryear {%
+Akbari%
+\ \BBA {} Nalim%
+}{%
+Akbari%
+\ \BBA {} Nalim%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+akbari2009review}
+\APACinsertmetastar {%
+akbari2009review}%
+\begin{APACrefauthors}%
+Akbari, P.%
+\BCBT {}\ \BBA {} Nalim, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Review of recent developments in wave rotor combustion
+  technology} {Review of recent developments in wave rotor combustion
+  technology}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Propulsion and Power}{25}{4}{833--844}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{akbari2009review}
-P.~Akbari and R.~Nalim, ``Review of recent developments in wave rotor
-  combustion technology,'' {\em Journal of Propulsion and Power}, vol.~25,
-  no.~4, pp.~833--844, 2009.
+\bibitem [\protect \citeauthoryear {%
+Anderson%
+, Puranik%
+, Oakley%
+, Brooks%
+\BCBL {}\ \BBA {} Bonazza%
+}{%
+Anderson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+anderson2000shock}
+\APACinsertmetastar {%
+anderson2000shock}%
+\begin{APACrefauthors}%
+Anderson, M.%
+, Puranik, B.%
+, Oakley, J.%
+, Brooks, P.%
+\BCBL {}\ \BBA {} Bonazza, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Shock tube investigation of hydrodynamic issues related
+  to inertial confinement fusion} {Shock tube investigation of hydrodynamic
+  issues related to inertial confinement fusion}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Shock Waves}{10}{5}{377--387}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{skews1967perturbed}
-B.~W. Skews, ``The perturbed region behind a diffracting shock wave,'' {\em
-  Journal of Fluid Mechanics}, vol.~29, no.~4, pp.~705--719, 1967.
+\bibitem [\protect \citeauthoryear {%
+Anderson~Jr%
+}{%
+Anderson~Jr%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+anderson2010fundamentals}
+\APACinsertmetastar {%
+anderson2010fundamentals}%
+\begin{APACrefauthors}%
+Anderson~Jr, J\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {Fundamentals of aerodynamics} {Fundamentals of aerodynamics}.
+\newblock
+\APACaddressPublisher{}{Tata McGraw-Hill Education}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{fernandez2017compressible}
-J.~J.~P. Fern{\'a}ndez and J.~Sesterhenn, ``Compressible starting jet:
-  Pinch-off and vortex ring--trailing jet interaction,'' {\em Journal of Fluid
-  Mechanics}, vol.~817, pp.~560--589, 2017.
+\bibitem [\protect \citeauthoryear {%
+Bradley%
+}{%
+Bradley%
+}{%
+{\protect \APACyear {1962}}%
+}]{%
+john1962shock}
+\APACinsertmetastar {%
+john1962shock}%
+\begin{APACrefauthors}%
+Bradley, J\BPBI N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1962}.
+\newblock
+\APACrefbtitle {Shock waves in chemistry and physics} {Shock waves in chemistry
+  and physics}.
+\newblock
+\APACaddressPublisher{}{Methuen}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{szumowski2000starting}
-A.~Szumowski, G.~Sobieraj, W.~Selerowicz, and J.~Piechna, ``Starting jet--wall
-  interaction,'' {\em Journal of sound and vibration}, vol.~232, no.~4,
-  pp.~695--702, 2000.
+\bibitem [\protect \citeauthoryear {%
+Cantwell%
+}{%
+Cantwell%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+cantwell2017}
+\APACinsertmetastar {%
+cantwell2017}%
+\begin{APACrefauthors}%
+Cantwell, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Fundamentals of Compressible Flow} {Fundamentals of
+  compressible flow}\ (\BVOL\ Ch13.7).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{bhavberlin}
-B.~Thethy, ``Influence of nozzle geometry on detonation-driven and shock-driven
-  transient supersonic jet flow,'' {\em ISABE}, 2019.
+\bibitem [\protect \citeauthoryear {%
+Dean%
+, Rasheed%
+, Tangirala%
+\BCBL {}\ \BBA {} Pinard%
+}{%
+Dean%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+dean2005operation}
+\APACinsertmetastar {%
+dean2005operation}%
+\begin{APACrefauthors}%
+Dean, A\BPBI J.%
+, Rasheed, A.%
+, Tangirala, V.%
+\BCBL {}\ \BBA {} Pinard, P\BPBI F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Operation and noise transmission of an axial turbine
+  driven by a pulse detonation combustor} {Operation and noise transmission of
+  an axial turbine driven by a pulse detonation combustor}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {ASME Turbo Expo 2005: Power for Land, Sea, and Air}
+  {Asme turbo expo 2005: Power for land, sea, and air}\ (\BPGS\ 1275--1284).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{settles2001schlieren}
-G.~Settles, ``Schlieren and shadowgraph techniques- visualizing phenomena in
-  transparent media(book),'' {\em Berlin, Germany: Springer-Verlag GmbH,
-  2001.}, 2001.
+\bibitem [\protect \citeauthoryear {%
+Dora%
+, Murugan%
+, De%
+\BCBL {}\ \BBA {} Das%
+}{%
+Dora%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+dora2014role}
+\APACinsertmetastar {%
+dora2014role}%
+\begin{APACrefauthors}%
+Dora, C.%
+, Murugan, T.%
+, De, S.%
+\BCBL {}\ \BBA {} Das, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Role of slipstream instability in formation of
+  counter-rotating vortex rings ahead of a compressible vortex ring} {Role of
+  slipstream instability in formation of counter-rotating vortex rings ahead of
+  a compressible vortex ring}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{753}{}{29--48}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{grauman2011visual}
-K.~Grauman and B.~Leibe, ``Visual object recognition,'' {\em Synthesis lectures
-  on artificial intelligence and machine learning}, vol.~5, no.~2, pp.~1--181,
-  2011.
+\bibitem [\protect \citeauthoryear {%
+Eidelman%
+, Grossmann%
+\BCBL {}\ \BBA {} Lottati%
+}{%
+Eidelman%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1991}}%
+}]{%
+eidelman1991review}
+\APACinsertmetastar {%
+eidelman1991review}%
+\begin{APACrefauthors}%
+Eidelman, S.%
+, Grossmann, W.%
+\BCBL {}\ \BBA {} Lottati, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1991}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Review of propulsion applications and numerical
+  simulations of the pulsed detonation engine concept} {Review of propulsion
+  applications and numerical simulations of the pulsed detonation engine
+  concept}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Propulsion and Power}{7}{6}{857--865}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{cantwell2017}
-B.~Cantwell, ``Fundamentals of compressible flow,'' 2017.
+\bibitem [\protect \citeauthoryear {%
+Elder~Jr%
+\ \BBA {} De~Haas%
+}{%
+Elder~Jr%
+\ \BBA {} De~Haas%
+}{%
+{\protect \APACyear {1952}}%
+}]{%
+elder1952experimental}
+\APACinsertmetastar {%
+elder1952experimental}%
+\begin{APACrefauthors}%
+Elder~Jr, F.%
+\BCBT {}\ \BBA {} De~Haas, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1952}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Experimental study of the formation of a vortex ring at
+  the open end of a cylindrical shock tube} {Experimental study of the
+  formation of a vortex ring at the open end of a cylindrical shock
+  tube}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Applied Physics}{23}{10}{1065--1069}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{paxson2018pressure}
-D.~Paxson, ``Pressure-gain combustion for gas turbines,'' 2018.
+\bibitem [\protect \citeauthoryear {%
+Fern{\'a}ndez%
+\ \BBA {} Sesterhenn%
+}{%
+Fern{\'a}ndez%
+\ \BBA {} Sesterhenn%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+fernandez2017compressible}
+\APACinsertmetastar {%
+fernandez2017compressible}%
+\begin{APACrefauthors}%
+Fern{\'a}ndez, J\BPBI J\BPBI P.%
+\BCBT {}\ \BBA {} Sesterhenn, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Compressible starting jet: Pinch-off and vortex
+  ring--trailing jet interaction} {Compressible starting jet: Pinch-off and
+  vortex ring--trailing jet interaction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{817}{}{560--589}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{gulen2013constant}
-S.~G{\"u}len, ``Constant volume combustion: The ultimate gas turbine cycle,''
-  {\em Gas Turbine World}, vol.~43, no.~6, pp.~20--27, 2013.
+\bibitem [\protect \citeauthoryear {%
+Gharib%
+, Rambod%
+\BCBL {}\ \BBA {} Shariff%
+}{%
+Gharib%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1998}}%
+}]{%
+gharib1998universal}
+\APACinsertmetastar {%
+gharib1998universal}%
+\begin{APACrefauthors}%
+Gharib, M.%
+, Rambod, E.%
+\BCBL {}\ \BBA {} Shariff, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1998}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A universal time scale for vortex ring formation} {A
+  universal time scale for vortex ring formation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{360}{}{121--140}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{eidelman1991review}
-S.~Eidelman, W.~Grossmann, and I.~Lottati, ``Review of propulsion applications
-  and numerical simulations of the pulsed detonation engine concept,'' {\em
-  Journal of Propulsion and Power}, vol.~7, no.~6, pp.~857--865, 1991.
+\bibitem [\protect \citeauthoryear {%
+Grauman%
+\ \BBA {} Leibe%
+}{%
+Grauman%
+\ \BBA {} Leibe%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+grauman2011visual}
+\APACinsertmetastar {%
+grauman2011visual}%
+\begin{APACrefauthors}%
+Grauman, K.%
+\BCBT {}\ \BBA {} Leibe, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Visual object recognition} {Visual object
+  recognition}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Synthesis lectures on artificial intelligence and
+  machine learning}{5}{2}{1--181}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{kailasanath2009research}
-K.~Kailasanath, ``Research on pulse detonation combustion systems: a status
-  report,'' in {\em 47th AIAA aerospace sciences meeting including the new
-  horizons forum and aerospace exposition}, p.~631, 2009.
+\bibitem [\protect \citeauthoryear {%
+G{\"u}len%
+}{%
+G{\"u}len%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+gulen2013constant}
+\APACinsertmetastar {%
+gulen2013constant}%
+\begin{APACrefauthors}%
+G{\"u}len, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Constant volume combustion: The ultimate gas turbine
+  cycle} {Constant volume combustion: The ultimate gas turbine cycle}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Gas Turbine World}{43}{6}{20--27}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{dean2005operation}
-A.~J. Dean, A.~Rasheed, V.~Tangirala, and P.~F. Pinard, ``Operation and noise
-  transmission of an axial turbine driven by a pulse detonation combustor,'' in
-  {\em ASME Turbo Expo 2005: Power for Land, Sea, and Air}, pp.~1275--1284,
-  American Society of Mechanical Engineers, 2005.
+\bibitem [\protect \citeauthoryear {%
+Ishii%
+, Fujimoto%
+, Hatta%
+\BCBL {}\ \BBA {} Umeda%
+}{%
+Ishii%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1999}}%
+}]{%
+ishii1999experimental}
+\APACinsertmetastar {%
+ishii1999experimental}%
+\begin{APACrefauthors}%
+Ishii, R.%
+, Fujimoto, H.%
+, Hatta, N.%
+\BCBL {}\ \BBA {} Umeda, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Experimental and numerical analysis of circular pulse
+  jets} {Experimental and numerical analysis of circular pulse jets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{392}{}{129--153}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{radulescu2007transient}
-M.~I. Radulescu and C.~K. Law, ``The transient start of supersonic jets,'' {\em
-  Journal of Fluid Mechanics}, vol.~578, pp.~331--369, 2007.
+\bibitem [\protect \citeauthoryear {%
+Kailasanath%
+}{%
+Kailasanath%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+kailasanath2009research}
+\APACinsertmetastar {%
+kailasanath2009research}%
+\begin{APACrefauthors}%
+Kailasanath, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Research on pulse detonation combustion systems: a
+  status report} {Research on pulse detonation combustion systems: a status
+  report}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {47th AIAA aerospace sciences meeting including the new
+  horizons forum and aerospace exposition} {47th aiaa aerospace sciences
+  meeting including the new horizons forum and aerospace exposition}\
+  (\BPG~631).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{ishii1999experimental}
-R.~Ishii, H.~Fujimoto, N.~Hatta, and Y.~Umeda, ``Experimental and numerical
-  analysis of circular pulse jets,'' {\em Journal of Fluid Mechanics},
-  vol.~392, pp.~129--153, 1999.
+\bibitem [\protect \citeauthoryear {%
+Knight%
+}{%
+Knight%
+}{%
+{\protect \APACyear {1958}}%
+}]{%
+knight1958piezoelectric}
+\APACinsertmetastar {%
+knight1958piezoelectric}%
+\begin{APACrefauthors}%
+Knight, H\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1958}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Piezoelectric Detector for Low-Pressure Shock Waves}
+  {Piezoelectric detector for low-pressure shock waves}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Review of Scientific Instruments}{29}{2}{174--175}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{elder1952experimental}
-F.~Elder~Jr and N.~De~Haas, ``Experimental study of the formation of a vortex
-  ring at the open end of a cylindrical shock tube,'' {\em Journal of Applied
-  Physics}, vol.~23, no.~10, pp.~1065--1069, 1952.
+\bibitem [\protect \citeauthoryear {%
+Lindeberg%
+\ \BBA {} ter Haar~Romeny%
+}{%
+Lindeberg%
+\ \BBA {} ter Haar~Romeny%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+lindeberg1994linear}
+\APACinsertmetastar {%
+lindeberg1994linear}%
+\begin{APACrefauthors}%
+Lindeberg, T.%
+\BCBT {}\ \BBA {} ter Haar~Romeny, B\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Linear scale-space I: Basic theory} {Linear scale-space
+  i: Basic theory}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Geometry-driven diffusion in computer vision}
+  {Geometry-driven diffusion in computer vision}\ (\BPGS\ 1--38).
+\newblock
+\APACaddressPublisher{}{Springer}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{dora2014role}
-C.~Dora, T.~Murugan, S.~De, and D.~Das, ``Role of slipstream instability in
-  formation of counter-rotating vortex rings ahead of a compressible vortex
-  ring,'' {\em Journal of Fluid Mechanics}, vol.~753, pp.~29--48, 2014.
+\bibitem [\protect \citeauthoryear {%
+Mariani%
+, Kontis%
+\BCBL {}\ \BBA {} Gongora-Orozco%
+}{%
+Mariani%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+mariani2013head}
+\APACinsertmetastar {%
+mariani2013head}%
+\begin{APACrefauthors}%
+Mariani, R.%
+, Kontis, K.%
+\BCBL {}\ \BBA {} Gongora-Orozco, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Head on collisions of compressible vortex rings on a
+  smooth solid surface} {Head on collisions of compressible vortex rings on a
+  smooth solid surface}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Shock Waves}{23}{4}{381--398}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{matsuda1987numerical}
-T.~MATSUDA, Y.~UMEDA, R.~ISHII, and K.~SAWADA, ``Numerical and experimental
-  studies on choked underexpanded jets,'' in {\em 19th AIAA, Fluid Dynamics,
-  Plasma Dynamics, and Lasers Conference}, p.~1378, 1987.
+\bibitem [\protect \citeauthoryear {%
+Matsuda%
+, Umeda%
+, Ishii%
+\BCBL {}\ \BBA {} Sawada%
+}{%
+Matsuda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1987}}%
+}]{%
+matsuda1987numerical}
+\APACinsertmetastar {%
+matsuda1987numerical}%
+\begin{APACrefauthors}%
+Matsuda, T.%
+, Umeda, Y.%
+, Ishii, R.%
+\BCBL {}\ \BBA {} Sawada, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Numerical and experimental studies on choked
+  underexpanded jets} {Numerical and experimental studies on choked
+  underexpanded jets}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {19th AIAA, Fluid Dynamics, Plasma Dynamics, and Lasers
+  Conference} {19th aiaa, fluid dynamics, plasma dynamics, and lasers
+  conference}\ (\BPG~1378).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{gharib1998universal}
-M.~Gharib, E.~Rambod, and K.~Shariff, ``A universal time scale for vortex ring
-  formation,'' {\em Journal of Fluid Mechanics}, vol.~360, pp.~121--140, 1998.
+\bibitem [\protect \citeauthoryear {%
+Meijering%
+\ \protect \BOthers {.}}{%
+Meijering%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+meijering2004design}
+\APACinsertmetastar {%
+meijering2004design}%
+\begin{APACrefauthors}%
+Meijering, E.%
+, Jacob, M.%
+, Sarria, J\BHBI C.%
+, Steiner, P.%
+, Hirling, H.%
+\BCBL {}\ \BBA {} Unser, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Design and validation of a tool for neurite tracing and
+  analysis in fluorescence microscopy images} {Design and validation of a tool
+  for neurite tracing and analysis in fluorescence microscopy images}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cytometry Part A: the journal of the International
+  Society for Analytical Cytology}{58}{2}{167--176}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{zhao2000effects}
-W.~Zhao, S.~H. Frankel, and L.~G. Mongeau, ``Effects of trailing jet
-  instability on vortex ring formation,'' {\em Physics of Fluids}, vol.~12,
-  no.~3, pp.~589--596, 2000.
+\bibitem [\protect \citeauthoryear {%
+Minota%
+, Nishida%
+\BCBL {}\ \BBA {} Lee%
+}{%
+Minota%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1997}}%
+}]{%
+minota1997shock}
+\APACinsertmetastar {%
+minota1997shock}%
+\begin{APACrefauthors}%
+Minota, T.%
+, Nishida, M.%
+\BCBL {}\ \BBA {} Lee, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Shock formation by compressible vortex ring impinging on
+  a wall} {Shock formation by compressible vortex ring impinging on a
+  wall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Fluid dynamics research}{21}{3}{139}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{minota1997shock}
-T.~Minota, M.~Nishida, and M.~Lee, ``Shock formation by compressible vortex
-  ring impinging on a wall,'' {\em Fluid dynamics research}, vol.~21, no.~3,
-  p.~139, 1997.
+\bibitem [\protect \citeauthoryear {%
+Murugan%
+\ \BBA {} Das%
+}{%
+Murugan%
+\ \BBA {} Das%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+murugan2010characteristics}
+\APACinsertmetastar {%
+murugan2010characteristics}%
+\begin{APACrefauthors}%
+Murugan, T.%
+\BCBT {}\ \BBA {} Das, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Characteristics of noise produced during impingement of
+  a compressible vortex ring on a wall} {Characteristics of noise produced
+  during impingement of a compressible vortex ring on a wall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of
+  Aeroacoustics}{9}{6}{849--858}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{mariani2013head}
-R.~Mariani, K.~Kontis, and N.~Gongora-Orozco, ``Head on collisions of
-  compressible vortex rings on a smooth solid surface,'' {\em Shock Waves},
-  vol.~23, no.~4, pp.~381--398, 2013.
+\bibitem [\protect \citeauthoryear {%
+Paxson%
+}{%
+Paxson%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+paxson2018pressure}
+\APACinsertmetastar {%
+paxson2018pressure}%
+\begin{APACrefauthors}%
+Paxson, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pressure-Gain Combustion for Gas Turbines}
+  {Pressure-gain combustion for gas turbines}.{\BBCQ}
+\newblock
 
-\bibitem{murugan2010characteristics}
-T.~Murugan and D.~Das, ``Characteristics of noise produced during impingement
-  of a compressible vortex ring on a wall,'' {\em International Journal of
-  Aeroacoustics}, vol.~9, no.~6, pp.~849--858, 2010.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{willert2012assessment}
-C.~E. Willert, D.~M. Mitchell, and J.~Soria, ``An assessment of high-power
-  light-emitting diodes for high frame rate schlieren imaging,'' {\em
-  Experiments in fluids}, vol.~53, no.~2, pp.~413--421, 2012.
+\bibitem [\protect \citeauthoryear {%
+Poldervaart%
+, Vink%
+\BCBL {}\ \BBA {} Wijnands%
+}{%
+Poldervaart%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1968}}%
+}]{%
+poldervaart1968photographic}
+\APACinsertmetastar {%
+poldervaart1968photographic}%
+\begin{APACrefauthors}%
+Poldervaart, L.%
+, Vink, A.%
+\BCBL {}\ \BBA {} Wijnands, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The photographic evidence of the feedback loop of a two
+  dimensional screeching supersonic jet of air} {The photographic evidence of
+  the feedback loop of a two dimensional screeching supersonic jet of
+  air}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 6th International Congress on
+  Acoustics, Tokyo, Japan.} {Proceedings of the 6th international congress on
+  acoustics, tokyo, japan.}
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{john1962shock}
-J.~N. Bradley, {\em Shock waves in chemistry and physics}.
-\newblock Methuen, 1962.
+\bibitem [\protect \citeauthoryear {%
+Radulescu%
+\ \BBA {} Law%
+}{%
+Radulescu%
+\ \BBA {} Law%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+radulescu2007transient}
+\APACinsertmetastar {%
+radulescu2007transient}%
+\begin{APACrefauthors}%
+Radulescu, M\BPBI I.%
+\BCBT {}\ \BBA {} Law, C\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The transient start of supersonic jets} {The transient
+  start of supersonic jets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{578}{}{331--369}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{anderson2010fundamentals}
-J.~D. Anderson~Jr, {\em Fundamentals of aerodynamics}.
-\newblock Tata McGraw-Hill Education, 2010.
+\bibitem [\protect \citeauthoryear {%
+Rudzki%
+}{%
+Rudzki%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+rudzki2009vessel}
+\APACinsertmetastar {%
+rudzki2009vessel}%
+\begin{APACrefauthors}%
+Rudzki, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Vessel detection method based on eigenvalues of the
+  hessian matrix and its applicability to airway tree segmentation} {Vessel
+  detection method based on eigenvalues of the hessian matrix and its
+  applicability to airway tree segmentation}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 11th International PhD Workshop OWD}
+  {Proceedings of the 11th international phd workshop owd}\ (\BPGS\ 100--105).
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{poldervaart1968photographic}
-L.~Poldervaart, A.~Vink, and A.~Wijnands, ``The photographic evidence of the
-  feedback loop of a two dimensional screeching supersonic jet of air,'' in
-  {\em Proceedings of the 6th International Congress on Acoustics, Tokyo,
-  Japan}, 1968.
+\bibitem [\protect \citeauthoryear {%
+Ryu%
+, Hwang%
+\BCBL {}\ \BBA {} Rabinowitz%
+}{%
+Ryu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1995}}%
+}]{%
+ryu1995shock}
+\APACinsertmetastar {%
+ryu1995shock}%
+\begin{APACrefauthors}%
+Ryu, S\BHBI O.%
+, Hwang, S\BPBI M.%
+\BCBL {}\ \BBA {} Rabinowitz, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Shock tube and modeling study of the H+ O2= OH+ O
+  reaction over a wide range of composition, pressure, and temperature} {Shock
+  tube and modeling study of the h+ o2= oh+ o reaction over a wide range of
+  composition, pressure, and temperature}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Physical
+  Chemistry}{99}{38}{13984--13991}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{lindeberg1994linear}
-T.~Lindeberg and B.~M. ter Haar~Romeny, ``Linear scale-space i: Basic theory,''
-  in {\em Geometry-driven diffusion in computer vision}, pp.~1--38, Springer,
-  1994.
+\bibitem [\protect \citeauthoryear {%
+Settles%
+}{%
+Settles%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+settles2001schlieren}
+\APACinsertmetastar {%
+settles2001schlieren}%
+\begin{APACrefauthors}%
+Settles, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Schlieren and shadowgraph techniques- Visualizing
+  phenomena in transparent media(Book)} {Schlieren and shadowgraph techniques-
+  visualizing phenomena in transparent media(book)}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Berlin, Germany: Springer-Verlag GmbH, 2001.}{}{}{}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{meijering2004design}
-E.~Meijering, M.~Jacob, J.-C. Sarria, P.~Steiner, H.~Hirling, and M.~Unser,
-  ``Design and validation of a tool for neurite tracing and analysis in
-  fluorescence microscopy images,'' {\em Cytometry Part A: the journal of the
-  International Society for Analytical Cytology}, vol.~58, no.~2, pp.~167--176,
-  2004.
+\bibitem [\protect \citeauthoryear {%
+Skews%
+}{%
+Skews%
+}{%
+{\protect \APACyear {1967}}%
+}]{%
+skews1967perturbed}
+\APACinsertmetastar {%
+skews1967perturbed}%
+\begin{APACrefauthors}%
+Skews, B\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1967}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The perturbed region behind a diffracting shock wave}
+  {The perturbed region behind a diffracting shock wave}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Fluid Mechanics}{29}{4}{705--719}.
+\PrintBackRefs{\CurrentBib}
 
-\bibitem{thangadurai2012experimental}
-M.~Thangadurai and D.~Das, ``Experimental study on a compressible vortex ring
-  in collision with a wall,'' {\em Journal of visualization}, vol.~15, no.~4,
-  pp.~321--332, 2012.
+\bibitem [\protect \citeauthoryear {%
+Szumowski%
+, Sobieraj%
+, Selerowicz%
+\BCBL {}\ \BBA {} Piechna%
+}{%
+Szumowski%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+szumowski2000starting}
+\APACinsertmetastar {%
+szumowski2000starting}%
+\begin{APACrefauthors}%
+Szumowski, A.%
+, Sobieraj, G.%
+, Selerowicz, W.%
+\BCBL {}\ \BBA {} Piechna, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Starting jet--wall interaction} {Starting jet--wall
+  interaction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of sound and vibration}{232}{4}{695--702}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thangadurai%
+\ \BBA {} Das%
+}{%
+Thangadurai%
+\ \BBA {} Das%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+thangadurai2012experimental}
+\APACinsertmetastar {%
+thangadurai2012experimental}%
+\begin{APACrefauthors}%
+Thangadurai, M.%
+\BCBT {}\ \BBA {} Das, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Experimental study on a compressible vortex ring in
+  collision with a wall} {Experimental study on a compressible vortex ring in
+  collision with a wall}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of visualization}{15}{4}{321--332}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Thethy%
+}{%
+Thethy%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+bhavberlin}
+\APACinsertmetastar {%
+bhavberlin}%
+\begin{APACrefauthors}%
+Thethy, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Influence of Nozzle Geometry on Detonation-Driven and
+  Shock-Driven Transient Supersonic Jet Flow} {Influence of nozzle geometry on
+  detonation-driven and shock-driven transient supersonic jet flow}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ISABE}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Willert%
+, Mitchell%
+\BCBL {}\ \BBA {} Soria%
+}{%
+Willert%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+willert2012assessment}
+\APACinsertmetastar {%
+willert2012assessment}%
+\begin{APACrefauthors}%
+Willert, C\BPBI E.%
+, Mitchell, D\BPBI M.%
+\BCBL {}\ \BBA {} Soria, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An assessment of high-power light-emitting diodes for
+  high frame rate schlieren imaging} {An assessment of high-power
+  light-emitting diodes for high frame rate schlieren imaging}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Experiments in fluids}{53}{2}{413--421}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zhao%
+, Frankel%
+\BCBL {}\ \BBA {} Mongeau%
+}{%
+Zhao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+zhao2000effects}
+\APACinsertmetastar {%
+zhao2000effects}%
+\begin{APACrefauthors}%
+Zhao, W.%
+, Frankel, S\BPBI H.%
+\BCBL {}\ \BBA {} Mongeau, L\BPBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Effects of trailing jet instability on vortex ring
+  formation} {Effects of trailing jet instability on vortex ring
+  formation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Physics of Fluids}{12}{3}{589--596}.
+\PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

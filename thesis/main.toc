@@ -1,33 +1,33 @@
-\contentsline {section}{\numberline {1}Introduction}{1}
-\contentsline {subsection}{\numberline {1.1}Motivation}{1}
-\contentsline {subsection}{\numberline {1.2}Aims}{1}
-\contentsline {section}{\numberline {2}Background Theory}{2}
-\contentsline {subsection}{\numberline {2.1}Pressure Gain Combustion}{2}
-\contentsline {subsection}{\numberline {2.2}Transient Supersonic Jet}{3}
-\contentsline {subsection}{\numberline {2.3}Transient Jet Impingement}{4}
-\contentsline {subsection}{\numberline {2.4}Acoustic Noise}{5}
-\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{6}
-\contentsline {subsection}{\numberline {3.1}Technical University of Berlin Pulse Detonation Combustion Facility}{6}
-\contentsline {subsection}{\numberline {3.2}Shock Tube Facility}{7}
-\contentsline {subsection}{\numberline {3.3}Schlieren Imaging}{8}
-\contentsline {subsubsection}{\numberline {3.3.1}High Resolution Imaging}{9}
-\contentsline {subsubsection}{\numberline {3.3.2}High Speed Imaging}{9}
-\contentsline {subsubsection}{\numberline {3.3.3}Limitations}{10}
-\contentsline {subsection}{\numberline {3.4}Facility Development and Calibration}{11}
-\contentsline {subsubsection}{\numberline {3.4.1}Nozzle Design}{11}
-\contentsline {subsubsection}{\numberline {3.4.2}Impingement Plate Design}{11}
-\contentsline {subsubsection}{\numberline {3.4.3}Impingement Plate Development}{13}
-\contentsline {subsubsection}{\numberline {3.4.4}Hydrostatic Test}{16}
-\contentsline {subsubsection}{\numberline {3.4.5}Sensor Calibration}{17}
-\contentsline {subsubsection}{\numberline {3.4.6}Diaphragm Study}{19}
-\contentsline {subsubsection}{\numberline {3.4.7}LED Calibration}{19}
-\contentsline {section}{\numberline {4}Analysis}{20}
-\contentsline {subsection}{\numberline {4.1}Second Order Convolution}{20}
-\contentsline {subsection}{\numberline {4.2}Ranking Methods}{21}
-\contentsline {section}{\numberline {5}Results}{22}
-\contentsline {section}{\numberline {6}Discussion}{23}
-\contentsline {section}{\numberline {7}Conclusions and Recommendations}{24}
-\contentsline {section}{Appendix}{27}
-\contentsline {section}{\numberline {A}Shock Facility}{27}
-\contentsline {section}{\numberline {B}Literature Comparison}{27}
-\contentsline {section}{\numberline {C}Shock Relations}{28}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Motivation}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Aims}{1}{subsection.1.2}
+\contentsline {section}{\numberline {2}Background Theory}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Pressure Gain Combustion}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Transient Supersonic Jet}{3}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Transient Jet Impingement}{4}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Acoustic Noise}{6}{subsection.2.4}
+\contentsline {section}{\numberline {3}Experimental Methods \& Analysis Techniques}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Technical University of Berlin Pulse Detonation Combustion Facility}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Shock Tube Facility}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Schlieren Imaging}{10}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}High Resolution Imaging}{12}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}High Speed Imaging}{12}{subsubsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3}Limitations}{13}{subsubsection.3.3.3}
+\contentsline {subsection}{\numberline {3.4}Facility Development and Calibration}{14}{subsection.3.4}
+\contentsline {subsubsection}{\numberline {3.4.1}Nozzle Design}{14}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}Impingement Plate Design}{16}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}Impingement Plate Development}{16}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}Hydrostatic Test}{20}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}Pressure Sensor Calibration}{21}{subsubsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.6}Diaphragm Study}{23}{subsubsection.3.4.6}
+\contentsline {subsubsection}{\numberline {3.4.7}LED Calibration}{23}{subsubsection.3.4.7}
+\contentsline {section}{\numberline {4}Analysis Techniques}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}Second Order Convolution}{25}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Ranking Methods}{26}{subsection.4.2}
+\contentsline {section}{\numberline {5}Results}{27}{section.5}
+\contentsline {section}{\numberline {6}Discussion}{28}{section.6}
+\contentsline {section}{\numberline {7}Conclusions and Recommendations}{29}{section.7}
+\contentsline {section}{Appendix}{33}{section*.34}
+\contentsline {section}{\numberline {A}Shock Facility}{33}{appendix.A}
+\contentsline {section}{\numberline {B}Literature Comparison}{33}{appendix.B}
+\contentsline {section}{\numberline {C}Shock Relations}{34}{appendix.C}
