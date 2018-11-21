@@ -82,6 +82,30 @@ Anderson~Jr, J\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Beaudet%
+}{%
+Beaudet%
+}{%
+{\protect \APACyear {1978}}%
+}]{%
+beaudet1978rotationally}
+\APACinsertmetastar {%
+beaudet1978rotationally}%
+\begin{APACrefauthors}%
+Beaudet, P\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1978}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Rotationally invariant image operators} {Rotationally
+  invariant image operators}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proc. 4th Int. Joint Conf. Pattern Recog, Tokyo, Japan,
+  1978.} {Proc. 4th int. joint conf. pattern recog, tokyo, japan, 1978.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bradley%
 }{%
 Bradley%
@@ -102,6 +126,29 @@ Bradley, J\BPBI N.%
   and physics}.
 \newblock
 \APACaddressPublisher{}{Methuen}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Brownlee%
+}{%
+Brownlee%
+}{%
+{\protect \APACyear {1965}}%
+}]{%
+brownlee1965statistical}
+\APACinsertmetastar {%
+brownlee1965statistical}%
+\begin{APACrefauthors}%
+Brownlee, K\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1965}.
+\newblock
+\APACrefbtitle {Statistical theory and methodology in science and engineering}
+  {Statistical theory and methodology in science and engineering}\ (\BVOL~150).
+\newblock
+\APACaddressPublisher{}{Wiley New York}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -517,36 +564,6 @@ Matsuda, T.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Meijering%
-\ \protect \BOthers {.}}{%
-Meijering%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2004}}%
-}]{%
-meijering2004design}
-\APACinsertmetastar {%
-meijering2004design}%
-\begin{APACrefauthors}%
-Meijering, E.%
-, Jacob, M.%
-, Sarria, J\BHBI C.%
-, Steiner, P.%
-, Hirling, H.%
-\BCBL {}\ \BBA {} Unser, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2004}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Design and validation of a tool for neurite tracing and
-  analysis in fluorescence microscopy images} {Design and validation of a tool
-  for neurite tracing and analysis in fluorescence microscopy images}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Cytometry Part A: the journal of the International
-  Society for Analytical Cytology}{58}{2}{167--176}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Minota%
 , Nishida%
 \BCBL {}\ \BBA {} Lee%
@@ -783,6 +800,31 @@ Skews, B\BPBI W.%
   {The perturbed region behind a diffracting shock wave}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{29}{4}{705--719}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Snedeker%
+\ \protect \BOthers {.}}{%
+Snedeker%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1971}}%
+}]{%
+snedeker1971study}
+\APACinsertmetastar {%
+snedeker1971study}%
+\begin{APACrefauthors}%
+Snedeker, R\BPBI S.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A study of free jet impingement. Part 1. Mean properties
+  of free and impinging jets} {A study of free jet impingement. part 1. mean
+  properties of free and impinging jets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of fluid Mechanics}{45}{2}{281--319}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

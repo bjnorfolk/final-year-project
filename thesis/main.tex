@@ -51,6 +51,7 @@
 \usepackage{ragged2e}
 \usepackage{fancyhdr}
 \usepackage{subfig}
+\usepackage{amsmath}
 %\usepackage{nomencl}
 %\makenomenclature
 %\renewcommand{\nompreamble}{This list describes several symbols that will be later used within this thesis}
@@ -169,14 +170,19 @@ The author would like to thank those who provided advice and guidance throughout
 %\mbox{}
 \begin{table}[H]
 \begin{tabular}{ll} \smallskip
-$B_p$      & Impinging plate base thickness, mm          \\ \smallskip
+$B_p$      & Impinging plate base length, mm          \\ \smallskip
 $D_i$      & Nozzle entry diameter, mm                   \\ \smallskip
 $D_t$      & Nozzle throat diameter, mm                  \\ \smallskip
 $D_f$      & Nozzle exit diameter, mm                    \\ \smallskip
 $H_p$      & Impinging plate height thickness, mm          \\ \smallskip
 $M_1$      & Ambient Mach number                         \\ \smallskip
+$NPR$      & Nozzle pressure ratio                       \\ \smallskip
+$P_c$      & Chocked nozzle pressure, Pa                        \\ \smallskip
+$P_e$      & Nozzle exit pressure, Pa                        \\ \smallskip
+$P_n$      & Nozzle pressure, Pa                        \\ \smallskip
 $P_1$      & Ambient pressure, Pa                        \\ \smallskip
 $P_4$      & Shock tube driver section pressure, Pa      \\ \smallskip
+$P_{\infty}$   & Ambient pressure, Pa                        \\ \smallskip
 $T_p$      & Impinging plate thickness, mm               \\ \smallskip
 $T_{LED}$      & LED pulse width timing, seconds         \\ \smallskip
 $U_i$      & Incident shock wave air velocity, m/s       \\ \smallskip
@@ -257,6 +263,32 @@ Investigation into the high pressure plenum chamber required for PDEs currently 
 	\label{fig:4}
 \end{figure}
 For a plate of variable angle, the lower core of the vortex ring impinges initially and generates an asymmetric set of secondary vortices. These new flow structures orbit around the main vortex, creating a temporarily thicker boundary layer at the lower end of the flow field. Again after a period of time, dependent on the incident Mach number, he boundary layer separates from the plate. This results in the vortex ring pivoting on the lower core, undergoing negligible deformation, and propergates towards the surface plate. The upper core then impinges on the plate and the upper wall vortex is generated. This new structure begins to expand radially increasing in thickness due to the remaining jet flow. While simultaneously, the lower wall vortex propagates around the outer limits of the main vortex, stops expanding, and dissipates into a thin structure. The impinging jet continues to feed into the upper section of the flow field generating wall vortices with a thicker upper core. For lower angles of plate alignment, the flow field shows an increase in overall velocity and visible curvature of the vortex ring structure during impingement. The toroidal shock wave that forms as a result of impingement propagates perpendicularly with respect to the surface \citep{mariani2013head}.  
+
+\subsection{The Underexpanded Trailing Jet}
+The final stage of a transient supersonic jet is defined by the formation of the trailing jet. The structure of the trailing jet is dependent on the nozzle pressure ratio (NPR) which is a function of pressure at the nozzle $P_n$ and the ambient pressure $P_{\infty}$.
+
+\begin{equation}
+NPR = \frac{P_n}{P_{\infty}}
+\end{equation}
+
+The underexpanded jet is defined as exhaust jet flow that operates at pressures greater then ambient conditions ($NPR\geq 1$), the degree of under-expansion is dependent on the nozzle pressure and properties of the gas. For the formation of a supersonic underexpanded jet the trailing jet must have a minimum Mach number of 1, this is defined as the chocked nozzle condition and is physically characterised by the presence of a normal shock  at the nozzle exit. The pressure ratio at the chocked nozzle condition is a relation between the exit pressure $P_e$, chocked nozzle pressure $P_c$, specific heat ratio of gas $\gamma_g$, and flow constant A \citep{anderson2010fundamentals}.
+
+\begin{equation}
+\frac{P_e}{P_c} = \left(\frac{1}{1-A}\right)^{\gamma_g/(\gamma_g-1)}
+\end{equation}
+The flow constant A is a relation between the specific heat ratio of gas $\gamma_g$ and an efficiency $\eta$, for an ideal process it is assumed $\eta=1$.
+\begin{equation}
+A=\frac{1}{\eta}\frac{(\gamma_g-1)}{(\gamma_g+1)}
+\end{equation}
+
+A highly underexpanded as shown in Figure \ref{fig:jet} will signify the final stage of a transient supersonic jet propagating for a shock tube. The formation of an underexpanded supersonic jet and its shock cell structure is due to air flow exiting the nozzle at pressures above the chocked condition. Flow exiting the nozzle instantaneously expands and forms expansion fans which angle the jet outwards temporarily expanding the jet boundary. This results in the jet pressure dropping below the jet boundary pressure (ambient pressure) and leads to the expanding flow curving back towards the jet centreline. Mach lines defining the boundary supersonic and subsonic flow reflect off the jet boundary as compression waves, and due to the curvature of the boundary will converge to form a normal shock. This shock cell structure is repeated as compression waves continue to reflect of the jet boundary and form expansion fans. As the pressure ratio decreases the underexpanded supersonic trailing jet becomes subsonic until the exit pressure is equal to the ambient pressure and the jet is no longer present.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{jet.png} 
+	\caption{Highly underexpanded jet \citep{snedeker1971study}.}
+	\label{fig:jet}
+\end{figure}
 
 \subsection{Acoustic Noise}
 The far-field noise developed by the shock wave-vortex interaction can be decomposed into three components, the sound field due to the formation and evolution of the vortex ring, the reflection shock and vortex ring interaction noise production, and the noise due to impingement of the ring on the plate. The plate-votex ring impingement noise is produced by fluctuating pressure due to the deformation and stretching of the vortex ring, formation and growth of a secondary wall vortex ring, and lifting-off of the primary-secondary vortex ring pair \cite{murugan2010characteristics}.
@@ -445,7 +477,7 @@ The impingement plate as shown in Figure \ref{fig:plate_draw} is constructed suc
 
 
 \subsubsection{Impingement Plate Development}
-The first iterative design of the plate resulted in a significant unexpected wobble during jet impingement. Figures \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} are constructed using post processing techniques detailed in Section \ref{sect:post}, and illustrates the pixel displacement of the plate resulting from flow impingement for design iterations 1, 2, and 3 respectively. Figure \ref{fig:wobble_iter1} illustrates the first design iteration which involved the incorrect tightening of impingement plate bolt fixings. This caused an oscillatory pixel displacement response as a result of the significant freedom of movement given to the plate by inadequate fastening. The pixel displacement decreases as a function of increasing frame number, this is governed by the initial transient supersonic jet impingement, under-expanded trailing jet impingement, and the decreasing back pressure of the shock tube. Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} represent the pixel displacement for an adequately fastened impinging plate and a reinforced impinging plate structure. Both figures highlight the evolution of the transient supersonic jet. Initially at frame 0 the pixel displacement is similarly 0 given impingement has not yet occurred. The sudden jump in pixel displacement in frame 1, and subsequent pixel displacement in the following frames represents the impingement of the evolving transient supersonic jet. As the supersonic jet becomes an under-expanded trailing jet the relative pressure of the flow on the plate decreases as the back pressure in the shock tube decreases. Given the limitations of the recording time for the Chronos camera, the full evolution of the under-expanded trailing jet was not captured and as a result, the pixel displacement shown in Figure's \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} have final values not representative of pixel displacement at the end of the under-expanded jet process, and once the back pressure in the shock tube is approximately equal to atmospheric pressure. If the full fluid dynamics process was captured it is to be expected that the pixel displacement once the back pressure within the shock tube reaches atmospheric pressure, or once the pressure induced on impinging plate is negligible would be 0. This design error was addressed between iterations 2 and 3 (Figures \ref{fig:wobble_iter2} and \ref{fig:wobble}) with the addition of support brackets as shown in Figure \ref{fig:plate_iter}. The position of the support brackets was chosen such that interference with the transient supersonic jet and impingement by-products was not possible. This design change had little affect on the pixel displacement of the impingement plate. In comparison to Figure \ref{fig:wobble_iter2}, Figure \ref{fig:wobble} contains a lower magnitude minima pixel displacement value although, the range between maxima and minima stays approximately the same for both iterations. This suggests the design of the impinging plate needs further modification with additional supports and improved fastening bolts. However, in Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} the largest pixel displacement approximates to $0.6\%$ and for the purposes of this thesis will be considered negligible.
+The first iterative design of the plate resulted in a significant unexpected wobble during jet impingement. Figures \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} are constructed using post processing techniques detailed in Section \ref{sect:post}, and illustrates the pixel displacement of the plate resulting from flow impingement for design iterations 1, 2, and 3 respectively. Figure \ref{fig:wobble_iter1} illustrates the first design iteration which involved the incorrect tightening of impingement plate bolt fixings. This caused an oscillatory pixel displacement response as a result of the significant freedom of movement given to the plate by inadequate fastening. The pixel displacement decreases as a function of increasing frame number, this is governed by the initial transient supersonic jet impingement, underexpanded trailing jet impingement, and the decreasing back pressure of the shock tube. Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} represent the pixel displacement for an adequately fastened impinging plate and a reinforced impinging plate structure. Both figures highlight the evolution of the transient supersonic jet. Initially at frame 0 the pixel displacement is similarly 0 given impingement has not yet occurred. The sudden jump in pixel displacement in frame 1, and subsequent pixel displacement in the following frames represents the impingement of the evolving transient supersonic jet. As the supersonic jet becomes an underexpanded trailing jet the relative pressure of the flow on the plate decreases as the back pressure in the shock tube decreases. Given the limitations of the recording time for the Chronos camera, the full evolution of the underexpanded trailing jet was not captured and as a result, the pixel displacement shown in Figure's \ref{fig:wobble_iter1}, \ref{fig:wobble_iter2}, and \ref{fig:wobble} have final values not representative of pixel displacement at the end of the underexpanded jet process, and once the back pressure in the shock tube is approximately equal to atmospheric pressure. If the full fluid dynamics process was captured it is to be expected that the pixel displacement once the back pressure within the shock tube reaches atmospheric pressure, or once the pressure induced on impinging plate is negligible would be 0. This design error was addressed between iterations 2 and 3 (Figures \ref{fig:wobble_iter2} and \ref{fig:wobble}) with the addition of support brackets as shown in Figure \ref{fig:plate_iter}. The position of the support brackets was chosen such that interference with the transient supersonic jet and impingement by-products was not possible. This design change had little affect on the pixel displacement of the impingement plate. In comparison to Figure \ref{fig:wobble_iter2}, Figure \ref{fig:wobble} contains a lower magnitude minima pixel displacement value although, the range between maxima and minima stays approximately the same for both iterations. This suggests the design of the impinging plate needs further modification with additional supports and improved fastening bolts. However, in Figures \ref{fig:wobble_iter2} and \ref{fig:wobble} the largest pixel displacement approximates to $0.6\%$ and for the purposes of this thesis will be considered negligible.
 
 \begin{figure}[H]
   \centering
@@ -526,7 +558,7 @@ Shock tube pressure measurements are typically taken using high speed, cylindric
 \subsubsection{Diaphragm Study}
 
 \subsubsection{LED Calibration}
-The pulsed light emitting diode (LEDs) provides the necessary light source required to capture density gradients present within the evolution of the transient supersonic jet and following flow structures. The pulsed LED source is operated by a simple driver circuit and is modulated to supply a constant pulse width within the input voltage limitations of the specific LED. The LED produces a narrow emission bandwidth which reduces chromatic aberrations that is still spectrally wide enough to prevent the appearance of diffraction effects in captured images \citep{willert2012assessment}. Light provided by a LED is emitted within nanoseconds and is essentially lag-free unlike historically used light sources such as lasers or discharge lamps. The amount of light supplied to a schlieren system dictates the quality of a captured image. Equation \ref{eqn:blur} highlights the relation between the speed of the exiting flow $U_i$, the length of the image window $X_{image}$, the pulse width of the LED $T_{LED}$, and the percentage of blur captured in the image. Figure \ref{fig:pulse} shows that as the pulse width increases so does the image blur. This is a result of an over-saturation of light and subsequent blurring of the image. If the pulse width is decreased the image suffers a shortage of light and appears grainy. A pulse width value is determined sufficient based on the desired outcome of a captured image. For a clear representation of flow structures a slightly higher pulse width may be used whereas, for the accurate analysis of stock structure propagation blurring is undesirable and a lower pulse width value will be implemented. Using equation \ref{eqn:blur}, (a) and (b) from Figure \ref{fig:pulse} displays a percentage blur of 10\% and 2\% respectively. It was found that analytically this was not suitable. Figure \ref{fig:pulse_f} shows an under-expanded jet for a pulse width of 0.8ms, this value was found acceptable for data extraction analytic tools and detailed flow structure discussions.
+The pulsed light emitting diode (LEDs) provides the necessary light source required to capture density gradients present within the evolution of the transient supersonic jet and following flow structures. The pulsed LED source is operated by a simple driver circuit and is modulated to supply a constant pulse width within the input voltage limitations of the specific LED. The LED produces a narrow emission bandwidth which reduces chromatic aberrations that is still spectrally wide enough to prevent the appearance of diffraction effects in captured images \citep{willert2012assessment}. Light provided by a LED is emitted within nanoseconds and is essentially lag-free unlike historically used light sources such as lasers or discharge lamps. The amount of light supplied to a schlieren system dictates the quality of a captured image. Equation \ref{eqn:blur} highlights the relation between the speed of the exiting flow $U_i$, the length of the image window $X_{image}$, the pulse width of the LED $T_{LED}$, and the percentage of blur captured in the image. Figure \ref{fig:pulse} shows that as the pulse width increases so does the image blur. This is a result of an over-saturation of light and subsequent blurring of the image. If the pulse width is decreased the image suffers a shortage of light and appears grainy. A pulse width value is determined sufficient based on the desired outcome of a captured image. For a clear representation of flow structures a slightly higher pulse width may be used whereas, for the accurate analysis of stock structure propagation blurring is undesirable and a lower pulse width value will be implemented. Using equation \ref{eqn:blur}, (a) and (b) from Figure \ref{fig:pulse} displays a percentage blur of 10\% and 2\% respectively. It was found that analytically this was not suitable. Figure \ref{fig:pulse_f} shows an underexpanded jet for a pulse width of 0.8ms, this value was found acceptable for data extraction analytic tools and detailed flow structure discussions.
 
 
 
@@ -545,7 +577,7 @@ The pulsed light emitting diode (LEDs) provides the necessary light source requi
 %\begin{figure}[H] 
 %	\centering
 %	\includegraphics[width=0.88\textwidth]{pulse.png} 
-%	\caption{Under-expanded shock for a pulse width of 0.8ms.}
+%	\caption{Underexpanded shock for a pulse width of 0.8ms.}
 %	\label{fig:pulse_f}
 %\end{figure}
 
@@ -554,47 +586,52 @@ The pulsed light emitting diode (LEDs) provides the necessary light source requi
 
 \section{Analysis Techniques} \label{sect:post}
 
-Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation however, it is difficult to quantitatively extract physical parameters directly from image data. 
+Schlieren imaging produces a path integrated density gradient image that is excellent for flow visualisation however, it is difficult to quantitatively extract physical parameters directly from image data. Extracting features and data from images requires a pipe line of different image processing techniques. This section outlines each processing technique and its application to the image data.
 
 \subsection{Second Order Convolution}
-The first step of the local feature extraction pipeline is to find a set of distinctive
-keypoints that can be reliably localized under varying imaging conditions, viewpoint
-changes, and in the presence of noise. In particular, the extraction procedure should
-yield the same feature locations if the input image is translated or rotated. It is
-obvious that those criteria cannot be met for all image points. For instance, if we
-consider a point lying in a uniform region, we cannot determine its exact motion,
-since we cannot distinguish the point from its neighbors. Similarly, if we consider a
-point on a straight line, we can only measure its motion perpendicular to the line.
-This motivates us to focus on a particular subset of points, namely those exhibiting
-signal changes in two directions. In the following, we will present two keypoint
-detectors that employ different criteria for finding such regions: the Hessian detector
-and the H
-The Hessian detector [Bea78] searches for image locations that exhibit strong derivatives
-in two orthogonal directions. It is based on the matrix of second derivatives,
-the so-called Hessian:
-The detector computes the second derivatives Ixx, Ixy, and Iyy for each image point
-and then searches for points where the determinant of the Hessian becomes maximal:
+The first step of the flow feature extraction pipeline is to find a set of distinctive
+structures that can be reliably localized under varying imaging conditions including image translation and rotation, and background noise. It is not a simple task to meet these criteria for instance, if a point is located in a uniform region an algorithm will not be able to use neighbouring points to distinguish the structure of interest. Similarly, analysing a straight line structure will only yield motion information perpendicular to the line. These limitations motivate the investigation of points in non-uniform environments exhibiting signal variations in two directions. The Hessian detector \citep{beaudet1978rotationally} searches for image structures that exhibit strong derivatives in two orthogonal directions. Second order image derivatives are computed by convolution using second order derivatives of the Gaussian kernel \citep{lindeberg1994linear}. The second order derivative of the Gaussian operator reduces  noise present in the raw image, and smooths the background to a degree dependent on the smoothing parameter $\sigma$. Mathematically this means that if f denotes the image and G the normalised Gaussian the algorithm computes
 
-The detector computes the second derivatives Ixx, Ixy, and Iyy for each image point
-and then searches for points where the determinant of the Hessian becomes maximal:
+\begin{equation}
+f_{ij}(x,\sigma) = (f*G_{ij})(x,\sigma)
+\end{equation}
 
-\begin{figure}[!tbh] 
+with,
+
+\begin{equation}
+G_{ij}(x,\sigma)=\left(\frac{\delta^2}{\delta_i\delta_j}G\right)(x,\sigma)
+\end{equation}
+
+where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be any combination of x and y. The eigenvectors and eigenvalues are computed in the algorithm from a second derivative Hessian matrix.
+
+\begin{equation} \label{eqn:hessian}
+H_f=
+  \begin{bmatrix}
+    f_{xx}(x,\sigma) & f_{xy}(x,\sigma) \\
+    f_{xy}(x,\sigma) & f_{yy}(x,\sigma)
+  \end{bmatrix}
+\end{equation}
+
+The Hessian detector computes the second derivatives $f_{xx}$, $f_{xy}$, and $f_{yy}$ for each image point and then searches for points where the determinant of the Hessian becomes maximal.
+\begin{equation}
+det(H_f)= f_{xx}f_{yy}-f_{xy}^2
+\end{equation}
+
+Figure \ref{fig:hessian_app} highlights the correspondence between eigenvalues of the Hessian detector and local features of the image such as corners, edges, or flat regions. Table \ref{tab:hessian} highlights the relation between the magnitude of Hessian matrix eigenvalues and the corresponding image structures that will be detected in 3-dimensional images.
+
+\begin{figure}[H] 
 	\centering
 	\includegraphics[width=1\textwidth]{hessian_app.png} 
 	\caption{Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \citep{grauman2011visual}.}
 	\label{fig:hessian_app}
 \end{figure}
 
-the required second order image derivatives are computed by convolution with the second order derivatives of the Gaussian kernel \citep{lindeberg1994linear}. Mathematically this means that if f denotes the image and G the normalised Gaussian, we compute
-EQUATIONS
-where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be x or y. The eigenvectors and eigenvalues are computed in the algorithm from a standard second derivative Hessian matrix \citep{meijering2004design}.
 
-HESSIAN MATRIX
-
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{"Eigenvalues of the Hessian matrix and image structure
 orientation (L low, H+ high positive, H- high negative)" \citep{rudzki2009vessel}.}
+\label{tab:hessian}
 \begin{tabular}{@{}llll@{}}
 \toprule
 $\lambda_1$ & $\lambda_2$ & $\lambda_3$ & Structure orientation          \\ \midrule
@@ -608,8 +645,76 @@ H+          & H+          & H+          & dark blob-like structure       \\ \bot
 \end{tabular}
 \end{table}
 
+Figure \ref{fig:hessian_img} shows the application of a second order convolution on raw transient supersonic jet image data. A smoothing parameter of $\sigma=2$ was chosen as an acceptable value after a variable sweep was conducted, Figure \ref{fig:hessian_var} shows the degree of smoothing for several $\sigma$ values. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:hessian} presents the application of the algorithm on the entire transient supersonic jet process.
+
+\begin{figure}[H]
+  \centering
+  \subfloat[$\sigma=1$.]{\includegraphics[width=0.5\textwidth]{sigma_1.jpg}}
+  \hfill
+  \subfloat[$\sigma=2$.]{\includegraphics[width=0.5\textwidth]{sigma_2.jpg}}\\
+  \subfloat[$\sigma=3$.]{\includegraphics[width=0.5\textwidth]{sigma_3.jpg}}
+  \hfill
+  \subfloat[$\sigma=4$.]{\includegraphics[width=0.5\textwidth]{sigma_4.jpg}}
+  \caption{Smoothing parameter sweep.}
+  \label{fig:hessian_var}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Input image .]{\includegraphics[width=0.5\textwidth]{vid89_frame50.png}}
+  \hfill
+  \subfloat[$\sigma=2$.]{\includegraphics[width=0.48\textwidth]{sigma_2.jpg}}
+  \caption{Second order convolution parameter.}
+  \label{fig:hessian_img}
+\end{figure}
+
+\subsection{Morphology: Erosion}
+Mathematical morphology contributes several operators to image processing, all derived from set theory concepts. These operators are particularly useful for the analysis of binary images with some applications to grey scale images. Morphological operators are capable of edge detection, noise removal, image enhancement, and image segmentation. Morphological erosion is the next step in the flow feature extraction pipeline. It requires an input image, taken from the Hessian detector, and a structuring element (also known as a kernel). For a grayscale image the intensity value is taken to represent height above a base pixel plane, as shown in Figure \ref{fig:erosion}. This 3-dimensional greyscale image represents a surface in 3-dimensional Euclidean space, the associated image surface coordinates are simply transformed to 3-dimensional Euclidean coordinates.
+
+Morphological erosion sets a pixel at (i,j) to the minimum over all pixels in the neighborhood centered at (i,j). Erosion shrinks bright regions and enlarges dark regions.
+
+In other words the erosion of a point is the minimum of the points in its neighborhood, with that neighborhood defined by the structuring element. In this way it is similar to many other kinds of image filters like the median filter and the gaussian filter.
+
+\begin{figure}[H]
+  \centering
+  \subfloat[Input image .]{\includegraphics[width=0.48\textwidth]{vid89_frame50.png}}
+  \hfill
+  \subfloat[3-dimensional representation.]{\includegraphics[width=0.48\textwidth]{3d_intensity.jpg}}
+  \caption{Second order convolution parameter.}
+  \label{fig:erosion}
+\end{figure}
+
+
+
+In grayscale morphology, images are functions mapping a Euclidean space or grid E into ${\displaystyle \mathbb {R} \cup \{\infty ,-\infty \}} {\mathbb  {R}}\cup \{\infty ,-\infty \}, where {\displaystyle \mathbb {R} } \mathbb {R}  is the set of reals, {\displaystyle \infty } \infty  is an element larger than any real number, and {\displaystyle -\infty } -\infty $ is an element smaller than any real number.
+a structuring element (also known as a kernel).\\
+
+Denoting an image by f(x) and the grayscale structuring element by b(x), where B is the space that b(x) is defined, the grayscale erosion of f by b is given by
+\begin{equation}
+(f\ominus b)(x)=\inf _{y\in B}[f(x+y)-b(y)]
+\end{equation}
+
+
+
 \subsection{Ranking Methods}
-Use a normalised ranking to threshold intensity lower then the 90th percentile 
+The next step of the flow feature extraction pipeline is to implement an intensity ranking method. Using the results from the morphological erosion operator, a normalised ranking method is utilised to threshold intensity values in the image array and reduce background noise. The normalised ranking method ranks the image array intensity as a normalised distribution, shown in Figure \ref{fig:dist}. Once a normalised distribution is acquired, the algorithm sets to zero all intensity values for a chosen percentile. Percentile ranges from the 90th up the 98th percentile were explored, this is shown in Figure \ref{fig:percentile}. All values within this range are suitable for extracting various flow features. The percentile used for each specific flow feature is stated in the relevant discussion section.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=1\textwidth]{dist.png} 
+	\caption{Normal distribution \citep{brownlee1965statistical}.}
+	\label{fig:dist}
+\end{figure}
+
+
+\subsection{Morphology: Small Object Removal}
+
+\subsection{Connected Components}
+
+\subsection{Hough Transforms}
+\subsubsection{Straight Line}
+\subsubsection{Probabilistic}
+
 
 \newpage
 \section{Results}
@@ -752,6 +857,10 @@ and noting that $P_3/P_2 = 1$ solve Equation 10 for $P_4/P_3 = 1$, substituting 
 \frac{P_4}{P_1} = \frac{2\gamma_1M_1^2 - (\gamma_1 - 1)}{\gamma_1 + 1}\left(1 - \frac{\gamma_{4-1}}{\gamma_{1+1}}\frac{U_1}{U_4}\left(M_1 - \frac{1}{M_1}\right)\right)^{-2\gamma_4/\gamma_{4-1}}
 \end{equation}
 And given the specific gas information, for the driver helium, $\gamma_4 = 1.667$, and the driven air, $\gamma_1 = 1.4$. Taking the ambient air temperature $T_1 = 273.15K$, the relation in Equation \ref{shock_relation} can be shown in the Figure \ref{fig:gas_relation}. This figure highlights the relationship between the driver pressure ratio at 4, and the ambient pressure at 1, for a design incident Mach number. The figure also illustrates the reduced pressure ratio benefit of using a helium to air experiment in comparison to an air to air experiment. 
+
+\section{Image Processing Algorithms} \label{app:code}
+
+\section{Second Order Convolution Data} \label{app:hessian}
 	
 
 \end{document}
