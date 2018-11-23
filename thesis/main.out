@@ -20,23 +20,21 @@
 \BOOKMARK [3][-]{subsubsection.3.4.3}{Impingement Plate Development}{subsection.3.4}% 20
 \BOOKMARK [3][-]{subsubsection.3.4.4}{Hydrostatic Test}{subsection.3.4}% 21
 \BOOKMARK [3][-]{subsubsection.3.4.5}{Pressure Sensor Calibration}{subsection.3.4}% 22
-\BOOKMARK [3][-]{subsubsection.3.4.6}{Diaphragm Study}{subsection.3.4}% 23
-\BOOKMARK [3][-]{subsubsection.3.4.7}{LED Calibration}{subsection.3.4}% 24
-\BOOKMARK [1][-]{section.4}{Analysis Techniques}{}% 25
-\BOOKMARK [2][-]{subsection.4.1}{Second Order Convolution}{section.4}% 26
-\BOOKMARK [2][-]{subsection.4.2}{Morphology: Erosion}{section.4}% 27
-\BOOKMARK [2][-]{subsection.4.3}{Ranking Methods}{section.4}% 28
-\BOOKMARK [2][-]{subsection.4.4}{Morphology: Small Object Removal}{section.4}% 29
-\BOOKMARK [2][-]{subsection.4.5}{Connected Components}{section.4}% 30
-\BOOKMARK [2][-]{subsection.4.6}{Hough Transforms}{section.4}% 31
-\BOOKMARK [3][-]{subsubsection.4.6.1}{Straight Line}{subsection.4.6}% 32
-\BOOKMARK [3][-]{subsubsection.4.6.2}{Probabilistic}{subsection.4.6}% 33
-\BOOKMARK [1][-]{section.5}{Results}{}% 34
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 35
-\BOOKMARK [1][-]{section.7}{Conclusions and Recommendations}{}% 36
-\BOOKMARK [1][-]{section*.39}{Appendix}{}% 37
-\BOOKMARK [1][-]{appendix.A}{Shock Facility}{}% 38
-\BOOKMARK [1][-]{appendix.B}{Literature Comparison}{}% 39
-\BOOKMARK [1][-]{appendix.C}{Shock Relations}{}% 40
-\BOOKMARK [1][-]{appendix.D}{Image Processing Algorithms}{}% 41
-\BOOKMARK [1][-]{appendix.E}{Second Order Convolution Data}{}% 42
+\BOOKMARK [3][-]{subsubsection.3.4.6}{LED Calibration}{subsection.3.4}% 23
+\BOOKMARK [1][-]{section.4}{Analysis Techniques}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Second Order Convolution}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Morphology: Erosion}{section.4}% 26
+\BOOKMARK [2][-]{subsection.4.3}{Ranking Methods}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.4}{Connected Component Labelling}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.5}{Hough Transforms}{section.4}% 29
+\BOOKMARK [1][-]{section.5}{Results}{}% 30
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 31
+\BOOKMARK [1][-]{section.7}{Conclusions and Recommendations}{}% 32
+\BOOKMARK [1][-]{section*.47}{Appendix}{}% 33
+\BOOKMARK [1][-]{appendix.A}{Shock Facility}{}% 34
+\BOOKMARK [1][-]{appendix.B}{Literature Comparison}{}% 35
+\BOOKMARK [1][-]{appendix.C}{Shock Relations}{}% 36
+\BOOKMARK [1][-]{appendix.D}{Image Processing Algorithms}{}% 37
+\BOOKMARK [1][-]{appendix.E}{Second Order Convolution Data}{}% 38
+\BOOKMARK [1][-]{appendix.F}{Morphology: Erosion Data}{}% 39
+\BOOKMARK [1][-]{appendix.G}{Connected Component Labelling Data}{}% 40

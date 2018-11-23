@@ -338,8 +338,8 @@ The relationship between the driver (4) pressure ratio and the ambient (1) press
 \toprule
 \textbf{Component} & \textbf{Nomenclature} & \textbf{Value} \\ \midrule
 \multicolumn{3}{c}{Shock Tube}                                  \\ \midrule
-Driver section     & $X_{driver}$          & ??                 \\
-Driven section     & $X_{driven}$          & ??                 \\ \midrule
+Driver section     & $X_{driver}$          & 250mm                 \\
+Driven section     & $X_{driven}$          & 600mm                 \\ \midrule
 \multicolumn{3}{c}{Converging Nozzle}                           \\ \midrule
 Entry diameter     & $D_i$                 & 12.5 mm            \\
 Exit diameter      & $D_f$                 & 6.2 mm             \\
@@ -538,33 +538,28 @@ Test maximum        & $>80$          \\ \bottomrule
 
 \subsubsection{Pressure Sensor Calibration}
 
-Shock tube pressure measurements are typically taken using high speed, cylindrical pressure transducers placed flush to the section wall \citep{knight1958piezoelectric}. Mounting pressure transducers flush to the wall of the shock tube has classically been performed on square geometrical tubes \citep{knight1958piezoelectric, anderson2000shock,ryu1995shock}. Cylindrical shock tubes present a more complicated problem given the curved geometry of the section wall and flat sensing surface of the pressure transducer. For large cylindrical shock tubes this problem is negligible, but for small cylindrical shock tubes protrusions and recesses resulting from the presence of pressure traducers may have a major effect on the flow structure propagating through the tube.
+Shock tube pressure measurements are typically taken using high speed, cylindrical pressure transducers placed flush to the section wall \citep{knight1958piezoelectric}. Mounting pressure transducers flush to the wall of the shock tube has classically been performed on square geometrical tubes \citep{knight1958piezoelectric, anderson2000shock,ryu1995shock}. Cylindrical shock tubes present a more complicated problem given the curved geometry of the section wall and flat sensing surface of the pressure transducer. For large cylindrical shock tubes this problem is negligible, but for small cylindrical shock tubes protrusions and recesses resulting from the presence of pressure traducers may have a major effect on the flow structure propagating through the tube. The pressure sensor implemented in the shock tube was calibrated using a deadweight tester that uses the principle of a pressure balance, and the output voltages are read and recorded by a DAQ system. Figure \ref{fig:volt} highlights the desired linear operating region of the pressure sensor. Operating a pressure sensor within this linear region will result in accurate readings from the device. Maintaining this linear response at approximately 20\% of the resonance frequency ensures the correct feedback from sensor's diaphragm deformation (pressure), producing strain in the material (piezoresistive) or the physical movement of the diaphragm material (peizoelectric). Figure \ref{fig:p_test} shows the pressure vs. voltage curve for the calibration test and reflects the desired linear response. 
 
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.88\textwidth]{pressure1.png} 
-	\caption{Pressure sensor calibration data (in Psi).}
-	\label{fig:hydro_test}
+	\includegraphics[width=0.95\textwidth]{volt.png} 
+	\caption{Normalised voltage to frequency response.}
+	\label{fig:volt}
 \end{figure}
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[width=0.88\textwidth]{pressure2.png} 
+	\includegraphics[width=0.95\textwidth]{pressure2.png} 
 	\caption{Pressure sensor calibration data (in Bar).}
-	\label{fig:hydro_test}
+	\label{fig:p_test}
 \end{figure}
-
-\subsubsection{Diaphragm Study}
 
 \subsubsection{LED Calibration}
-The pulsed light emitting diode (LEDs) provides the necessary light source required to capture density gradients present within the evolution of the transient supersonic jet and following flow structures. The pulsed LED source is operated by a simple driver circuit and is modulated to supply a constant pulse width within the input voltage limitations of the specific LED. The LED produces a narrow emission bandwidth which reduces chromatic aberrations that is still spectrally wide enough to prevent the appearance of diffraction effects in captured images \citep{willert2012assessment}. Light provided by a LED is emitted within nanoseconds and is essentially lag-free unlike historically used light sources such as lasers or discharge lamps. The amount of light supplied to a schlieren system dictates the quality of a captured image. Equation \ref{eqn:blur} highlights the relation between the speed of the exiting flow $U_i$, the length of the image window $X_{image}$, the pulse width of the LED $T_{LED}$, and the percentage of blur captured in the image. Figure \ref{fig:pulse} shows that as the pulse width increases so does the image blur. This is a result of an over-saturation of light and subsequent blurring of the image. If the pulse width is decreased the image suffers a shortage of light and appears grainy. A pulse width value is determined sufficient based on the desired outcome of a captured image. For a clear representation of flow structures a slightly higher pulse width may be used whereas, for the accurate analysis of stock structure propagation blurring is undesirable and a lower pulse width value will be implemented. Using equation \ref{eqn:blur}, (a) and (b) from Figure \ref{fig:pulse} displays a percentage blur of 10\% and 2\% respectively. It was found that analytically this was not suitable. Figure \ref{fig:pulse_f} shows an underexpanded jet for a pulse width of 0.8ms, this value was found acceptable for data extraction analytic tools and detailed flow structure discussions.
+The pulsed light emitting diode (LEDs) provides the necessary light source required to capture density gradients present within the evolution of the transient supersonic jet and following flow structures. The pulsed LED source is operated by a simple driver circuit and is modulated to supply a constant pulse width within the input voltage limitations of the specific LED. The LED produces a narrow emission bandwidth which reduces chromatic aberrations that is still spectrally wide enough to prevent the appearance of diffraction effects in captured images \citep{willert2012assessment}. Light provided by a LED is emitted within nanoseconds and is essentially lag-free unlike historically used light sources such as lasers or discharge lamps. The amount of light supplied to a schlieren system dictates the quality of a captured image. Equation \ref{eqn:blur} highlights the relation between the speed of the exiting flow $U_i$, the length of the image window $X_{image}$, the pulse width of the LED $T_{LED}$, and the percentage of blur captured in the image. Figure \ref{fig:pulse} shows that as the pulse width increases so does the image blur. This is a result of an over-saturation of light and subsequent blurring of the image. If the pulse width is decreased the image suffers a shortage of light and appears grainy. A pulse width value is determined sufficient based on the desired outcome of a captured image. For a clear representation of flow structures a slightly higher pulse width may be used whereas, for the accurate analysis of stock structure propagation blurring is undesirable and a lower pulse width value will be implemented. Using equation \ref{eqn:blur}, (a) and (b) from Figure \ref{fig:pulse} displays a percentage blur of 10\% and 2\% respectively. It was found that analytically this was not suitable.
 
 
 
-\begin{equation} \label{eqn:blur}
-\%_{blur} = \frac{U_i}{T_{LED}*X_{image}}
-\end{equation}
 \begin{figure}[H]
   \centering
   \subfloat[Pulse width = 5ms.]{\includegraphics[width=0.48\textwidth]{blur_example.png}}
@@ -574,12 +569,19 @@ The pulsed light emitting diode (LEDs) provides the necessary light source requi
   \label{fig:pulse}
 \end{figure}
 
-%\begin{figure}[H] 
-%	\centering
-%	\includegraphics[width=0.88\textwidth]{pulse.png} 
-%	\caption{Underexpanded shock for a pulse width of 0.8ms.}
-%	\label{fig:pulse_f}
-%\end{figure}
+\begin{equation} \label{eqn:blur}
+\%_{blur} = \frac{U_i}{T_{LED}*X_{image}}
+\end{equation}
+
+Figure \ref{fig:pulse_f} shows an underexpanded jet for a pulse width of 0.8ms, this value was found acceptable for data extraction analytic tools and detailed flow structure discussions.
+
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.88\textwidth]{pulse.png} 
+	\caption{Underexpanded shock for a pulse width of 0.8ms.}
+	\label{fig:pulse_f}
+\end{figure}
 
 
 \newpage
@@ -590,19 +592,19 @@ Schlieren imaging produces a path integrated density gradient image that is exce
 
 \subsection{Second Order Convolution}
 The first step of the flow feature extraction pipeline is to find a set of distinctive
-structures that can be reliably localized under varying imaging conditions including image translation and rotation, and background noise. It is not a simple task to meet these criteria for instance, if a point is located in a uniform region an algorithm will not be able to use neighbouring points to distinguish the structure of interest. Similarly, analysing a straight line structure will only yield motion information perpendicular to the line. These limitations motivate the investigation of points in non-uniform environments exhibiting signal variations in two directions. The Hessian detector \citep{beaudet1978rotationally} searches for image structures that exhibit strong derivatives in two orthogonal directions. Second order image derivatives are computed by convolution using second order derivatives of the Gaussian kernel \citep{lindeberg1994linear}. The second order derivative of the Gaussian operator reduces  noise present in the raw image, and smooths the background to a degree dependent on the smoothing parameter $\sigma$. Mathematically this means that if f denotes the image and G the normalised Gaussian the algorithm computes
+structures that can be reliably localized under varying imaging conditions including image translation and rotation, and background noise. It is not a simple task to meet these criteria for instance, if a point is located in a uniform region an algorithm will not be able to use neighbouring points to distinguish the structure of interest. Similarly, analysing a straight line structure will only yield information perpendicular to the line. These limitations motivate the investigation of points in non-uniform environments exhibiting signal variations in two directions. The Hessian detector \citep{beaudet1978rotationally} searches for image structures that exhibit strong derivatives in two orthogonal directions. Second order image derivatives are computed by convolution using second order derivatives of the Gaussian kernel \citep{lindeberg1994linear}. The second order derivative of the Gaussian operator reduces  noise present in the raw image, and smooths the background to a degree dependent on the smoothing parameter $\sigma$. Mathematically this means that if f denotes the image and G the normalised Gaussian the algorithm computes
 
 \begin{equation}
-f_{ij}(x,\sigma) = (f*G_{ij})(x,\sigma)
+f_{ij}(\textbf{x},\sigma) = (f*G_{i,j})(\textbf{x},\sigma)
 \end{equation}
 
 with,
 
 \begin{equation}
-G_{ij}(x,\sigma)=\left(\frac{\delta^2}{\delta_i\delta_j}G\right)(x,\sigma)
+G_{i,j}(\textbf{x},\sigma)=\left(\frac{\delta^2}{\delta_i\delta_j}G\right)(\textbf{x},\sigma)
 \end{equation}
 
-where * denotes spatial convolution, x=(x,y) denotes the pixel position, and the derivative directions i and j can be any combination of x and y. The eigenvectors and eigenvalues are computed in the algorithm from a second derivative Hessian matrix.
+where * denotes spatial convolution, \textbf{x}=(x,y) denotes the pixel position, and the derivative directions i and j can be any combination of x and y. The eigenvectors and eigenvalues are computed in the algorithm from a second derivative Hessian matrix.
 
 \begin{equation} \label{eqn:hessian}
 H_f=
@@ -645,7 +647,7 @@ H+          & H+          & H+          & dark blob-like structure       \\ \bot
 \end{tabular}
 \end{table}
 
-Figure \ref{fig:hessian_img} shows the application of a second order convolution on raw transient supersonic jet image data. A smoothing parameter of $\sigma=2$ was chosen as an acceptable value after a variable sweep was conducted, Figure \ref{fig:hessian_var} shows the degree of smoothing for several $\sigma$ values. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:hessian} presents the application of the algorithm on the entire transient supersonic jet process.
+Figure \ref{fig:hessian_img} shows the application of a second order convolution on raw transient supersonic jet image data. A smoothing parameter of $\sigma=2$ was chosen as an acceptable value after a variable sweep was conducted, Figure \ref{fig:hessian_var} shows the degree of smoothing for several $\sigma$ values. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:hessian} presents the application of the algorithm on the majority of the transient supersonic jet process.
 
 \begin{figure}[H]
   \centering
@@ -669,35 +671,43 @@ Figure \ref{fig:hessian_img} shows the application of a second order convolution
 \end{figure}
 
 \subsection{Morphology: Erosion}
-Mathematical morphology contributes several operators to image processing, all derived from set theory concepts. These operators are particularly useful for the analysis of binary images with some applications to grey scale images. Morphological operators are capable of edge detection, noise removal, image enhancement, and image segmentation. Morphological erosion is the next step in the flow feature extraction pipeline. It requires an input image, taken from the Hessian detector, and a structuring element (also known as a kernel). For a grayscale image the intensity value is taken to represent height above a base pixel plane, as shown in Figure \ref{fig:erosion}. This 3-dimensional greyscale image represents a surface in 3-dimensional Euclidean space, the associated image surface coordinates are simply transformed to 3-dimensional Euclidean coordinates.
+Mathematical morphology contributes several operators to image processing, all derived from set theory concepts. These operators are particularly useful for the analysis of binary images with some applications to grey scale images. Morphological operators are capable of edge detection, noise removal, image enhancement, and image segmentation \citep{roushdy2006comparative}. Morphological erosion is the next step in the flow feature extraction pipeline. It requires an input image, taken from the Hessian detector, and a structuring element (also known as a kernel). The structuring element is an array typically smaller then input image coordinate and is assumed to be of a particular shape (e.g. a 3×3 square). An algorithm implementing erosion will translate the structuring element to across the input image, examining the intersection between the translated kernel coordinates and the input image coordinates. The erosion of a point will occur if the coordinate is the minimum of the points in its neighbourhood, with that neighbourhood defined by the structuring element. Mathematically this means the erosion of an image set X by a structuring element set B is denoted by $\epsilon_B(X)$ and is defined as a locus of points \textbf{x} such that B is included in X when it origin is placed at \textbf{x} \citep{soille2013morphological}. Where \textbf{x}=(x,y) denotes the pixel position it follows
+\begin{equation}
+\epsilon_B(X) = \{\textbf{x}|B_x \subseteq X\}
+\end{equation}
+For an image f(\textbf{x}) and a grayscale structuring element b(\textbf{x}, where X and B are the sets for which f(\textbf{x}) and b(\textbf{x} are defined, respectively. It follows
+\begin{equation}
+\epsilon_B(X) = \bigcap _{b\in B}f_{-b}(x)
+\end{equation}
+For which the grayscale erosion of \textit{f} by \textit{b} is given by 
+\begin{equation}
+\bigcap _{b\in B}f_{-b}(x)=\inf_{y\in B}[f(x+y)-b(y)]
+\end{equation}
 
-Morphological erosion sets a pixel at (i,j) to the minimum over all pixels in the neighborhood centered at (i,j). Erosion shrinks bright regions and enlarges dark regions.
-
-In other words the erosion of a point is the minimum of the points in its neighborhood, with that neighborhood defined by the structuring element. In this way it is similar to many other kinds of image filters like the median filter and the gaussian filter.
+For a grayscale image the intensity value is taken to represent height above a base pixel plane, as shown in Figure \ref{fig:erosion}. This 3-dimensional greyscale image represents a surface in 3-dimensional Euclidean space, the associated image surface coordinates are simply transformed to 3-dimensional Euclidean coordinates.
 
 \begin{figure}[H]
   \centering
   \subfloat[Input image .]{\includegraphics[width=0.48\textwidth]{vid89_frame50.png}}
   \hfill
   \subfloat[3-dimensional representation.]{\includegraphics[width=0.48\textwidth]{3d_intensity.jpg}}
-  \caption{Second order convolution parameter.}
+  \caption{Second order convolution.}
   \label{fig:erosion}
 \end{figure}
 
+Figure \ref{fig:erosion_img} shows the application of the morphological erosion operator on results from the Hessian detector. The algorithm essentially shrinks bright regions and enlarges dark regions. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:erosion} presents the application of the algorithm on the majority of the transient supersonic jet process.
 
-
-In grayscale morphology, images are functions mapping a Euclidean space or grid E into ${\displaystyle \mathbb {R} \cup \{\infty ,-\infty \}} {\mathbb  {R}}\cup \{\infty ,-\infty \}, where {\displaystyle \mathbb {R} } \mathbb {R}  is the set of reals, {\displaystyle \infty } \infty  is an element larger than any real number, and {\displaystyle -\infty } -\infty $ is an element smaller than any real number.
-a structuring element (also known as a kernel).\\
-
-Denoting an image by f(x) and the grayscale structuring element by b(x), where B is the space that b(x) is defined, the grayscale erosion of f by b is given by
-\begin{equation}
-(f\ominus b)(x)=\inf _{y\in B}[f(x+y)-b(y)]
-\end{equation}
-
-
+\begin{figure}[H]
+  \centering
+  \subfloat[$\sigma=2$.]{\includegraphics[width=0.48\textwidth]{sigma_2.jpg}}
+  \hfill
+  \subfloat[Erosion operator.]{\includegraphics[width=0.48\textwidth]{erosion_ex.jpg}}
+  \caption{Morphological erosion.}
+  \label{fig:erosion_img}
+\end{figure}
 
 \subsection{Ranking Methods}
-The next step of the flow feature extraction pipeline is to implement an intensity ranking method. Using the results from the morphological erosion operator, a normalised ranking method is utilised to threshold intensity values in the image array and reduce background noise. The normalised ranking method ranks the image array intensity as a normalised distribution, shown in Figure \ref{fig:dist}. Once a normalised distribution is acquired, the algorithm sets to zero all intensity values for a chosen percentile. Percentile ranges from the 90th up the 98th percentile were explored, this is shown in Figure \ref{fig:percentile}. All values within this range are suitable for extracting various flow features. The percentile used for each specific flow feature is stated in the relevant discussion section.
+The next step of the flow feature extraction pipeline is to implement an intensity ranking method. Using the results from the morphological erosion operator, a normalised ranking method is utilised to threshold intensity values in the image array and reduce background noise. The normalised ranking method ranks the image array intensity as a normalised distribution, shown in Figure \ref{fig:dist}. 
 
 \begin{figure}[H] 
 	\centering
@@ -706,15 +716,99 @@ The next step of the flow feature extraction pipeline is to implement an intensi
 	\label{fig:dist}
 \end{figure}
 
+Once a normalised distribution is acquired, the algorithm sets to zero all intensity values for a chosen percentile. Percentile ranges from the 90th up the 98th percentile were explored, this is shown in Figure \ref{fig:percentile}. All values within this range are suitable for extracting various flow features. The percentile used for each specific flow feature is stated in the relevant discussion section.
 
-\subsection{Morphology: Small Object Removal}
+\begin{figure}[H]
+  \centering
+  \subfloat[90.00th percentile.]{\includegraphics[width=0.5\textwidth]{percent_90.jpg}}
+  \hfill
+  \subfloat[92.67th percentile.]{\includegraphics[width=0.5\textwidth]{percent_92.jpg}}\\
+  \subfloat[95.33rd percentile.]{\includegraphics[width=0.5\textwidth]{percent_95.jpg}}
+  \hfill
+  \subfloat[98th percentile.]{\includegraphics[width=0.5\textwidth]{percent_98.jpg}}
+  \caption{Percentile threshold sweep.}
+  \label{fig:percentile}
+\end{figure}
 
-\subsection{Connected Components}
+\subsection{Connected Component Labelling}
+Connected component labelling is an integral step in the flow feature extraction pipeline, it is the algorithmic application of graph theory \citep{rosenfeld1966sequential}. Graph theory is the study of mathematical structures used to model pairwise relations between objects. A graph in this context is an array constructed of pixel intensities. Labelling is a simple step within the connected components algorithm that involves assigning a neighbourhood of pixels that form a connect component an arbitrary value. The neighbourhood of pixels is define by a number of variables governing the algorithm including minimum component size and neighbouring lattice size. The minimum component size is simply the minimum number of pixels required for a group to be consider a component, if the number is less then the minimum size it is removed from the image. The neighbouring lattice size is an integer input that establishes the minimum required connectedness of a pixel, it is defined by the set of surrounding pixels and is typically a Von Neumann \citep{weisstein2013neumann} or Moore \citep{sharma2013edge} neighbourhood. A Von Neumann neighbourhood is a 2-dimensional square lattice composed of a central cell and four adjacent cells, as shown in Figure \ref{fig:von}, and with pixel coordinates (x,y) at::
+
+\begin{equation}
+(x\pm1,y) \quad \textrm{or} \quad (x,y\pm1)
+\end{equation}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\textwidth]{von.png} 
+	\caption{Von Neumann square lattice \citep{ethan}.}
+	\label{fig:von}
+\end{figure}
+
+A Moore neighbourhood is a 2-dimensional square lattice composed of horizontal, vertical, and diagonal connections and is constructed by a central cell and eight adjacent cells. As shown in Figure \ref{fig:moore} with pixel coordinates (x,y) at:
+
+\begin{equation}
+(x\pm1,y\pm1)
+\end{equation}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\textwidth]{moore.png} 
+	\caption{Moore square lattice \citep{ethan}.}
+	\label{fig:moore}
+\end{figure}
+
+Component detection is accomplished by scanning the image array at each individual pixel and assigning a component label based on the input lattice neighbourhood. If the pixel does not satisfy the connecting neighbourhood conditions it is not assigned a component label. The algorithm may assign two different labels to the same component, if this occurs the smaller of the two components is set to a subset of the larger. Figure \ref{fig:component_img} shows the application of the connected components algorithm on results from the morphological erosion operator. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:component} presents the application of the algorithm on the majority of the transient supersonic jet process.
+
+%\begin{figure}[H]
+%  \centering
+%  \subfloat[90.00th percentile.]{\includegraphics[width=0.48\textwidth]{percent_90.jpg}}
+%  \hfill
+%  \subfloat[Erosion operator.]{\includegraphics[width=0.48\textwidth]{component_ex.jpg}}
+%  \caption{Connected component labelling.}
+%  \label{fig:component_img}
+%\end{figure}
+
+
 
 \subsection{Hough Transforms}
-\subsubsection{Straight Line}
-\subsubsection{Probabilistic}
+The Hough transform (HT) is a method first introduced for the machine recognition of complex patterns within image data \citep{hough1962method}. It is the last step in the image processing flow extraction pipleline presented in this thesis, and is for the purposes of this work used to detect the evolution of the transient Mach disk. The HT achieves feature recognition by determining specific values of parameters which characterize these patterns. For an image \textit{f} with points (x,y) that are located along a straight line, is defined by a slope m and intercept c it follows the relation 
 
+\begin{equation}
+f((m,c),(x,y))=y-mx-c=0
+\end{equation}
+
+Straight lines are best parametrised by the length $\rho$, and orientation $\theta$ of the normal vector to the line from the image origin \citep{duda1971use}, as shown in Figure \ref{fig:hough}. This eliminates singularity results for lines with $m\to\infty$.
+
+\begin{equation} \label{eqn:para}
+\rho = x \cos \theta + y \sin \theta
+\end{equation}\\
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.6\textwidth]{hough.png} 
+	\caption{Parametrised coordinates.}
+	\label{fig:hough_para}
+\end{figure}
+
+Using \ref{eqn:para}, spatially extended patterns (lines) in image space (x,y) are transformed so that they produce spatially compact features (curves) in parametrised space ($\rho$, $\theta$), as shown in Figure \ref{fig:hough_para}. If curves in $\rho - \theta$ space intersect they represent the line in $x-y$ space . The HT algorithm has a defined threshold for the minimum number of intersections required to detect a line, if the number of intersections is above this threshold the algorithm declares it as a line. 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[width=0.8\textwidth]{hough_para.png} 
+	\caption{Parametrised space.}
+	\label{fig:hough}
+\end{figure}
+
+Figure \ref{fig:hough_img} shows the application of the Hough transform algorithm on results from the morphological erosion operator. Appendix \ref{app:code} details the algorithm used for this process and Appendix \ref{app:component} presents the application of the algorithm on the majority of the transient supersonic jet process.
+
+\begin{figure}[H]
+  \centering
+  \subfloat[90.00th percentile.]{\includegraphics[width=0.48\textwidth]{percent_90.jpg}}
+  \hfill
+  \subfloat[Hough Transform.]{\includegraphics[width=0.48\textwidth]{hough_ex.jpg}}
+  \caption{Hough transform results.}
+  \label{fig:hough_img}
+\end{figure}
 
 \newpage
 \section{Results}
@@ -861,6 +955,9 @@ And given the specific gas information, for the driver helium, $\gamma_4 = 1.667
 \section{Image Processing Algorithms} \label{app:code}
 
 \section{Second Order Convolution Data} \label{app:hessian}
-	
+
+\section{Morphology: Erosion Data} \label{app:erosion}
+
+\section{Connected Component Labelling Data} \label{app:component}	
 
 \end{document}

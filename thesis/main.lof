@@ -25,24 +25,40 @@
 \contentsline {figure}{\numberline {17}{\ignorespaces Plate displacement for design iteration 2.\relax }}{21}{figure.caption.26}
 \contentsline {figure}{\numberline {18}{\ignorespaces Plate displacement for design iteration 3.\relax }}{21}{figure.caption.27}
 \contentsline {figure}{\numberline {19}{\ignorespaces Shock tube drive section hydrostatic test schematic.\relax }}{22}{figure.caption.28}
-\contentsline {figure}{\numberline {20}{\ignorespaces Pressure sensor calibration data (in Psi).\relax }}{24}{figure.caption.30}
+\contentsline {figure}{\numberline {20}{\ignorespaces Normalised voltage to frequency response.\relax }}{24}{figure.caption.30}
 \contentsline {figure}{\numberline {21}{\ignorespaces Pressure sensor calibration data (in Bar).\relax }}{24}{figure.caption.31}
-\contentsline {figure}{\numberline {22}{\ignorespaces Pulse width study.\relax }}{26}{figure.caption.32}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pulse width = 5ms.}}}{26}{subfigure.22.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulse width = 0.5ms.}}}{26}{subfigure.22.2}
-\contentsline {figure}{\numberline {23}{\ignorespaces Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \citep {grauman2011visual}.\relax }}{28}{figure.caption.33}
-\contentsline {figure}{\numberline {24}{\ignorespaces Smoothing parameter sweep.\relax }}{29}{figure.caption.35}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\sigma =1$.}}}{29}{subfigure.24.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\sigma =2$.}}}{29}{subfigure.24.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\sigma =3$.}}}{29}{subfigure.24.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\sigma =4$.}}}{29}{subfigure.24.4}
-\contentsline {figure}{\numberline {25}{\ignorespaces Second order convolution parameter.\relax }}{30}{figure.caption.36}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Input image .}}}{30}{subfigure.25.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\sigma =2$.}}}{30}{subfigure.25.2}
-\contentsline {figure}{\numberline {26}{\ignorespaces Second order convolution parameter.\relax }}{31}{figure.caption.37}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Input image .}}}{31}{subfigure.26.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {3-dimensional representation.}}}{31}{subfigure.26.2}
-\contentsline {figure}{\numberline {27}{\ignorespaces Normal distribution \citep {brownlee1965statistical}.\relax }}{32}{figure.caption.38}
-\contentsline {figure}{\numberline {28}{\ignorespaces (Left): Isometric view of the LTRAC Shock Lab, with the shock tube facility stored under the shelving. (Right): Top view of the LTRAC Shock Lab, with the PIV (orange) and schlieren (red) sites highlighted.\relax }}{39}{figure.caption.40}
-\contentsline {figure}{\numberline {29}{\ignorespaces Isometric view of the design of the shock tube facility. (Right): Progress of the commission of the shock tube facility.\relax }}{39}{figure.caption.41}
-\contentsline {figure}{\numberline {30}{\ignorespaces Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \citep {cantwell2017}.\relax }}{41}{figure.caption.43}
+\contentsline {figure}{\numberline {22}{\ignorespaces Pulse width study.\relax }}{25}{figure.caption.32}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Pulse width = 5ms.}}}{25}{subfigure.22.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Pulse width = 0.5ms.}}}{25}{subfigure.22.2}
+\contentsline {figure}{\numberline {23}{\ignorespaces Underexpanded shock for a pulse width of 0.8ms.\relax }}{26}{figure.caption.33}
+\contentsline {figure}{\numberline {24}{\ignorespaces Correspondence between eigenvalues of the Hessian operation and local features (corners, edges, flat regions) \citep {grauman2011visual}.\relax }}{28}{figure.caption.34}
+\contentsline {figure}{\numberline {25}{\ignorespaces Smoothing parameter sweep.\relax }}{29}{figure.caption.36}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\sigma =1$.}}}{29}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\sigma =2$.}}}{29}{subfigure.25.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\sigma =3$.}}}{29}{subfigure.25.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$\sigma =4$.}}}{29}{subfigure.25.4}
+\contentsline {figure}{\numberline {26}{\ignorespaces Second order convolution parameter.\relax }}{30}{figure.caption.37}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Input image .}}}{30}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\sigma =2$.}}}{30}{subfigure.26.2}
+\contentsline {figure}{\numberline {27}{\ignorespaces Second order convolution.\relax }}{31}{figure.caption.38}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Input image .}}}{31}{subfigure.27.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {3-dimensional representation.}}}{31}{subfigure.27.2}
+\contentsline {figure}{\numberline {28}{\ignorespaces Morphological erosion.\relax }}{32}{figure.caption.39}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\sigma =2$.}}}{32}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Erosion operator.}}}{32}{subfigure.28.2}
+\contentsline {figure}{\numberline {29}{\ignorespaces Normal distribution \citep {brownlee1965statistical}.\relax }}{32}{figure.caption.40}
+\contentsline {figure}{\numberline {30}{\ignorespaces Percentile threshold sweep.\relax }}{33}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {90.00th percentile.}}}{33}{subfigure.30.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {92.67th percentile.}}}{33}{subfigure.30.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {95.33rd percentile.}}}{33}{subfigure.30.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {98th percentile.}}}{33}{subfigure.30.4}
+\contentsline {figure}{\numberline {31}{\ignorespaces Von Neumann square lattice \citep {ethan}.\relax }}{34}{figure.caption.42}
+\contentsline {figure}{\numberline {32}{\ignorespaces Moore square lattice \citep {ethan}.\relax }}{35}{figure.caption.43}
+\contentsline {figure}{\numberline {33}{\ignorespaces Parametrised coordinates.\relax }}{36}{figure.caption.44}
+\contentsline {figure}{\numberline {34}{\ignorespaces Parametrised space.\relax }}{37}{figure.caption.45}
+\contentsline {figure}{\numberline {35}{\ignorespaces Hough transform results.\relax }}{37}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {90.00th percentile.}}}{37}{subfigure.35.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Hough Transform.}}}{37}{subfigure.35.2}
+\contentsline {figure}{\numberline {36}{\ignorespaces (Left): Isometric view of the LTRAC Shock Lab, with the shock tube facility stored under the shelving. (Right): Top view of the LTRAC Shock Lab, with the PIV (orange) and schlieren (red) sites highlighted.\relax }}{44}{figure.caption.48}
+\contentsline {figure}{\numberline {37}{\ignorespaces Isometric view of the design of the shock tube facility. (Right): Progress of the commission of the shock tube facility.\relax }}{44}{figure.caption.49}
+\contentsline {figure}{\numberline {38}{\ignorespaces Shock tube flow regions: Region 1 is the flow ahead of the primary shock, region 2 is between contact surface and primary shock, region 3 is between tail of the expansion fan and contact surface, region 4 is ahead of the leading expansion wave \citep {cantwell2017}.\relax }}{46}{figure.caption.51}

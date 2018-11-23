@@ -20,23 +20,21 @@
 \contentsline {subsubsection}{\numberline {3.4.3}Impingement Plate Development}{18}{subsubsection.3.4.3}
 \contentsline {subsubsection}{\numberline {3.4.4}Hydrostatic Test}{22}{subsubsection.3.4.4}
 \contentsline {subsubsection}{\numberline {3.4.5}Pressure Sensor Calibration}{23}{subsubsection.3.4.5}
-\contentsline {subsubsection}{\numberline {3.4.6}Diaphragm Study}{25}{subsubsection.3.4.6}
-\contentsline {subsubsection}{\numberline {3.4.7}LED Calibration}{25}{subsubsection.3.4.7}
+\contentsline {subsubsection}{\numberline {3.4.6}LED Calibration}{25}{subsubsection.3.4.6}
 \contentsline {section}{\numberline {4}Analysis Techniques}{27}{section.4}
 \contentsline {subsection}{\numberline {4.1}Second Order Convolution}{27}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Morphology: Erosion}{30}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Ranking Methods}{31}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Morphology: Small Object Removal}{32}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Connected Components}{32}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Hough Transforms}{32}{subsection.4.6}
-\contentsline {subsubsection}{\numberline {4.6.1}Straight Line}{32}{subsubsection.4.6.1}
-\contentsline {subsubsection}{\numberline {4.6.2}Probabilistic}{32}{subsubsection.4.6.2}
-\contentsline {section}{\numberline {5}Results}{33}{section.5}
-\contentsline {section}{\numberline {6}Discussion}{34}{section.6}
-\contentsline {section}{\numberline {7}Conclusions and Recommendations}{35}{section.7}
-\contentsline {section}{Appendix}{39}{section*.39}
-\contentsline {section}{\numberline {A}Shock Facility}{39}{appendix.A}
-\contentsline {section}{\numberline {B}Literature Comparison}{39}{appendix.B}
-\contentsline {section}{\numberline {C}Shock Relations}{40}{appendix.C}
-\contentsline {section}{\numberline {D}Image Processing Algorithms}{43}{appendix.D}
-\contentsline {section}{\numberline {E}Second Order Convolution Data}{43}{appendix.E}
+\contentsline {subsection}{\numberline {4.3}Ranking Methods}{32}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Connected Component Labelling}{34}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Hough Transforms}{35}{subsection.4.5}
+\contentsline {section}{\numberline {5}Results}{38}{section.5}
+\contentsline {section}{\numberline {6}Discussion}{39}{section.6}
+\contentsline {section}{\numberline {7}Conclusions and Recommendations}{40}{section.7}
+\contentsline {section}{Appendix}{44}{section*.47}
+\contentsline {section}{\numberline {A}Shock Facility}{44}{appendix.A}
+\contentsline {section}{\numberline {B}Literature Comparison}{44}{appendix.B}
+\contentsline {section}{\numberline {C}Shock Relations}{45}{appendix.C}
+\contentsline {section}{\numberline {D}Image Processing Algorithms}{48}{appendix.D}
+\contentsline {section}{\numberline {E}Second Order Convolution Data}{48}{appendix.E}
+\contentsline {section}{\numberline {F}Morphology: Erosion Data}{48}{appendix.F}
+\contentsline {section}{\numberline {G}Connected Component Labelling Data}{48}{appendix.G}

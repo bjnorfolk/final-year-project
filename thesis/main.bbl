@@ -152,6 +152,29 @@ Brownlee, K\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Bruins%
+}{%
+Bruins%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+ethan}
+\APACinsertmetastar {%
+ethan}%
+\begin{APACrefauthors}%
+Bruins, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Procedural patterns to use with Tilemaps.} {Procedural patterns
+  to use with tilemaps.}
+\newblock
+\APACaddressPublisher{}{Unity Development}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Cantwell%
 }{%
 Cantwell%
@@ -232,6 +255,34 @@ Dora, C.%
   a compressible vortex ring}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of Fluid Mechanics}{753}{}{29--48}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Duda%
+\ \BBA {} Hart%
+}{%
+Duda%
+\ \BBA {} Hart%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+duda1971use}
+\APACinsertmetastar {%
+duda1971use}%
+\begin{APACrefauthors}%
+Duda, R\BPBI O.%
+\BCBT {}\ \BBA {} Hart, P\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+\APACrefbtitle {Use of the Hough transformation to detect lines and curves in
+  pictures} {Use of the hough transformation to detect lines and curves in
+  pictures}\ \APACbVolEdTR{}{\BTR{}}.
+\newblock
+\APACaddressInstitution{}{SRI INTERNATIONAL MENLO PARK CA ARTIFICIAL
+  INTELLIGENCE CENTER}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -393,6 +444,31 @@ G{\"u}len, S.%
   cycle} {Constant volume combustion: The ultimate gas turbine cycle}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Gas Turbine World}{43}{6}{20--27}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hough%
+}{%
+Hough%
+}{%
+{\protect \APACyear {1962}}%
+}]{%
+hough1962method}
+\APACinsertmetastar {%
+hough1962method}%
+\begin{APACrefauthors}%
+Hough, P\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1962}{{\APACmonth{12}}~18}{}.
+\newblock
+\APACrefbtitle {Method and means for recognizing complex patterns.} {Method and
+  means for recognizing complex patterns.}
+\newblock
+\APACaddressPublisher{}{Google Patents}.
+\newblock
+\APACrefnote{US Patent 3,069,654}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -700,6 +776,57 @@ Radulescu, M\BPBI I.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Rosenfeld%
+\ \BBA {} Pfaltz%
+}{%
+Rosenfeld%
+\ \BBA {} Pfaltz%
+}{%
+{\protect \APACyear {1966}}%
+}]{%
+rosenfeld1966sequential}
+\APACinsertmetastar {%
+rosenfeld1966sequential}%
+\begin{APACrefauthors}%
+Rosenfeld, A.%
+\BCBT {}\ \BBA {} Pfaltz, J\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1966}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sequential operations in digital picture processing}
+  {Sequential operations in digital picture processing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of the ACM (JACM)}{13}{4}{471--494}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Roushdy%
+}{%
+Roushdy%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+roushdy2006comparative}
+\APACinsertmetastar {%
+roushdy2006comparative}%
+\begin{APACrefauthors}%
+Roushdy, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparative study of edge detection algorithms applying
+  on the grayscale noisy image using morphological filter} {Comparative study
+  of edge detection algorithms applying on the grayscale noisy image using
+  morphological filter}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{GVIP journal}{6}{4}{17--23}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Rudzki%
 }{%
 Rudzki%
@@ -780,6 +907,34 @@ Settles, G.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Sharma%
+, Diwakar%
+\BCBL {}\ \BBA {} Lal%
+}{%
+Sharma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+sharma2013edge}
+\APACinsertmetastar {%
+sharma2013edge}%
+\begin{APACrefauthors}%
+Sharma, P.%
+, Diwakar, M.%
+\BCBL {}\ \BBA {} Lal, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Edge detection using Moore neighborhood} {Edge detection
+  using moore neighborhood}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{61}{3}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Skews%
 }{%
 Skews%
@@ -825,6 +980,29 @@ Snedeker, R\BPBI S.%
   properties of free and impinging jets}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Journal of fluid Mechanics}{45}{2}{281--319}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Soille%
+}{%
+Soille%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+soille2013morphological}
+\APACinsertmetastar {%
+soille2013morphological}%
+\begin{APACrefauthors}%
+Soille, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {Morphological image analysis: principles and applications}
+  {Morphological image analysis: principles and applications}.
+\newblock
+\APACaddressPublisher{}{Springer Science \& Business Media}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -905,6 +1083,28 @@ Thethy, B.%
   detonation-driven and shock-driven transient supersonic jet flow}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{ISABE}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Weisstein%
+}{%
+Weisstein%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+weisstein2013neumann}
+\APACinsertmetastar {%
+weisstein2013neumann}%
+\begin{APACrefauthors}%
+Weisstein, E\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+\APACrefbtitle {von Neumann neighborhood. From MathWorld--A Wolfram Web
+  Resource.} {von neumann neighborhood. from mathworld--a wolfram web
+  resource.}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
